@@ -2,7 +2,7 @@
 <!--Status do Código: Em desenvolvimento-->
 
 <!--Abre a barra de navegação-->
-<nav class="navbar navbar-expand-lg">
+<nav id="barra-nav" class="navbar navbar-expand-lg">
 
     <!--Abre o bloco-->
     <div class="container-fluid">

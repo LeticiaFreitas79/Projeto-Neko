@@ -1,4 +1,19 @@
-.card-body
+button
 {
-    padding: 10px !important;
+   background-color: rgb(34, 85, 96);
+}
+
+#barra-nav
+{
+}
+
+.navbar-expand-lg{
+    background-color: rgb(34, 85, 96) !important;
+
+}
+
+h2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-style: italic !important;
 }
