@@ -27,9 +27,9 @@
     <!--Quem Somos-->
     <!--Veterinário-->
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="../view_img/cachorro-estetoscopio.webp" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Teste 1</p>
+            <p class="card-text">PRONTO SOCORRO 24H</p>
           </div>
       </div>
 
