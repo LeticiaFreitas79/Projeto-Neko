@@ -21,8 +21,21 @@
 
     <!--Banner-->
     <a class="navbar-brand" href="#">
-      <img src="../view_img/banner1.png" alt="Bootstrap" width="100%" height="600">
+      <img src="../view_img/banner1.png" alt="Bootstrap" width="100%" height="100%">
     </a>
+
+    <!--Quem Somos-->
+    <!--Veterinário-->
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Teste 1</p>
+          </div>
+      </div>
+
+    <!--Loja-->
+    <!--Servicos-->
+    
 
 
     <!--JavaScript-->
