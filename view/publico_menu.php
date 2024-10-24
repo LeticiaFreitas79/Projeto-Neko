@@ -7,9 +7,9 @@
     <!--Abre o bloco-->
     <div class="container-fluid">
 
-    <!--Logo da Clínica Neko-->
+    <!--Logo da Clínica Neko + Redirecionamento para página 'HOME'-->
     <a class="navbar-brand" href="#">
-      <img src="../view_img/logo_circulo1.png" alt="Bootstrap" width="50" height="50">
+        <img src="../view_img/logo_circulo1.png" alt="Bootstrap" width="50" height="50">
     </a>
 
         <!--Abre o bloco das páginas da navegação-->
@@ -18,42 +18,42 @@
 
             <!--página HOME-->
             <li class="nav-item">
-                <button type="button" class="btn">
+                <button type="button" id="btnNav" class="btn">
                     <a href="index.php">HOME</a>
                 </button>
             </li>
 
              <!--página SOBRE-->
             <li class="nav-item">
-                <button type="button" class="btn">
+                <button type="button" id="btnNav" class="btn">
                     <a href="principal_sobre.php">SOBRE</a>
                 </button>
             </li>
 
             <!--página VETERINÁRIO-->
             <li class="nav-item">
-                <button type="button" class="btn">
+                <button type="button" id="btnNav" class="btn">
                     <a href="principal_veterinario.php">VETERINÁRIO</a>
                 </button>
             </li>
 
             <!--página SERVIÇOS-->
             <li class="nav-item">
-                <button type="button" class="btn">
+                <button type="button" id="btnNav" class="btn">
                     <a href="principal_servicos.php">SERVIÇOS</a>
                 </button>
             </li>
 
              <!--página LOJA-->
             <li class="nav-item">
-                <button type="button" class="btn">
+                <button type="button" id="btnNav" class="btn">
                     <a href="principal_loja.php">LOJA</a>
                 </button>
             </li>
 
             <!--página CONTATO-->
             <li class="nav-item">
-                <button type="button" class="btn">
+                <button type="button" id="btnNav" class="btn">
                     <a href="principal_contato.php">CONTATO</a>
                 </button>
             </li>
