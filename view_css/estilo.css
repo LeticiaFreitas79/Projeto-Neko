@@ -4,3 +4,15 @@
     background-color: rgba(34, 85, 96) !important;
     text-decoration: none !important;
 }
+
+.btn
+{
+    text-decoration: none !important;
+}
+
+.btn:hover
+{
+    background-color: rgba(159, 180, 171) !important;
+    color: white;
+    text-decoration: none;
+}
