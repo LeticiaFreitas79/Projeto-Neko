@@ -1,4 +1,4 @@
-conexao 
+ 
 
 <?php
    $servername = "localhost";
@@ -12,7 +12,7 @@ conexao
     //Verificar conexão
     if($conexao->connect_error){
     die("Falha ao conectar ao banco: ".$conexao->connect_error);
-}
     echo "Conectado com sucesso.";
+}
  
 ?>
