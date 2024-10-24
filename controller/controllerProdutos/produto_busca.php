@@ -1,0 +1,2 @@
+<!--Objetivo do Código: Está página exibe uma barra de pesquisa e lista os produtos de acordo com o que é digitado na barra; Deve ser possível pesquisar os produtos por nome, categoria e marca-->
+<!--Status do Código: Em desenvolvimento-->

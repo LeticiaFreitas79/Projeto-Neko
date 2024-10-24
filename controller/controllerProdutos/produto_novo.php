@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!--Código com objetivo de Incluir produtos-->
 
 <?php
@@ -27,3 +28,7 @@ class produtoNovo{
     }
 }
 new produtoNovo();
+=======
+<!--Objetivo do Código: Esta página contém um formulário para que o usuário insira um novo produto-->
+<!--Status do Código: Em desenvolvimento-->
+>>>>>>> db43eebd03259136a2c4ecf3e6dab0092e207fe0
