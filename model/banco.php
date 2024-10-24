@@ -1,5 +1,3 @@
-conexao 
-
 <?php
    $servername = "localhost";
    $username = "root";

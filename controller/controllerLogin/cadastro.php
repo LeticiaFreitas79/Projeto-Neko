@@ -38,8 +38,7 @@ new cadastroController();
     <script src="https://kit.fontawesome.com/2495680ceb.js" crossorigin="anonymous"></script>
     <!-- Link para CSS específico -->
     <link rel="stylesheet" href="../css/estilo.css" type="text/css">
-    
-    <!--  -->
+    <!-- Titulo da Página -->
     <title>Clínica Neko - Cadastro</title>
 </head>
 
@@ -49,6 +48,7 @@ new cadastroController();
             <article>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+                        <!-- Mensagem para que o Usuario entenda que é para fazer cadastro -->
                         <h2 class="breadcrumb text-info text-center">Faça seu Cadastro</h2>
                     
                         <h1 class="breadcrumb text-info text-center">Preencha os campos abaixo para criar a sua conta no site. É </h1>
@@ -62,6 +62,8 @@ new cadastroController();
                             <br>                        
                             <div class="alert alert-info" role="alert">
                                 <form action="login.php" name="form_login" id="form_login" method="POST" enctype="multipart/form-data">
+                                   
+                                    <!-- Inserir Nome -->
                                     <label for="nome">Nome:</label>
                                     <p class="input-group">
                                         <span class="input-group-addon">
@@ -70,6 +72,7 @@ new cadastroController();
                                         <input type="text" name="login" id="login" class="form-control" autofocus required autocomplete="off" placeholder="Digite seu Nome.">
                                     </p>
 
+                                    <!-- Inserir CPF -->
                                     <label for="cpf">CPF:</label>
                                     <p class="input-group">
                                         <span class="input-group-addon">
@@ -78,6 +81,7 @@ new cadastroController();
                                         <input type="text" name="senha" id="senha" class="form-control" required autocomplete="off" placeholder="Digite seu CPF.">
                                     </p>
 
+                                    <!-- Inserir Data de Nascimento -->
                                     <label for="data de nascimento">Data de Nascimento:</label>
                                     <p class="input-group">
                                         <span class="input-group-addon">
@@ -86,6 +90,7 @@ new cadastroController();
                                         <input type="text" name="senha" id="senha" class="form-control" required autocomplete="off" placeholder="Digite sua data de nasc..">
                                     </p>
 
+                                    <!-- Inserir Email -->
                                     <label for="email">Email:</label>
                                     <p class="input-group">
                                         <span class="input-group-addon">
@@ -94,6 +99,7 @@ new cadastroController();
                                         <input type="text" name="senha" id="senha" class="form-control" required autocomplete="off" placeholder="Digite seu Email.">
                                     </p>
 
+                                    <!-- Inserir Senha -->
                                     <label for="senha">Senha:</label>
                                     <p class="input-group">
                                         <span class="input-group-addon">
@@ -102,6 +108,7 @@ new cadastroController();
                                         <input type="password" name="senha" id="senha" class="form-control" required autocomplete="off" placeholder="Digite sua Senha.">
                                     </p>
 
+                                    <!-- Botão para criar a Conta -->
                                     <p class="text-right">
                                         <input type="submit" value="Criar Conta" class="btn btn-primary">
                                     </p>

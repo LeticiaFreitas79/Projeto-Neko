@@ -47,7 +47,7 @@ if($_POST){
     <script src="https://kit.fontawesome.com/2495680ceb.js" crossorigin="anonymous"></script>
     <!-- Link para CSS específico -->
     <link rel="stylesheet" href="../view_css/estilo.css" type="text/css">
-    
+    <!-- Titulo da Página -->
     <title>Clínica Neko - Login</title>
 </head>
 
@@ -57,6 +57,7 @@ if($_POST){
             <article>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+                        <!-- Mensagem para que o Usuario entenda que é para fazer login -->
                         <h1 class="breadcrumb text-info text-center">Faça seu login</h1>
                         <div class="thumbnail">
                             <p class="text-info text-center" role="alert">
@@ -65,6 +66,8 @@ if($_POST){
                             <br>
                             <div class="alert alert-info" role="alert">
                                 <form action="login.php" name="form_login" id="form_login" method="POST" enctype="multipart/form-data">
+                                    
+                                    <!-- Inserir Login -->
                                     <label for="login_usuario">Login:</label>
                                     <p class="input-group">
                                         <span class="input-group-addon">
@@ -72,6 +75,8 @@ if($_POST){
                                         </span>
                                         <input type="text" name="login" id="login" class="form-control" autofocus required autocomplete="off" placeholder="Digite seu login.">
                                     </p>
+
+                                    <!-- Inserir Senha -->
                                     <label for="senha">Senha:</label>
                                     <p class="input-group">
                                         <span class="input-group-addon">
@@ -79,6 +84,8 @@ if($_POST){
                                         </span>
                                         <input type="password" name="senha" id="senha" class="form-control" required autocomplete="off" placeholder="Digite sua senha.">
                                     </p>
+
+                                    <!-- Botão para Entrar -->
                                     <p class="text-right">
                                         <input type="submit" value="Entrar" class="btn btn-primary">
                                     </p>

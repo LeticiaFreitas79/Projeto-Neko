@@ -41,7 +41,7 @@ if($_POST){
     <script src="https://kit.fontawesome.com/2495680ceb.js" crossorigin="anonymous"></script>
     <!-- Link para CSS específico -->
     <link rel="stylesheet" href="../css/estilo.css" type="text/css">
-    
+    <!-- Titulo da Página -->
     <title>Clínica Neko - Login</title>
 </head>
 
@@ -51,8 +51,16 @@ if($_POST){
             <article>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+
+                       <img src="../../view_img/icon_login.png" alt="" >
+                        
                         <!-- Mensagem para que o Usuario entenda que é para fazer login -->
-                        <h1 class="breadcrumb text-info text-center">Faça seu login</h1>
+                        <h1 class="breadcrumb text-info text-center">Realize seu login</h1>
+
+                        <!-- Mensagem de informação -->
+                        <h1>Ao fazer login no site da Clínica Neko, você pode agendar </h1>
+                        <h1>consultas, exames, cirurgias e serviços, além de realizar compras na NekoShop.</h1>
+
                         <div class="thumbnail">
                             <p class="text-info text-center" role="alert">    
                             </p>
@@ -60,9 +68,9 @@ if($_POST){
                             <div class="alert alert-info" role="alert">
 
 
-                                <!-- Inserir Login --> 
+                                <!-- Inserir Email --> 
                                 <form action="login.php" name="form_login" id="form_login" method="POST" enctype="multipart/form-data">
-                                    <label for="login_usuario">Login:</label>
+                                    <label for="email">Email:</label>
                                     <p class="input-group">
                                         <span class="input-group-addon">
                                             <span class="glyphicon glyphicon-user text-info" aria-hidden="true"></span>
@@ -79,13 +87,13 @@ if($_POST){
                                         <input type="password" name="senha" id="senha" class="form-control" required autocomplete="off" placeholder="Digite sua senha.">
                                     </p>
 
-                                    <!-- Botão para Entrar -->
+                                    <!-- Botão para Acessar Conta -->
                                     <p class="text-right">
-                                        <input type="submit" value="Entrar" class="btn btn-primary">
+                                        <input type="submit" value="Acessar Conta" class="btn btn-primary">
                                     </p>
-
-                                    <!-- Botão para Fazer cadastro -->
-                                    <a href="controller/controllerLogin/cadastro.php"> Crie Aqui!  </a>                               
+                                    
+                                    <!-- Mensagem de informação -->                     <!-- Botão para Fazer cadastro -->
+                                    <h1> Ainda não possui uma conta na Clínica Neko? <a href="controller/controllerLogin/cadastro.php"> Clique Aqui!  </a> e faça seu cadastro.</h1>
 
                                     </form>
                                         <p class="text-center">
