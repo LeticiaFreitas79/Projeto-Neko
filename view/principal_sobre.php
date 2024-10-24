@@ -25,6 +25,7 @@
     </a>
 
     <!--Carrossel Apresentando a Clínica Neko-->
+    <div id="caixa-carrossel">
     <div id="carrossel"> <!--Identificador do Carrossel-->
 
       <div id="caroselCaptions" class="carousel slide">
@@ -73,6 +74,7 @@ E assim, a Clínica Veterinária Neko segue sua missão, oferecendo cuidado de p
       </button>
 
   </div>
+</div>
 </div>
     
     <!--JavaScript-->
