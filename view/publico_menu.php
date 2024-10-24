@@ -8,9 +8,9 @@
     <!--Abre o bloco-->
     <div class="container-fluid">
 
-    <!--Logo da Clínica Neko-->
+    <!--Logo da Clínica Neko + Redirecionamento para página 'HOME'-->
     <a class="navbar-brand" href="#">
-      <img src="../view_img/logo_circulo1.png" alt="Bootstrap" width="50" height="50">
+        <img src="../view_img/logo_circulo1.png" alt="Bootstrap" width="50" height="50">
     </a>
 
         <!--Abre o bloco das páginas da navegação-->
@@ -19,42 +19,42 @@
 
             <!--página HOME-->
             <li class="nav-item">
-                <button type="button" class="btn">
+                <button type="button" id="btnNav" class="btn">
                     <a href="index.php">HOME</a>
                 </button>
             </li>
 
              <!--página SOBRE-->
             <li class="nav-item">
-                <button type="button" class="btn">
+                <button type="button" id="btnNav" class="btn">
                     <a href="principal_sobre.php">SOBRE</a>
                 </button>
             </li>
 
             <!--página VETERINÁRIO-->
             <li class="nav-item">
-                <button type="button" class="btn">
+                <button type="button" id="btnNav" class="btn">
                     <a href="principal_veterinario.php">VETERINÁRIO</a>
                 </button>
             </li>
 
             <!--página SERVIÇOS-->
             <li class="nav-item">
-                <button type="button" class="btn">
+                <button type="button" id="btnNav" class="btn">
                     <a href="principal_servicos.php">SERVIÇOS</a>
                 </button>
             </li>
 
              <!--página LOJA-->
             <li class="nav-item">
-                <button type="button" class="btn">
+                <button type="button" id="btnNav" class="btn">
                     <a href="principal_loja.php">LOJA</a>
                 </button>
             </li>
 
             <!--página CONTATO-->
             <li class="nav-item">
-                <button type="button" class="btn">
+                <button type="button" id="btnNav" class="btn">
                     <a href="principal_contato.php">CONTATO</a>
                 </button>
             </li>
@@ -72,9 +72,9 @@
         <!--Botão da CONTA-->   
         <button type="button"  class="btn btn-success" >
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                <a href="../controller/controllerLogin/login_cliente.php">
                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-            </a>
+                <a href="../controller/controllerLogin/login_cliente.php">LOGIN</a>
+           
                 <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
             </svg>
         </button>           
