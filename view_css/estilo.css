@@ -1,18 +1,36 @@
+body
+{
+    background-color: whitesmoke;
+    
+}
+
 #barra-nav
 {
-    color: white !important;
     background-color: rgba(34, 85, 96) !important;
     text-decoration: none !important;
 }
 
-.btn
+a
 {
     text-decoration: none !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.btn
+{
+    border-radius: 20px;  
 }
 
 .btn:hover
 {
     background-color: rgba(159, 180, 171) !important;
     color: white;
+    border-radius: 20px;
     text-decoration: none;
+}
+
+#barraPesquisa
+{
+    border-radius: 30px;
 }
