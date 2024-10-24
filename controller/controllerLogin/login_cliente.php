@@ -80,11 +80,7 @@ if($_POST){
                                         <input type="submit" value="Entrar" class="btn btn-primary">
                                     </p>
 
-                                    <a href="controller/controllerLogin/cadastro.php"> Crie Aqui!  </a>
-
-                                    <p
-                                    href="controllerLogin/cadastro.php">
-                                    </p>
+                                    <a href="controller/controllerLogin/cadastro.php"> Crie Aqui!  </a>                               
 
                                     </form>
                                     <p class="text-center">

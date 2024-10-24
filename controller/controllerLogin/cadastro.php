@@ -12,14 +12,14 @@ class cadastroController{
     private function incluir(){
         $this->cadastro->setNome($_POST['nome']);
         $this->cadastro->setCpf($_POST['cpf']);       
-        $this->cadastro->setQuantidade($_POST['data_nascimento']);
-        $this->cadastro->setPreco($_POST['email']);
-        $this->cadastro->setPreco($_POST['senha']);
+        $this->cadastro->setData_nascimento($_POST['data_nascimento']);
+        $this->cadastro->setEmail($_POST['email']);
+        $this->cadastro->setSenha($_POST['senha']);
         $result = $this->cadastro->incluir();
         if($result >= 1){
-            echo "<script>alert('Registro inclui­do com sucesso!');document.location='../view/cadastro.php'</script>";
+            echo "<script>alert('Registro inclui­do com sucesso!');document.location='../controller/controllerLogin/login_cliente.php'</script>";
         }else{
-            echo "<script>alert('Erro ao gravar registro!, verifique se o livro nÃo esta duplicado');history.back()</script>";
+            echo "<script>alert('Erro ao gravar registro!, verifique se o usuario não esta duplicado');history.back()</script>";
         }
     }
 }
@@ -39,7 +39,7 @@ new cadastroController();
     <!-- Link para CSS específico -->
     <link rel="stylesheet" href="../css/estilo.css" type="text/css">
     
-    <title>Clínica Neko - Login</title>
+    <title>Clínica Neko - Cadastro</title>
 </head>
 
 <body>
