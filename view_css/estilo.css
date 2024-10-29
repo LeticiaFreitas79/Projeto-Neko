@@ -1,6 +1,6 @@
 body
 {
-    background-color: whitesmoke;
+    background-color: rgba(212, 218, 210);
     
 }
 
@@ -50,6 +50,7 @@ a
     padding: 45px;
     background-color: rgba(180, 213, 174);
 }
+
 #container-text-quemSomos
 {
     width: 50%;
@@ -79,4 +80,34 @@ a
     width: 100%;
     height: 100%;
     border-radius: 55px;
+}
+
+
+/* DESTAQUE VETERINÁRIO */
+
+#div-titulo
+{
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.container-destaqueVet
+{
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#CardVet
+{
+    width: 33%;
+    height: 33%;
+}
+
+.card-text
+{
+    text-align: center;
+    font-weight: bold;
 }
