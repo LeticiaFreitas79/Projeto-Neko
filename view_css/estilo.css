@@ -34,3 +34,16 @@ a
 {
     border-radius: 30px;
 }
+
+.container-quemSomos
+{
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: rgba(102, 141, 108);
+}
+
+.img-quemSomos
+{
+    border-radius: 35px;
+}

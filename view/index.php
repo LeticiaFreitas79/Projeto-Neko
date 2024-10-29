@@ -1,7 +1,3 @@
-
-
-
-
 <!--Objetivo do Código: Página inicial do site onde deve ser exibido os destaques da Clínica Neko-->
 <!--Status do Código: Em desenvolvimento-->
 
@@ -29,6 +25,15 @@
     </a>
 
     <!--Quem Somos-->
+    <div class="container-quemSomos">
+      <div id="container-text-quemSomos" style="width: 50%; height: 50%;">
+        <p>A Clínica Veterinária Neko é um refúgio acolhedor e moderno para animais de estimação, idealizada e fundada por um veterinário apaixonado pelo cuidado com os pets. Localizada em um bairro tranquilo e acessível, nossa clínica é o resultado do sonho de um profissional que decidiu unir sua expertise com seu amor pelos animais em um espaço dedicado ao bem-estar dos nossos amigos de quatro patas. </p>
+        </div>
+      <div id="container-img-quemSomos" style="width: 50%; height: 50%;">
+        <img src="../view_img/cachorro_cinza.jpg" class="img-quemSomos">
+      </div>
+    </div>
+
     <!--Veterinário-->
       <div id="Card01" class="card" style="width: 18rem;">
         <img src="../view_img/cachorro-estetoscopio.webp" class="card-img-top" alt="...">
