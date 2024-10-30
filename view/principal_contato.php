@@ -23,7 +23,10 @@
       <img src="../view_img/banner8.png" alt="Bootstrap" width="100%" height="100%">
     </a>
 
-
+    <?php
+        include_once ("publico_rodape.php");
+    ?>
+    
     <!--JavaScript-->
     <script src="../view_js/bootstrap.bundle.min.js"></script>
   </body>

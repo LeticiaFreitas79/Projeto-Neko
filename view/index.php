@@ -136,7 +136,12 @@
     </button>
     </div> <!--Fecha 'div-titulo'-->
     
-
+    <!--Separar Destaques-->
+    <div id="div-separar"></div>
+    
+    <?php
+        include_once ("publico_rodape.php");
+    ?>
 
     <!--JavaScript-->
     <script src="../view_js/bootstrap.bundle.min.js"></script>

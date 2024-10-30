@@ -38,6 +38,53 @@ a
     border-radius: 30px;
 }
 
+/* RODAPÉ */
+
+.container-footer
+{
+    padding: 60px;
+    color: rgba(222, 244, 222);
+    text-align: center;
+    background-color:  rgba(34, 85, 96);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.subtitulo
+{
+    font-style: italic;
+    font-size: 25px;
+}
+
+.btn-social
+{
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(21, 53, 60);
+}
+
+.btn-social:hover
+{
+    color: white;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(159, 180, 171);
+
+}
+
+.copyright
+{
+    font-style: italic;
+    font-size: 15px;
+}
+
+#div-separar2
+{
+    padding: 10px;
+}
 
 /* INDEX.PHP */
 
@@ -130,7 +177,7 @@ a
 
 .btn-verMais
 {
-    float: left !important;
+
     border: none;
     border-radius: 20px;
     padding: 10px;

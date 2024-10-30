@@ -76,7 +76,11 @@ E assim, a Clínica Veterinária Neko segue sua missão, oferecendo cuidado de p
   </div>
 </div>
 </div>
-    
+
+    <?php
+        include_once ("publico_rodape.php");
+    ?>
+
     <!--JavaScript-->
     <script src="../view_js/bootstrap.bundle.min.js"></script>
   </body>
