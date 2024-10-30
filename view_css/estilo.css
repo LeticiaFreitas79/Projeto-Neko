@@ -199,3 +199,21 @@ a
 {
     padding: 30px;
 }
+
+/*  SOBRE.PHP  */
+
+.carrossel
+{
+    margin: 30px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgba(187, 217, 182);
+}
+
+.carrossel-img
+{
+    display: block;
+    height: 40%;
+    width: 100%;
+    border-radius: 50px;
+}
