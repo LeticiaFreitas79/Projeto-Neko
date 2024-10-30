@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Página inicial do site onde deve ser exibido os destaques da Clínica Neko-->
-<!--Status do Código: Em desenvolvimento-->
+<!--Status do Código: Finalizado e Comentado-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
@@ -40,34 +40,101 @@
     <!--Veterinário-->
     <div id="div-titulo">
       <h2 id="titulo">VETERINÁRIO</h2>
-
+      <!--Container dos Cards-->
       <div class="container-destaqueVet">
-
-        <div id="CardVet" class="card">
-          <img src="../view_img/cachorro-estetoscopio.webp" class="card-img" alt="...">
+        <!--Primeiro Card-->
+        <div class="cardDestaque">
+        <a href="principal_veterinario.php">
+          <img src="../view_img/destaque_socorro.png" class="card-img" alt="...">
         </div>
-        
-        <div id="CardVet" class="card">
-          <img src="../view_img/cachorro-estetoscopio.webp" class="card-img" alt="...">
+        <!--Segundo Card-->
+        <div class="cardDestaque">
+        <a href="principal_veterinario.php">
+          <img src="../view_img/destaque_vacina.png" class="card-img" alt="...">
         </div>
-        
-        <div id="CardVet" class="card">
-          <img src="../view_img/cachorro-estetoscopio.webp" class="card-img" alt="...">
+        <!--Terceiro Card-->
+        <div class="cardDestaque">
+        <a href="principal_veterinario.php">
+          <img src="../view_img/destaque_consulta.png" class="card-img" alt="...">
         </div>
       </div> <!-- Fecha a 'container-destaqueVet'-->
-    
-      <button type="button" id="btnNav" class="btn">
-      <a href="principal_veterinario.php">Clique aqui para ver mais
+      <!--Botão Ver Mais-->
+      <button type="button" class="btn-verMais">
+      <a href="principal_veterinario.php">Clique aqui para ver mais  
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
           <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
         </svg>
       </a>
     </button>
-
     </div> <!--Fecha 'div-titulo'-->
 
+    <!--Separar Destaques-->
+    <div id="div-separar"></div>
+
     <!--Loja-->
+    <div id="div-titulo">
+      <h2 id="titulo">LOJA</h2>
+      <!--Container dos Cards-->
+      <div class="container-destaqueVet">
+        <!--Primeiro Card-->
+        <div class="cardDestaque">
+        <a href="principal_loja.php">
+          <img src="../view_img/destaque_racao.png" class="card-img" alt="...">
+        </div>
+        <!--Segundo Card-->
+        <div class="cardDestaque">
+        <a href="principal_loja.php">
+          <img src="../view_img/destaque_farmacia.png" class="card-img" alt="...">
+        </div>
+        <!--Terceiro Card-->
+        <div class="cardDestaque">
+        <a href="principal_loja.php">
+          <img src="../view_img/destaque_higiene.png" class="card-img" alt="...">
+        </div>
+      </div> <!-- Fecha a 'container-destaqueVet'-->
+      <!--Botão Ver Mais-->
+      <button type="button" class="btn-verMais">
+      <a href="principal_loja.php">Clique aqui para ver mais  
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+          <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+        </svg>
+      </a>
+    </button>
+    </div> <!--Fecha 'div-titulo'-->
+
+    <!--Separar Destaques-->
+    <div id="div-separar"></div>
+
     <!--Servicos-->
+    <div id="div-titulo">
+      <h2 id="titulo">SERVIÇOS</h2>
+      <!--Container dos Cards-->
+      <div class="container-destaqueVet">
+        <!--Primeiro Card-->
+        <div class="cardDestaque">
+        <a href="principal_servicos.php">
+          <img src="../view_img/destaque_banho.png" class="card-img" alt="...">
+        </div>
+        <!--Segundo Card-->
+        <div class="cardDestaque">
+        <a href="principal_servicos.php">
+          <img src="../view_img/destaque_adestramento.png" class="card-img" alt="...">
+        </div>
+        <!--Terciro Card-->
+        <div class="cardDestaque">
+        <a href="principal_servicos.php">
+          <img src="../view_img/destaque_hotel.png" class="card-img" alt="...">
+        </div>
+      </div> <!-- Fecha a 'container-destaqueVet'-->
+      <!--Botão Ver Mais-->
+      <button type="button" class="btn-verMais">
+      <a href="principal_servicos.php">Clique aqui para ver mais  
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+          <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+        </svg>
+      </a>
+    </button>
+    </div> <!--Fecha 'div-titulo'-->
     
 
 

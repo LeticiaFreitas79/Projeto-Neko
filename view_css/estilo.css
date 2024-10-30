@@ -83,7 +83,7 @@ a
 }
 
 
-/* DESTAQUE VETERINÁRIO */
+/* DESTAQUES */
 
 #div-titulo
 {
@@ -100,14 +100,55 @@ a
     justify-content: space-between;
 }
 
-#CardVet
+.cardDestaque
 {
     width: 33%;
     height: 33%;
+    padding: 20px;
+}
+
+.cardDestaque:hover
+{
+    transform: rotate(5deg);
+}
+
+.card-img
+{
+    border-radius: 30px;
+}
+
+.card-img:hover
+{
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 0.5);
 }
 
 .card-text
 {
     text-align: center;
     font-weight: bold;
+}
+
+.btn-verMais
+{
+    float: left !important;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgba(80, 104, 85);
+}
+
+.btn-verMais:hover
+{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(35, 46, 37); 
+}
+
+#div-separar
+{
+    padding: 30px;
 }
