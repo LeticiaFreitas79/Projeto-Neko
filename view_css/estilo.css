@@ -118,8 +118,8 @@ a
 
 #container-img-quemSomos
 {
-    width: 40%;
-    height: 55%;
+    width: 45%;
+    height: 35%;
 }
 
 #img-quemSomos
@@ -130,7 +130,7 @@ a
 }
 
 
-/* DESTAQUES */
+/* INDEX.PHP -- DESTAQUES */
 
 #div-titulo
 {
@@ -156,7 +156,7 @@ a
 
 .cardDestaque:hover
 {
-    transform: rotate(5deg);
+    transform: rotate(3deg);
 }
 
 .card-img

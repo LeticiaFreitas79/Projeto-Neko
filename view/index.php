@@ -33,7 +33,7 @@
         <p id="text-quemSomos">Além dos serviços veterinários de alta qualidade, oferecemos um ambiente que promove a tranquilidade e o conforto dos animais durante as consultas. Nossa equipe é composta por profissionais dedicados e carinhosos, que entendem a importância de um atendimento humanizado, garantindo que cada visita à clínica seja uma experiência positiva tanto para os pets quanto para seus tutores.</p>
       </div>
       <div id="container-img-quemSomos">
-        <img id="img-quemSomos" src="../view_img/cachorro_quemSomos.jpg">
+        <img id="img-quemSomos" src="../view_img/cachorro_borderCollie.jpg">
       </div>
     </div>
 
