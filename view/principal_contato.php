@@ -6,11 +6,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../view_img/logo_circulo2.png" type="image/png">
-    <link rel="stylesheet" href="../view_css/estilo.css">
 
     <!--CSS-->
     <link href="../view_css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../view_img/logo_circulo2.png" type="image/png">
+    <link rel="stylesheet" href="../view_css/estilo.css">
     <title>Contato | Clínica Neko</title>
 </head>
 <body>
