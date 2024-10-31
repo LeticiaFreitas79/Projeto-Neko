@@ -21,7 +21,7 @@
 
     <!--Banner-->
     <a class="navbar-brand" href="#">
-      <img src="../view_img/banner5.png" alt="Bootstrap" width="100%" height="100%">
+      <img src="../view_img/banner_loja.png" alt="Bootstrap" width="100%" height="100%">
     </a>
 
     <?php
