@@ -24,47 +24,31 @@
       <img src="../view_img/banner2.png" alt="Bootstrap" width="100%" height="100%">
     </a>
 
-    <!--Carrossel da História-->
-    <div class="carrossel">
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../view_img/cachorro_branco.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1 class="titulo">First slide label</h1>
-          <p>Some representative placeholder content for the first slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../view_img/cachorro_filhoteSalsicha.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../view_img/gato_pomposo.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-</div>
-    </div> <!--Fecha o Carrossel da História-->
+    <!--Bloco da História da Clínica-->
+    <div class="historia">
+        <h1 class="titulo">NOSSA HISTÓRIA</h1>
+          <br>
+        <p>
+          Em 2014, o renomado veterinário Kenji Kimura decidiu transformar um sonho de longa data em realidade:
+          abrir sua própria clínica veterinária. Após mais de duas décadas dedicadas ao cuidado de animais em
+          diversas instituições e hospitais veterinários, o Dr. Kimura sentia que era o momento certo para criar
+          um espaço que refletisse sua filosofia de atendimento e carinho pelos pets. Assim nasceu a Clínica Veterinária Neko. 
+        </p>
+          <br>
+        <p>
+          Desde a inauguração, a Clínica Neko se destacou pela excelência em atendimento e pelo cuidado personalizado
+          oferecido a cada paciente. O Dr. Kimura implementou uma abordagem holística que considera não apenas as
+          necessidades médicas dos animais, mas também seu bem-estar emocional. Ele acreditava firmemente que um ambiente
+          positivo e reconfortante contribuía significativamente para a recuperação e saúde geral dos pets. 
+        </p>
+          <br>
+        <p>
+          A clínica rapidamente se tornou um pilar na comunidade, reconhecida por sua dedicação e inovação.
+          Dr. Kimura e sua equipe, formada por veterinários e profissionais de saúde animal altamente qualificados,
+          estabeleceram uma reputação de cuidado excepcional, combinando conhecimento técnico com um toque humano.
+          A Clínica Neko se tornou um lugar onde cada animal é tratado como parte da família, e cada tutor é respeitado e ouvido. 
+        </p>
+    </div> <!--Fecha o Bloco da História-->
 
     <!--Carrossel Missão, Visão e Valores-->
     <div class="carrossel">

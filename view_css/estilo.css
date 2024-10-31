@@ -5,7 +5,7 @@ body
 }
 
 
-/* PUBLICO_MENU.PHP */
+/* ----------------- PUBLICO_MENU.PHP */
 
 #barra-nav
 {
@@ -38,7 +38,7 @@ a
     border-radius: 30px;
 }
 
-/* RODAPÉ */
+/* ----------------- RODAPÉ */
 
 .container-footer
 {
@@ -86,7 +86,7 @@ a
     padding: 10px;
 }
 
-/* INDEX.PHP */
+/* ----------------- INDEX.PHP */
 
 .container-quemSomos
 {
@@ -130,7 +130,7 @@ a
 }
 
 
-/* INDEX.PHP -- DESTAQUES */
+/* ----------------- INDEX.PHP -- DESTAQUES */
 
 #div-titulo
 {
@@ -200,20 +200,18 @@ a
     padding: 30px;
 }
 
-/*  SOBRE.PHP  */
 
-.carrossel
+/*  ----------------- SOBRE.PHP  */
+
+.historia
 {
-    margin: 30px;
-    padding: 20px;
+    margin: 50px;
+    padding: 100px;
     border-radius: 40px;
-    background-color: rgba(187, 217, 182);
-}
-
-.carrossel-img
-{
-    display: block;
-    height: 40%;
-    width: 100%;
-    border-radius: 50px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    background-image: url(../view_img/gato_laranjaCobertor.jpg);
 }
