@@ -91,7 +91,7 @@
     </div><!--Fecha o bloco Microchip-->
 
   <!--Separar Destaques-->
-  <div id="div-separar"></div>
+  <div class="bloco-separar"></div>
 
     <?php
         include_once ("publico_rodape.php");

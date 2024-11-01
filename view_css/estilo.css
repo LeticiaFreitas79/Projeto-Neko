@@ -253,7 +253,25 @@ a
     justify-content: center; 
     align-items: center;
     text-align: center;
-    background-image: url(../view_img/banner_pagVet.png);
+    background-image: url(../view_img/banner_pagVet2.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+/* ----------------- SERVIÇOS ----------------- */
+
+.bloco-servicos
+{
+    margin: 50px;
+    padding: 100px;
+    border-radius: 40px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    background-image: url(../view_img/banner_pagServicos.png);
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
