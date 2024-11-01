@@ -71,22 +71,32 @@ a
 
 .btn
 {
+    color: white;
+    font-weight: bold;
     border-radius: 20px;  
 }
 
+.btn:hover
+{
+    border: none;
+    color: white;
+    border-radius: 20px;  
+    background-color: rgba(125, 161, 130);
+}
+
+
 .dropdown-menu
 {
-    border: 40px;
-    border-color: rgba(34, 97, 75);
+    border: none;
     border-radius: 20px;
-    background-color: rgba(53, 151, 117);
+    background-color: rgba(102, 141, 108);
 }
 
 .dropdown-item:hover
 {
     border: none;
     border-radius: 10px;
-    background-color: rgba(74, 191, 150);
+    background-color: rgba(125, 161, 130);
 }
 
 #barraPesquisa
@@ -200,7 +210,7 @@ a
     justify-content: center; 
     align-items: center;
     text-align: center;
-    background-image: url(../view_img/gato_laranjaFundo.png);
+    background-image: url(../view_img/fundo_gatoLaranja.png);
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
@@ -251,7 +261,6 @@ a
 }
 
 /* ----------------- VETERINARIO ----------------- */
-
 .bloco-vet
 {
     margin: 50px;
@@ -262,14 +271,13 @@ a
     justify-content: center; 
     align-items: center;
     text-align: center;
-    background-image: url(../view_img/banner_pagVet2.png);
+    background-image: url(../view_img/fundo_vet2.png);
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
 }
 
 /* ----------------- SERVIÇOS ----------------- */
-
 .bloco-servicos
 {
     margin: 50px;
@@ -280,7 +288,7 @@ a
     justify-content: center; 
     align-items: center;
     text-align: center;
-    background-image: url(../view_img/banner_pagServicos.png);
+    background-image: url(../view_img/fundo_servicos.png);
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
@@ -298,7 +306,7 @@ a
     justify-content: center; 
     align-items: center;
     text-align: center;
-    background-image: url(../view_img/banner_pagServicos.png);
+    background-image: url(../view_img/fundo_vet.png);
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;

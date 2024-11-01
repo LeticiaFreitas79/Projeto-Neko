@@ -46,8 +46,8 @@
 
              <!--página LOJA-->
              <div class="dropdown">
-                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    LOJA
+                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    LOJA ▼
                 </button>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="../view/view_categorias/categoria_acessorios.php">Acessórios</a></li>
@@ -61,13 +61,6 @@
                     <li><a class="dropdown-item" href="principal_loja.php">Todos os Produtos</a></li>
                 </ul>
             </div>
-
-
-            <li class="nav-item">
-                <button type="button" id="btnNav" class="btn">
-                    <a href="principal_loja.php">LOJA</a>
-                </button>
-            </li>
 
             <!--página CONTATO-->
             <li class="nav-item">
