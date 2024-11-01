@@ -207,6 +207,8 @@
 
     </div> <!--Fecha 'equipe'-->
 
+  <!--Separar Destaques-->
+  <div id="div-separar"></div>
 
     <?php
         include_once ("publico_rodape.php");

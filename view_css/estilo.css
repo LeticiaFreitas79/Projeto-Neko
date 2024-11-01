@@ -1,12 +1,41 @@
+/* ----------------- CORPO DAS PÁGINAS ----------------- */
 body
 {
     background-color: rgba(212, 218, 210);
     
 }
 
+/* ----------------- GERAIS ----------------- */
+.titulo
+{
+    font-weight: bold;
+}
 
-/* ----------------- PUBLICO_MENU.PHP */
+.bloco-titulo
+{
+    border-radius: 20px;
+    margin: 20px;
+    padding: 5px;
+}
 
+.bloco-separar
+{
+    padding: 30px;
+}
+
+.titulo-claro
+{
+    font-weight: bold;
+    color: rgba(223, 228, 222);
+}
+
+.text-claro
+{
+    color: rgba(223, 228, 222);
+}
+
+
+/* ----------------- MENU ----------------- */
 #barra-nav
 {
     background-color: rgba(34, 85, 96) !important;
@@ -38,9 +67,9 @@ a
     border-radius: 30px;
 }
 
-/* ----------------- RODAPÉ */
 
-.container-footer
+/* ----------------- RODAPÉ ----------------- */
+.bloco-footer
 {
     padding: 60px;
     color: rgba(222, 244, 222);
@@ -81,65 +110,25 @@ a
     font-size: 15px;
 }
 
-#div-separar
-{
-    padding: 10px;
-}
 
-/* ----------------- INDEX.PHP */
-
-.container-quemSomos
+/* ----------------- HOME ----------------- */
+.bloco-quemSomos
 {
-    border-radius: 20px;
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;
-    padding: 45px;
-    background-color: rgba(180, 213, 174);
-}
-
-#container-text-quemSomos
-{
-    width: 50%;
-    height: 70%;
+    margin: 50px;
+    padding: 100px;
+    border-radius: 40px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
     text-align: center;
-    padding: 40px;
+    background-image: url(../view_img/cachorro_filhoteEnroladinho.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
-.titulo
-{
-    font-weight: bold;
-}
-
-#text-quemSomos
-{
-    font-size: 20px;
-}
-
-#container-img-quemSomos
-{
-    width: 45%;
-    height: 35%;
-}
-
-#img-quemSomos
-{
-    width: 100%;
-    height: 100%;
-    border-radius: 55px;
-}
-
-
-/* ----------------- INDEX.PHP -- DESTAQUES */
-
-#div-titulo
-{
-    border-radius: 20px;
-    margin: 20px;
-    padding: 5px;
-}
-
-.container-destaqueVet
+.bloco-destaqueVet
 {
     border-radius: 20px;
     margin: 20px;
@@ -147,7 +136,7 @@ a
     justify-content: space-between;
 }
 
-.cardDestaque
+.card-destaque
 {
     width: 33%;
     height: 33%;
@@ -189,14 +178,8 @@ a
     background-color: rgba(35, 46, 37); 
 }
 
-#div-separar
-{
-    padding: 30px;
-}
 
-
-/*  ----------------- SOBRE.PHP  */
-
+/* ----------------- SOBRE ----------------- */
 .bloco-sobre
 {
     margin: 50px;
@@ -213,41 +196,31 @@ a
     background-size: cover;
 }
 
-.titulo-claro
-{
-    font-weight: bold;
-    color: rgba(223, 228, 222);
-}
-
-.text-claro
-{
-    color: rgba(223, 228, 222);
-}
-
 .equipe
 {
     margin: 30px;
     padding: 25px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); /* Define a largura mínima dos cards */
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
     gap: 10px; 
     border-radius: 50px;
     background-color: rgba(180, 213, 174) ;
 
 }
+
 .card
 {
     border-radius: 30px;
     background-color: rgba(230, 241, 228);
 }
 
-.card-img2
+.card-imgSobre
 {
     padding: 10px;
     border-radius: 30px;
 }
 
-.card-img2:hover
+.card-imgSobre:hover
 {
     transition: opacity 0.3s;
     opacity: 0.7;
@@ -266,4 +239,22 @@ a
 .card-descricao
 {
     font-style: italic;
+}
+
+/* ----------------- VETERINARIO ----------------- */
+
+.bloco-vet
+{
+    margin: 50px;
+    padding: 100px;
+    border-radius: 40px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    background-image: url(../view_img/banner_pagVet.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
 }

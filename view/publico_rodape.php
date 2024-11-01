@@ -1,14 +1,14 @@
 <!--Objetivo do Código: Rodapé de todas as páginas principais do site-->
 <!--Status do Código: Em correção; Analisar redirecionamento-->
 
-<div class="container-footer">
+<div class="bloco-footer">
     <h1 class="titulo">CLÍNICA NEKO</h1>
     <p class="subtitulo"> Onde cada visita é uma demonstração de amor e carinho, garantindo que seu bichinho esteja sempre saudável e feliz em nossas mãos experientes!</p>
 
     <!--Separar-->
-    <div id="div-separar2"></div>
+    <div class="bloco-separar"></div>
 
-    <div class="container-socialMedia">
+    <div class="bloco-socialMedia">
 
         <!--Botão Mapa-->
         <button type="button" class="btn-social">
@@ -56,9 +56,9 @@
         </button>
 
     <!--Separar-->
-    <div id="div-separar2"></div>
+    <div class="bloco-separar"></div>
 
     </div> <!--Fecha 'container-socialMedia'-->
 
     <p class="copyright">Copyright  ©  Clínica Neko</p>
-</div> <!--Fecha 'container-footer'-->
+</div> <!--Fecha 'bloco-footer'-->
