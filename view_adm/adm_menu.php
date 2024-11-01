@@ -16,38 +16,45 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
+         <!--página HOME-->
+         <li class="nav-item">
+                <button type="button" id="btnNav" class="btn">
+                    <a href="../view/index.php">HOME</a>
+                </button>
+            </li>
+
             <!--página ADM-->
             <li class="nav-item">
                 <button type="button" id="btnNav" class="btn">
-                    <a href="../view/index.php">ADM</a>
+                    <a href="index_adm.php">ADM</a>
                 </button>
             </li>
 
              <!--página USUÁRIOS-->
             <li class="nav-item">
                 <button type="button" id="btnNav" class="btn">
-                    <a href="../view/principal_sobre.php">USUÁRIOS</a>
+                    <a href="adm_usuarios.php">USUÁRIOS</a>
                 </button>
             </li>
 
             <!--página PRODUTOS-->
             <li class="nav-item">
                 <button type="button" id="btnNav" class="btn">
-                    <a href="../view/principal_veterinario.php">PRODUTOS</a>
+                    <a href="adm_produtos.php">PRODUTOS</a>
                 </button>
             </li>
 
             <!--página SERVIÇOS-->
             <li class="nav-item">
                 <button type="button" id="btnNav" class="btn">
-                    <a href="../view/principal_servicos.php">SERVIÇOS</a>
+                    <a href="adm_servicos.php">SERVIÇOS</a>
                 </button>
             </li>
 
             <!--página VETERINÁRIO-->
             <li class="nav-item">
                 <button type="button" id="btnNav" class="btn">
-                    <a href="../view/principal_contato.php">VETERINÁRIO</a>
+                    <a href="adm_veterinario.php">VETERINÁRIO</a>
                 </button>
             </li>
         </ul> <!--Fecha o bloco das páginas de navegação-->
