@@ -53,6 +53,7 @@
         </svg>
           VETERINÁRIO
       </h2>
+      <p class="subtitulo">Serviços veterinários mais procurados</p>
 
       <!--Bloco dos Cards-->
       <div class="bloco-destaqueVet">
@@ -93,6 +94,7 @@
         </svg>
           LOJA
       </h2>
+      <p class="subtitulo">Categorias mais procuradas</p>
 
       <!--Container dos Cards-->
       <div class="bloco-destaqueVet">
@@ -133,6 +135,7 @@
         </svg>
           SERVIÇOS
         </h2>
+        <p class="subtitulo">Serviços mais procurados</p>
 
       <!--Container dos Cards-->
       <div class="bloco-destaqueVet">
