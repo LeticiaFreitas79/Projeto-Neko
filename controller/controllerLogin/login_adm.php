@@ -1,5 +1,6 @@
 <?php 
 include '../../model/banco.php';
+
 // inicia a verificação do login
 if($_POST){
     $login  = $_POST['login'];
@@ -29,11 +30,6 @@ if($_POST){
     }
 }
 ?>
-
-
-
-
-
 
 
 <!DOCTYPE html>
