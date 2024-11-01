@@ -46,16 +46,26 @@
         </p>
     </div><!--Fecha o bloco Banho e Tosa-->
 
-    <!--Bloco Hotel Pet-->
+    <!--Bloco Vacinação-->
     <div class="bloco-servicos">
-      <h1 class="titulo-claro">HOTEL PET</h1>
+      <h1 class="titulo-claro">VACINAÇÃO</h1>
         <p class="text-claro">
-          O Hotel Pet Neko é o lugar ideal para deixar seu animalzinho quando você precisa se ausentar. Com um ambiente seguro e acolhedor,
-          oferecemos acomodações confortáveis e atividades recreativas para garantir que seu pet se divirta e fique feliz durante a estadia.
-          Nossa equipe atenta e carinhosa está sempre disponível para atender às necessidades do seu amigo, proporcionando atenção e carinho
-          para que ele se sinta em casa, mesmo longe de você.
+        A vacinação é fundamental para proteger a saúde do seu animal. Na Clínica Veterinária Neko, realizamos um calendário
+        de vacinas completo e personalizado, garantindo que seu pet esteja sempre imunizado contra doenças comuns. Nossa equipe
+        orienta os tutores sobre a importância das vacinas e mantém um registro atualizado, promovendo a saúde e o bem-estar a longo prazo.
         </p>
-    </div><!--Fecha o bloco Hotel Pet-->
+    </div><!--Fecha o bloco Vacinação-->
+
+    <!--Bloco Microchip-->
+    <div class="bloco-servicos">
+      <h1 class="titulo-claro">MICROCHIP</h1>
+        <p class="text-claro">
+        O microchip é uma solução eficaz para garantir a segurança do seu animal de estimação. Na Neko, oferecemos o serviço de
+        microchipagem, que permite a identificação rápida e precisa do seu pet em caso de perda. O procedimento é simples e seguro,
+        proporcionando tranquilidade aos tutores, sabendo que seu amigo sempre poderá ser encontrado.
+        </p>
+    </div><!--Fecha o bloco Microchip-->
+
 
     <!--Separar Destaques-->
   <div class="bloco-separar"></div>

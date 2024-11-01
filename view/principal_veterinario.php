@@ -67,28 +67,6 @@
         rápida e eficaz de nossos pacientes.
         </p>
     </div><!--Fecha o bloco Cirurgias-->
-      <p class="text-claro">
-
-      </p>
-    <!--Bloco Vacinação-->
-    <div class="bloco-vet">
-      <h1 class="titulo-claro">VACINAÇÃO</h1>
-        <p class="text-claro">
-        A vacinação é fundamental para proteger a saúde do seu animal. Na Clínica Veterinária Neko, realizamos um calendário
-        de vacinas completo e personalizado, garantindo que seu pet esteja sempre imunizado contra doenças comuns. Nossa equipe
-        orienta os tutores sobre a importância das vacinas e mantém um registro atualizado, promovendo a saúde e o bem-estar a longo prazo.
-        </p>
-    </div><!--Fecha o bloco Vacinação-->
-
-    <!--Bloco Microchip-->
-    <div class="bloco-vet">
-      <h1 class="titulo-claro">MICROCHIP</h1>
-        <p class="text-claro">
-        O microchip é uma solução eficaz para garantir a segurança do seu animal de estimação. Na Neko, oferecemos o serviço de
-        microchipagem, que permite a identificação rápida e precisa do seu pet em caso de perda. O procedimento é simples e seguro,
-        proporcionando tranquilidade aos tutores, sabendo que seu amigo sempre poderá ser encontrado.
-        </p>
-    </div><!--Fecha o bloco Microchip-->
 
   <!--Separar Destaques-->
   <div class="bloco-separar"></div>

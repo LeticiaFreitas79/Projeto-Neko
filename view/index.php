@@ -56,20 +56,20 @@
 
       <!--Bloco dos Cards-->
       <div class="bloco-destaqueVet">
-        <!--Primeiro Card-->
+        <!--Primeiro Card - Pronto Socorro-->
         <div class="card-destaque">
-        <a href="principal_veterinario.php">
-          <img src="../view_img/destaque_socorro.png" class="card-img" alt="...">
-        </div>
-        <!--Segundo Card-->
-        <div class="card-destaque">
-        <a href="principal_veterinario.php">
-          <img src="../view_img/destaque_vacina.png" class="card-img" alt="...">
-        </div>
-        <!--Terceiro Card-->
+          <a href="principal_veterinario.php">
+            <img src="../view_img/destaque_socorro.png" class="card-img" alt="...">
+          </div>
+        <!--Segundo Card - Consultas-->
         <div class="card-destaque">
         <a href="principal_veterinario.php">
           <img src="../view_img/destaque_consulta.png" class="card-img" alt="...">
+        </div>
+        <!--Terceiro Card - Exames-->
+        <div class="card-destaque">
+        <a href="principal_veterinario.php">
+          <img src="../view_img/destaque_exames.png" class="card-img" alt="...">
         </div>
       </div> <!-- Fecha a 'bloco-destaqueVet'-->
       <!--Botão Ver Mais-->
@@ -96,17 +96,17 @@
 
       <!--Container dos Cards-->
       <div class="bloco-destaqueVet">
-        <!--Primeiro Card-->
+        <!--Primeiro Card - Ração-->
         <div class="card-destaque">
         <a href="principal_loja.php">
           <img src="../view_img/destaque_racao.png" class="card-img" alt="...">
         </div>
-        <!--Segundo Card-->
+        <!--Segundo Card - Farmácia-->
         <div class="card-destaque">
         <a href="principal_loja.php">
           <img src="../view_img/destaque_farmacia.png" class="card-img" alt="...">
         </div>
-        <!--Terceiro Card-->
+        <!--Terceiro Card - Higiene-->
         <div class="card-destaque">
         <a href="principal_loja.php">
           <img src="../view_img/destaque_higiene.png" class="card-img" alt="...">
@@ -136,20 +136,20 @@
 
       <!--Container dos Cards-->
       <div class="bloco-destaqueVet">
-        <!--Primeiro Card-->
+        <!--Primeiro Card - Banho-->
         <div class="card-destaque">
         <a href="principal_servicos.php">
           <img src="../view_img/destaque_banho.png" class="card-img" alt="...">
         </div>
-        <!--Segundo Card-->
+        <!--Segundo Card - Adestramento-->
         <div class="card-destaque">
         <a href="principal_servicos.php">
           <img src="../view_img/destaque_adestramento.png" class="card-img" alt="...">
         </div>
-        <!--Terciro Card-->
+        <!--Terciro Card - Vacinação-->
         <div class="card-destaque">
         <a href="principal_servicos.php">
-          <img src="../view_img/destaque_hotel.png" class="card-img" alt="...">
+          <img src="../view_img/destaque_vacinacao.png" class="card-img" alt="...">
         </div>
       </div> <!-- Fecha a 'container-destaqueVet'-->
       <!--Botão Ver Mais-->

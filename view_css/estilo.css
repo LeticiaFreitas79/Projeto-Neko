@@ -149,7 +149,7 @@ a
     justify-content: center; 
     align-items: center;
     text-align: center;
-    background-image: url(../view_img/cachorro_filhoteEnroladinho.jpg);
+    background-image: url(../view_img/fundo_quemSomos.png);
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
@@ -172,12 +172,14 @@ a
 
 .card-img
 {
-    border-radius: 30px;
+    border-radius: 40px;
 }
 
 .card-img:hover
 {
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s;
+    opacity: 0.7;
+    cursor: pointer;
 }
 
 .card-text
@@ -213,7 +215,6 @@ a
     gap: 10px; 
     border-radius: 50px;
     background-color: rgba(180, 213, 174) ;
-
 }
 
 .card
@@ -232,7 +233,7 @@ a
 {
     transition: opacity 0.3s;
     opacity: 0.7;
-    cursor: no-drop;
+    cursor: pointer;
 }
 
 .card-body
