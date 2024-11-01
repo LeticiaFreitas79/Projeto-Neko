@@ -34,6 +34,26 @@ body
     color: rgba(223, 228, 222);
 }
 
+.btn-verMais
+{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgba(80, 104, 85);
+}
+
+.btn-verMais:hover
+{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(35, 46, 37); 
+}
+
+
 
 /* ----------------- MENU ----------------- */
 #barra-nav
@@ -54,12 +74,19 @@ a
     border-radius: 20px;  
 }
 
-.btn:hover
+.dropdown-menu
 {
-    background-color: rgba(159, 180, 171) !important;
-    color: white;
+    border: 40px;
+    border-color: rgba(34, 97, 75);
     border-radius: 20px;
-    text-decoration: none;
+    background-color: rgba(53, 151, 117);
+}
+
+.dropdown-item:hover
+{
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(74, 191, 150);
 }
 
 #barraPesquisa
@@ -159,25 +186,6 @@ a
     font-weight: bold;
 }
 
-.btn-verMais
-{
-    border: none;
-    border-radius: 20px;
-    padding: 10px;
-    text-decoration: none;
-    background-color: rgba(80, 104, 85);
-}
-
-.btn-verMais:hover
-{
-    border: none;
-    border-radius: 20px;
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-    background-color: rgba(35, 46, 37); 
-}
-
 
 /* ----------------- SOBRE ----------------- */
 .bloco-sobre
@@ -262,6 +270,24 @@ a
 /* ----------------- SERVIÇOS ----------------- */
 
 .bloco-servicos
+{
+    margin: 50px;
+    padding: 100px;
+    border-radius: 40px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    background-image: url(../view_img/banner_pagServicos.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+/* ----------------- LOJA ----------------- */
+
+.bloco-loja
 {
     margin: 50px;
     padding: 100px;

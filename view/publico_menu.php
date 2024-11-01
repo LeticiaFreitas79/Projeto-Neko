@@ -45,6 +45,24 @@
             </li>
 
              <!--página LOJA-->
+             <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    LOJA
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_acessorios.php">Acessórios</a></li>
+                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_brinquedos.php">Brinquedos</a></li>
+                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_casinhas.php">Casinhas e Transporte</a></li>
+                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_higiene.php">Higiene e Limpeza</a></li>
+                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_racoes.php">Rações e Petiscos</a></li>
+                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_remedios.php">Remédios</a></li>
+                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_roupas.php">Roupas e Camas</a></li>
+                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_saude.php">Saúde</a></li>
+                    <li><a class="dropdown-item" href="principal_loja.php">Todos os Produtos</a></li>
+                </ul>
+            </div>
+
+
             <li class="nav-item">
                 <button type="button" id="btnNav" class="btn">
                     <a href="principal_loja.php">LOJA</a>

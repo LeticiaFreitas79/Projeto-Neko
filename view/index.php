@@ -160,7 +160,7 @@
         </svg>
       </a>
     </button>
-    </div> <!--Fecha 'div-titulo'-->
+    </div> <!--Fecha 'bloco-titulo'-->
     
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>
