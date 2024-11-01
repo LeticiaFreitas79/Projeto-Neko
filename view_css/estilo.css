@@ -298,16 +298,11 @@ a
 
 .bloco-loja
 {
-    margin: 50px;
-    padding: 100px;
-    border-radius: 40px;
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center;
-    text-align: center;
-    background-image: url(../view_img/fundo_vet.png);
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover;
+    margin: 30px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: 10px; 
+    border-radius: 50px;
+    background-color: rgba(180, 213, 174);
 }
