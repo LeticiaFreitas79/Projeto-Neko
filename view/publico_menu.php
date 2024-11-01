@@ -19,28 +19,28 @@
             <!--página HOME-->
             <li class="nav-item">
                 <button type="button" id="btnNav" class="btn">
-                    <a href="index.php">HOME</a>
+                    <a href="../view/index.php">HOME</a>
                 </button>
             </li>
 
              <!--página SOBRE-->
             <li class="nav-item">
                 <button type="button" id="btnNav" class="btn">
-                    <a href="principal_sobre.php">SOBRE</a>
+                    <a href="../view/principal_sobre.php">SOBRE</a>
                 </button>
             </li>
 
             <!--página VETERINÁRIO-->
             <li class="nav-item">
                 <button type="button" id="btnNav" class="btn">
-                    <a href="principal_veterinario.php">VETERINÁRIO</a>
+                    <a href="../view/principal_veterinario.php">VETERINÁRIO</a>
                 </button>
             </li>
 
             <!--página SERVIÇOS-->
             <li class="nav-item">
                 <button type="button" id="btnNav" class="btn">
-                    <a href="principal_servicos.php">SERVIÇOS</a>
+                    <a href="../view/principal_servicos.php">SERVIÇOS</a>
                 </button>
             </li>
 
@@ -50,22 +50,22 @@
                     LOJA ▼
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_acessorios.php">Acessórios</a></li>
-                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_brinquedos.php">Brinquedos</a></li>
-                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_casinhas.php">Casinhas e Transporte</a></li>
-                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_higiene.php">Higiene e Limpeza</a></li>
-                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_racoes.php">Rações e Petiscos</a></li>
-                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_remedios.php">Remédios</a></li>
-                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_roupas.php">Roupas e Camas</a></li>
-                    <li><a class="dropdown-item" href="../view/view_categorias/categoria_saude.php">Saúde</a></li>
-                    <li><a class="dropdown-item" href="principal_loja.php">Todos os Produtos</a></li>
+                    <li><a class="dropdown-item" href="../view_categorias/categoria_acessorios.php">Acessórios</a></li>
+                    <li><a class="dropdown-item" href="../view_categorias/categoria_brinquedos.php">Brinquedos</a></li>
+                    <li><a class="dropdown-item" href="../view_categorias/categoria_casinhas.php">Casinhas e Transporte</a></li>
+                    <li><a class="dropdown-item" href="../view_categorias/categoria_higiene.php">Higiene e Limpeza</a></li>
+                    <li><a class="dropdown-item" href="../view_categorias/categoria_racoes.php">Rações e Petiscos</a></li>
+                    <li><a class="dropdown-item" href="../view_categorias/categoria_remedios.php">Remédios</a></li>
+                    <li><a class="dropdown-item" href="../view_categorias/categoria_roupas.php">Roupas e Camas</a></li>
+                    <li><a class="dropdown-item" href="../view_categorias/categoria_saude.php">Saúde</a></li>
+                    <li><a class="dropdown-item" href="../view/principal_loja.php">Todos os Produtos</a></li>
                 </ul>
             </div>
 
             <!--página CONTATO-->
             <li class="nav-item">
                 <button type="button" id="btnNav" class="btn">
-                    <a href="principal_contato.php">CONTATO</a>
+                    <a href="../view/principal_contato.php">CONTATO</a>
                 </button>
             </li>
         </ul> <!--Fecha o bloco das páginas de navegação-->
