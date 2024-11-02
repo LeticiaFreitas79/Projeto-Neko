@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Página inicial do site onde deve ser exibido os destaques da Clínica Neko-->
-<!--Status do Código: Finalizado e Comentado-->
+<!--Status do Código: Concluído e Comentado-->
 
 <!DOCTYPE html>
 <html lang="pt_br">

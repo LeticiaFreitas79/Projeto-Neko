@@ -333,13 +333,12 @@ a
 {
     margin: 30px;
     padding: 25px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-    gap: 10px; 
     border-radius: 50px;
     background-color: rgba(180, 213, 174); 
+    display: flex; 
     justify-content: center; 
     align-items: center; 
+    gap: 50px;
 }
 
 /* ----------------- MENU ADM ----------------- */
@@ -438,9 +437,9 @@ a
     background-color: rgba(125, 161, 130);
 }
 
-/* ----------------- USUARIOS ADM ----------------- */
+/* ----------------- USUARIOS e PRODUTOS ADM ----------------- */
 
-.bloco-user
+.bloco-tabela
 {
     margin: 30px;
     padding: 25px;

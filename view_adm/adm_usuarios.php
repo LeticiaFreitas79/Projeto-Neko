@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Exibe a administração de usuarios do site.-->
-<!--Status do Código: Em desenvolvimento-->
+<!--Status do Código: Concluído-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
@@ -32,7 +32,7 @@
         </h2>
     </div> <!--Fecha 'bloco-titulo'-->
 
-    <div class="bloco-user">
+    <div class="bloco-tabela">
         <table class="table">
             <thead>
                 <tr>

@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Barra de Navegação Administrativa. Serve para ser referenciada em outros arquivos-->
-<!--Status do Código: Em desenvolvimento-->
+<!--Status do Código: Concluído-->
 
 <!--Abre a barra de navegação-->
 <nav id="barra-nav" class="navbar navbar-expand-lg">

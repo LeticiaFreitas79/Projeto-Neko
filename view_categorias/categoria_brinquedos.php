@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Mostrar a categoria 'brinquedos' da Clínica Neko-->
-<!--Status do Código: Em desenvolvimento-->
+<!--Status do Código: Em correção; os dados de produtos ainda não são puxadosdo Banco-->
 
 <!DOCTYPE html>
 <html lang="pt_br">

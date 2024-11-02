@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Mostrar os meios de contato da Clínica Neko-->
-<!--Status do Código: Em desenvolvimento-->
+<!--Status do Código: Concluído-->
 
 <!DOCTYPE html>
 <html lang="pt_br">

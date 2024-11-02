@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Exibe as áreas administrativas do site.-->
-<!--Status do Código: Conclúido-->
+<!--Status do Código: Concluído-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
