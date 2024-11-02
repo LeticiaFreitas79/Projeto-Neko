@@ -19,6 +19,37 @@
         include_once ("adm_menu.php");
     ?>
 
+    <div class="bloco-user">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">CPF</th>
+                    <th scope="col">Data de Nasc.</th>
+                    <th scope="col">Setor</th>
+                    <th scope="col">Cargo</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Ativo</th>
+                    <th scope="col">Ações</th>
+                </tr>
+            </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+
     <?php
         include_once ("adm_rodape.php");
     ?>

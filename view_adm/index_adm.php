@@ -19,6 +19,11 @@
         include_once ("adm_menu.php");
     ?>
 
+    <div class="bloco-adm">
+        
+
+    </div>
+
     <?php
         include_once ("adm_rodape.php");
     ?>

@@ -351,6 +351,20 @@ a
 }
 
 /* ----------------- INDEX ADM ----------------- */
+/* ----------------- USUARIOS ADM ----------------- */
+
+.bloco-user
+{
+    margin: 30px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: 10px; 
+    border-radius: 50px;
+    background-color: rgba(180, 213, 174); 
+    justify-content: center; 
+    align-items: center; 
+}
 
 /* ----------------- LOGIN ADM ----------------- */
 
