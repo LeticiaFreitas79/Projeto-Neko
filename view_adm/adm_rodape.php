@@ -3,5 +3,5 @@
 
  <!--Bloco-->
  <div class="bloco-footer2">
-    
+    <h1 class="titulo">CLÍNICA NEKO</h1>
  </div>

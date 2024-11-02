@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Exibe as áreas administrativas do site.-->
-<!--Status do Código: Em desenvolvimento-->
+<!--Status do Código: Conclúido-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
@@ -20,7 +20,35 @@
     ?>
 
     <div class="bloco-adm">
-        
+        <div class="bloco-adm-user">
+            <div class="bloquinho-titulo">
+                <h1 class="titulo-claro">USUÁRIOS</h1>
+            </div>
+            <div class="bloco-separar"></div>
+            <div class="bloco-btn">
+                <button class="btn-adm">
+                    <a href="../controller/controllerUsuario/usuario_novo.php">Inserir</a>
+                </button>
+                <button class="btn-adm">
+                    <a href="adm_usuarios.php">Listar</a>
+                </button>
+            </div>
+        </div><!--Fecha bloco adm user-->   
+
+        <div class="bloco-adm-produtos">
+            <div class="bloquinho-titulo">
+                <h1 class="titulo-claro">PRODUTOS</h1>
+            </div>
+            <div class="bloco-separar"></div>
+            <div class="bloco-btn">
+                <button class="btn-adm">
+                    <a href="../controller/controllerProdutos/produto_novo.php">Inserir</a>
+                </button>
+                <button class="btn-adm">
+                    <a href="adm_produtos.php">Listar</a>
+                </button>
+            </div>
+        </div><!--Fecha bloco adm produtos-->   
 
     </div>
 

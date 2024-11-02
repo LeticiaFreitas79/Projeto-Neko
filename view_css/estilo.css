@@ -348,9 +348,96 @@ a
 {
     padding: 60px;
     background-color:  rgba(34, 85, 96);
+    color: rgba(222, 244, 222);
+    text-align: center;
+    background-color:  rgba(34, 85, 96);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
 }
 
 /* ----------------- INDEX ADM ----------------- */
+
+.bloco-adm
+{
+    margin: 80px;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: rgba(223, 228, 222); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 50px;
+}
+
+.bloco-adm-user
+{
+    padding: 25px;
+    border-radius: 50px;
+    background-color: rgba(159, 180, 171); 
+}
+
+.bloco-adm-produtos
+{
+    padding: 25px;
+    border-radius: 50px;
+    background-color: rgba(159, 180, 171); 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.bloco-btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.bloquinho-titulo
+{
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(112, 148, 119);
+}
+
+.btn-titulo
+{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;  
+    background-color: rgba(112, 148, 119);
+}
+
+.btn-titulo:hover
+{
+    background-color: rgba(112, 148, 119);
+}
+
+.btn-adm
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;  
+    background-color: rgba(34, 85, 96);
+}
+
+.btn-adm:hover
+{
+    border: none;
+    color: white;
+    border-radius: 10px;  
+    background-color: rgba(125, 161, 130);
+}
+
 /* ----------------- USUARIOS ADM ----------------- */
 
 .bloco-user
