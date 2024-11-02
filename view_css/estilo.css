@@ -444,13 +444,41 @@ a
 {
     margin: 30px;
     padding: 25px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-    gap: 10px; 
-    border-radius: 50px;
+    display: flex;
+    border-radius: 30px;
     background-color: rgba(180, 213, 174); 
     justify-content: center; 
     align-items: center; 
+}
+
+.btn-atualizar
+{
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;  
+    background-color: rgba(35, 60, 148);
+}
+
+.btn-atualizar:hover
+{
+    background-color: rgba(19, 33, 83);
+}
+
+.btn-deletar
+{
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;  
+    background-color: rgba(147, 36, 36);
+}
+
+.btn-deletar:hover
+{
+    background-color: rgba(99, 24, 24);
 }
 
 /* ----------------- LOGIN ADM ----------------- */
