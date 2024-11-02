@@ -71,7 +71,7 @@ button {
 
                                     <!-- Label para inserir a Senha -->
                                     <label for="senha">Senha:</label><br>
-                                    <input type="text" id="senha" name="senha"><br><br>
+                                    <input type="text" id="senha" name="senha" required><br><br>
 
                                 <!-- Botão para enviar as informações preenchidas -->
                                 <button type="submit" >enviar </button>
@@ -80,7 +80,7 @@ button {
                             <br>
                         <br>
                     <br>
-                 <br>
+             <br>
             <br>   
         </form>
     </div>
