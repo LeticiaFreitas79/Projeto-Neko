@@ -1,129 +1,89 @@
-<?php
-require_once("../../model/banco.php");
-class cadastroController{
 
-    private $cadastro;
-
-    public function _construct(){
-        $this->cadastro = new Cadastro();
-        $this->incluir();
-    }
-
-    private function incluir(){
-        $this->cadastro->setNome($_POST['nome']);
-        $this->cadastro->setCpf($_POST['cpf']);       
-        $this->cadastro->setData_nascimento($_POST['data_nascimento']);
-        $this->cadastro->setEmail($_POST['email']);
-        $this->cadastro->setSenha($_POST['senha']);
-        $result = $this->cadastro->incluir();
-        if($result >= 1){
-            echo "<script>alert('Registro inclui­do com sucesso!');document.location='../controller/controllerLogin/login_cliente.php'</script>";
-        }else{
-            echo "<script>alert('Erro ao gravar registro!, verifique se o usuario não esta duplicado');history.back()</script>";
-        }
-    }
-}
-new cadastroController();
-?>
-
-
+<!-- Informação para o cadastro de cliente -->
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="30;URL=../index.php">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/2495680ceb.js" crossorigin="anonymous"></script>
-    <!-- Link para CSS específico -->
-    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
-    <!-- Titulo da Página -->
-    <title>Clínica Neko - Cadastro</title>
+<!-- Titulo da página -->
+    <title>Cadastro de Cliente</title>
 </head>
 
+
+<style>
+
+
+input{
+    font-size:15px;
+    padding:10px;
+    margin-top:5px;
+    margin-left:5px;
+}
+
+label {
+    padding:10px;
+    margin-right:5px;
+
+}
+
+button {
+    margin-top:60px;
+    font-size:20px;
+    background-color:#709477;
+    cursor: pointer;
+    margin-left:50px;
+}
+
+.cad{
+    height:600px;
+    width:400px;
+    background-color:#9fb4ab;
+    
+
+}
+
+.h1{
+    text-align:center;
+}
+
+
+</style>
 <body>
-    <main class="container">
-        <section>
-            <article>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
-                        <!-- Mensagem para que o Usuario entenda que é para fazer cadastro -->
-                        <h2 class="breadcrumb text-info text-center">Faça seu Cadastro</h2>
+    <div class="cad">
+    <!-- Informação para realizar o Cadastro  -->
+        <h1>Faça seu Cadastro</h1>
+            <form action="envia.php" method="POST">
+                
+                <!-- Label para inserir o Nome -->
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                    <!-- Label para inserir o CPF -->
+                    <label for="cpf">CPF:</label><br>
+                    <input type="text" id="cpf" name="cpf" required title="Digite o CPF"><br><br>
+
+                        <!-- Label para inserir a Data de nascimento -->
+                        <label for="data_nascimento">Data de Nascimento:</label><br>
+                        <input type="date" id="data_nascimento" name="data_nascimento" required><br><br>
+
+                                <!-- Label para inserir o Email -->
+                                <label for="email">Email:</label><br>
+                                <input type="email" id="email" name="email" required><br><br>
+
+                                    <!-- Label para inserir a Senha -->
+                                    <label for="senha">Senha:</label><br>
+                                    <input type="text" id="senha" name="senha"><br><br>
+
+                                <!-- Botão para enviar as informações preenchidas -->
+                                <button type="submit" >enviar </button>
                     
-                        <h1 class="breadcrumb text-info text-center">Preencha os campos abaixo para criar a sua conta no site. É </h1>
+                            <!-- pular linha -->
+                            <br>
+                        <br>
+                    <br>
+                 <br>
+            <br>   
+        </form>
+    </div>
+</body>
+</html>
 
-                        <h1 class="breadcrumb text-info text-center"> rápido e fácil, não se preocupe! </h1> 
-
-                        <div class="thumbnail">
-                            <p class="text-info text-center" role="alert">
-                                
-                            </p>
-                            <br>                        
-                            <div class="alert alert-info" role="alert">
-                                <form action="login.php" name="form_login" id="form_login" method="POST" enctype="multipart/form-data">
-                                   
-                                    <!-- Inserir Nome -->
-                                    <label for="nome">Nome:</label>
-                                    <p class="input-group">
-                                        <span class="input-group-addon">
-                                            <span class="glyphicon glyphicon-user text-info" aria-hidden="true"></span>
-                                        </span>
-                                        <input type="text" name="login" id="login" class="form-control" autofocus required autocomplete="off" placeholder="Digite seu Nome.">
-                                    </p>
-
-                                    <!-- Inserir CPF -->
-                                    <label for="cpf">CPF:</label>
-                                    <p class="input-group">
-                                        <span class="input-group-addon">
-                                            <span class="glyphicon glyphicon-qrcode text-info" aria-hidden="true"></span>
-                                        </span>
-                                        <input type="text" name="senha" id="senha" class="form-control" required autocomplete="off" placeholder="Digite seu CPF.">
-                                    </p>
-
-                                    <!-- Inserir Data de Nascimento -->
-                                    <label for="data de nascimento">Data de Nascimento:</label>
-                                    <p class="input-group">
-                                        <span class="input-group-addon">
-                                            <span class="glyphicon glyphicon-qrcode text-info" aria-hidden="true"></span>
-                                        </span>
-                                        <input type="text" name="senha" id="senha" class="form-control" required autocomplete="off" placeholder="Digite sua data de nasc..">
-                                    </p>
-
-                                    <!-- Inserir Email -->
-                                    <label for="email">Email:</label>
-                                    <p class="input-group">
-                                        <span class="input-group-addon">
-                                            <span class="glyphicon glyphicon-qrcode text-info" aria-hidden="true"></span>
-                                        </span>
-                                        <input type="text" name="senha" id="senha" class="form-control" required autocomplete="off" placeholder="Digite seu Email.">
-                                    </p>
-
-                                    <!-- Inserir Senha -->
-                                    <label for="senha">Senha:</label>
-                                    <p class="input-group">
-                                        <span class="input-group-addon">
-                                            <span class="glyphicon glyphicon-qrcode text-info" aria-hidden="true"></span>
-                                        </span>
-                                        <input type="password" name="senha" id="senha" class="form-control" required autocomplete="off" placeholder="Digite sua Senha.">
-                                    </p>
-
-                                    <!-- Botão para criar a Conta -->
-                                    <p class="text-right">
-                                        <input type="submit" value="Criar Conta" class="btn btn-primary">
-                                    </p>
-
-                                    </form>
-                                    <p class="text-center">
-                                    <small>
-                                        <br>
-                                        
-                                    </small>
-                                </p>
-                            </div><!-- fecha alert -->
-                        </div><!-- fecha thumbnail -->
-                    </div><!-- fecha dimensionamento -->
-                </div><!-- fecha row -->
-            </article>
-        </section>
-    </main>
