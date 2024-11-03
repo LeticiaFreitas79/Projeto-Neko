@@ -2,7 +2,6 @@
 body
 {
     background-color: rgba(212, 218, 210);
-    
 }
 
 /* ----------------- GERAIS ----------------- */
@@ -109,6 +108,10 @@ a
     border-radius: 30px;
 }
 
+.icons-menu
+{
+    color: white;
+}
 
 /* ----------------- RODAPÉ ----------------- */
 .bloco-footer
@@ -424,20 +427,18 @@ a
 
 .btn-adm
 {
+    width: 70%;
     color: white;
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
     border: none;
-    border-radius: 10px;  
+    border-radius: 30px;  
     background-color: rgba(34, 85, 96);
 }
 
 .btn-adm:hover
 {
-    border: none;
-    color: white;
-    border-radius: 10px;  
     background-color: rgba(125, 161, 130);
 }
 
