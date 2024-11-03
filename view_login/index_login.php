@@ -72,7 +72,7 @@
 
             <p class="subtitulo-cadastro">
                 Ainda <strong>não possui</strong> uma <strong>conta</strong> na Clínica Neko? 
-                <a href="login_cadastro.php">Clique aqui</a> e faça seu cadastro.
+                <a href="login_cadastro.php" target="blank_">Clique aqui</a> e faça seu cadastro.
             </p>
 
         </div><!--Fecha bloco cabecalho-->
