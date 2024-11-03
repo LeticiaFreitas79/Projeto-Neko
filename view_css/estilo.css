@@ -483,4 +483,53 @@ a
 /* ----------------- LOGIN ADM ----------------- */
 
 /* ----------------- LOGIN CLIENTE ----------------- */
+
+
 /* ----------------- CADASTRO ----------------- */
+.bloco-cadastro
+{
+    margin: 20px;
+    padding: 25px;
+    border-radius: 30px;
+    background-color: rgba(159, 180, 171);
+}
+
+label
+{
+    border-radius: 20px;
+}
+
+.btn-cadastro
+{
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;  
+}
+
+.btn-cadastro:hover
+{
+    border: none;
+    color: white;
+    border-radius: 20px;  
+    background-color: rgba(125, 161, 130);
+}
+
+
+input{
+    font-size:15px;
+    padding:10px;
+    margin-top:5px;
+    margin-left:5px;
+}
+
+label {
+    padding:10px;
+    margin-right:5px;
+
+}
+
+
+
+.h1{
+    text-align:center;
+}
