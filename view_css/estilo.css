@@ -265,6 +265,7 @@ a
     font-style: italic;
 }
 
+
 /* ----------------- VETERINARIO ----------------- */
 .bloco-vet
 {
@@ -282,6 +283,7 @@ a
     background-size: cover;
 }
 
+
 /* ----------------- SERVIÇOS ----------------- */
 .bloco-servicos
 {
@@ -298,6 +300,7 @@ a
     background-repeat: no-repeat; 
     background-size: cover;
 }
+
 
 /* ----------------- LOJA ----------------- */
 .bloco-loja /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
@@ -323,6 +326,7 @@ a
     color: rgba(34, 85, 96);
 }
 
+
 /* ----------------- CONTATO ----------------- */
 .bloco-mapa
 {
@@ -341,7 +345,7 @@ a
     gap: 50px;
 }
 
-/* ----------------- MENU ADM ----------------- */
+
 /* ----------------- RODAPÉ ADM ----------------- */
 .bloco-footer2
 {
@@ -356,8 +360,8 @@ a
     align-items: center;
 }
 
-/* ----------------- INDEX ADM ----------------- */
 
+/* ----------------- INDEX ADM ----------------- */
 .bloco-adm
 {
     margin: 80px;
@@ -437,8 +441,8 @@ a
     background-color: rgba(125, 161, 130);
 }
 
-/* ----------------- USUARIOS e PRODUTOS ADM ----------------- */
 
+/* ----------------- USUARIOS e PRODUTOS ADM ----------------- */
 .bloco-tabela
 {
     margin: 30px;
@@ -480,56 +484,70 @@ a
     background-color: rgba(99, 24, 24);
 }
 
-/* ----------------- LOGIN ADM ----------------- */
 
-/* ----------------- LOGIN CLIENTE ----------------- */
-
-
-/* ----------------- CADASTRO ----------------- */
+/* ----------------- CADASTRO e LOGIN----------------- */
 .bloco-cadastro
 {
+    width: 55%;
     margin: 20px;
     padding: 25px;
     border-radius: 30px;
-    background-color: rgba(159, 180, 171);
+    background-color: rgba(159, 180, 171); 
 }
 
-label
+.bloco-cabecalho
 {
-    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.btn-cadastro
+.subtitulo-cadastro
 {
-    color: white;
+    font-size: large;
+}
+
+.label-title
+{
     font-weight: bold;
-    border-radius: 20px;  
 }
 
-.btn-cadastro:hover
+label {
+    padding:10px;
+    margin-right:5px;
+}
+
+.input-cadastro
 {
+    width: 98%;
     border: none;
-    color: white;
-    border-radius: 20px;  
-    background-color: rgba(125, 161, 130);
-}
-
-
-input{
+    border-radius: 25px;
     font-size:15px;
     padding:10px;
     margin-top:5px;
     margin-left:5px;
 }
 
-label {
-    padding:10px;
-    margin-right:5px;
-
+.bloco-btn
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.btn-cadastro
+{
+    width: 40%;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;  
+    background-color: rgba(112, 148, 119);
+}
 
-
-.h1{
-    text-align:center;
+.btn-cadastro:hover
+{ 
+    background-color: rgba(125, 161, 130);
 }
