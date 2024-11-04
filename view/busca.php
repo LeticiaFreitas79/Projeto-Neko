@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Esta página mostra os resultados da busca feita pelo usuário-->
-<!--Status do Código: Concluído e Comentado-->
+<!--Status do Código: Em desenvolvimento-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
