@@ -25,7 +25,7 @@ $senha = $_POST['senha']; //md5
 $sql = "INSERT INTO cliente (nome, cpf, data_nascimento, email, senha) VALUES ('$nome', '$cpf', '$data_nascimento', '$email', '$senha')";
 $resultado = $conexao->query($sql);
 
-echo"<a href='cadastro_cliente.php'>VOLTAR</a>";
+echo"<a href='login_cadastro.php'>VOLTAR</a>";
 }
 ?>
 

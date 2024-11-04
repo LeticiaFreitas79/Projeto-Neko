@@ -95,7 +95,7 @@
     <div class="bloco-separar"></div>
 
     <?php
-        include_once ("login_rodape.php");
+        include_once ("../../login_rodape.php");
     ?>
     
     <!--JavaScript-->

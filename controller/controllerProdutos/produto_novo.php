@@ -1,34 +1,40 @@
-<<<<<<< HEAD
 <!--Código com objetivo de Incluir produtos-->
 
 <?php
-require_once("../model/modelProduto.php");
-class produtoNovo{
 
-    private $produto;
+//chegar conexao
+$conexao = mysqli_connect("localhost","root","","clinicanekodb","3306","utf8");
 
-    public function __construct(){
-        $this->produto = new Cadastro();
-        $this->incluir();
-    }
+//verificar se ja existe cpf cadastrado
+$nome = $_POST['cpf'];
+$nome = mysqli_real_escape_string($conexao, $nome);
+$sql = "SELECT nome FROM clinicanekodb.produto WHERE nome='$nome'";
+$retorno = mysqli_query($conexao,$sql);
 
-    private function incluir(){
-        $this->produto->setNome($_POST['nome']);
-        $this->produto->setDescricao($_POST['descricao']);
-        $this->produto->setData(date('Y-m-d',strtotime($_POST['data'])));
-        $this->produto->setValor($_POST['valor']);
-        $this->produto->setPeso($_POST['peso']);
-        $this->produto->setQtde_estoque($_POST['qtde_estoque']);
-        $result = $this->produto->incluir();
-        if($result >= 1){
-            echo "<script>alert('Registro inclui­do com sucesso!');document.location='../view/cadastro.php'</script>";
-        }else{
-            echo "<script>alert('Erro ao gravar registro!, verifique se o livro nÃo esta duplicado');history.back()</script>";
-        }
-    }
+//busca quantidade de consulta no registro
+if(mysqli_num_rows($retorno)>0){
+    echo"PRODUTO JA CADASTRADO!<br>";
+}else{
+
+//Para puxar a informação do formulario
+
+$id_categoria = $_POST['id_categoria'];
+$id_marca = $_POST['id_marca'];
+$nome = $_POST['nome'];
+$descricao = $_POST['descricao'];
+$data_validade = $_POST['data_validade'];
+$valor = $_POST['valor'];
+$peso= $_POST['peso']; //md5
+$qtde_estoque = $_POST['qtde_estoque'];
+
+//Para inserir as informações do formulário no Banco de dados
+$sql = "INSERT INTO produto (id_categoria, id_marca, nome, descricao, data_validade, valor, peso, qtde_estoque) VALUES ('$id_categoria', '$id_marca', '$nome', '$descricao', '$data_validade', '$valor', '$peso', '$qtde_estoque')";
+$resultado = $conexao->query($sql);
+
+echo"<a href='produto_listar.php'></a>";
 }
-new produtoNovo();
-=======
+?>
+
 <!--Objetivo do Código: Esta página contém um formulário para que o usuário insira um novo produto-->
 <!--Status do Código: Em desenvolvimento-->
->>>>>>> db43eebd03259136a2c4ecf3e6dab0092e207fe0
+
