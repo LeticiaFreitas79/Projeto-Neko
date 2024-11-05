@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Página onde devem ser exibidas as informações da Clínica Neko-->
-<!--Status do Código: Em desenvolvimento-->
+<!--Status do Código: Em correção; corrigir redirecionamento-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
@@ -39,7 +39,7 @@
 
     <div class="bloco-btnCliente">
         <button class="btn-cliente">
-            <a href="../controller/controllerCliente/cliente_atualizar.php" target="_blank">EDITAR</a>
+            <a href="cliente_atualizar.php" target="_blank">EDITAR</a>
         </button>
     </div><!--Fecha bloco-btnCliente-->
 
@@ -212,21 +212,6 @@
         </tbody>
         </table>
     </div><!--Fecha bloco tabela-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>
