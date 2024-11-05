@@ -24,7 +24,7 @@ $nome = $_POST['nome'];
 $descricao = $_POST['descricao'];
 $data_validade = $_POST['data_validade'];
 $valor = $_POST['valor'];
-$peso= $_POST['peso']; //md5
+$peso= $_POST['peso']; 
 $qtde_estoque = $_POST['qtde_estoque'];
 
 //Para inserir as informações do formulário no Banco de dados

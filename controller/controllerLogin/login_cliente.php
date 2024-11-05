@@ -1,6 +1,6 @@
-
+----------
 <?php 
-include '../../model/banco.php';
+include '../model/acesso.php';
 // inicia a verificação do login
 if($_POST){
     $email  = $_POST['email'];
@@ -16,13 +16,13 @@ if($_POST){
     }
     if($numRow>0){
         $_SESSION['email_usuario'] = $email;
-        $_SESSION['nivel_usuario'] = $rowEmail['nivel'];
+        $_SESSION['cpf_usuario'] = $rowEmail['email'];
         $_SESSION['nome_da_sessao'] = session_name();
-        if($rowEmail['nivel']=='sup'){
+        if($rowEmail['email']=='sup'){
             echo "<script>window.open('../../view_adm/index_adm.php?','_self')</script>";
         }
         else{
-            echo "<script>window.open('../../view_login/index_login.php?cliente=".$email."','_self')</script>";
+            echo "<script>window.open('../../view/index.php?cliente=".$email."','_self')</script>";
         }
     }
     else{

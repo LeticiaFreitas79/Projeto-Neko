@@ -47,6 +47,7 @@
             <h5 class="card-title">CLIENTES</h5>
                 <button class="btn-adm">
                     <a href="adm_cliente.php">Listar</a>
+
                 </button>
         </div><!--Fecha 'card'-->
         </div><!--Fecha 'card-body'-->
