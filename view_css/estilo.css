@@ -627,7 +627,12 @@ label {
 
 .bloco-btnCliente
 {
-    padding: 5px;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .btn-cliente

@@ -1,5 +1,5 @@
-<!--Objetivo do Código: Página inicial do site onde deve ser exibido os destaques da Clínica Neko-->
-<!--Status do Código: Concluído e Comentado-->
+<!--Objetivo do Código: Página onde devem ser exibidas as informações da Clínica Neko-->
+<!--Status do Código: Em desenvolvimento-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
@@ -31,48 +31,47 @@
 
     <div class="bloco-clienteInfo">
         <h2 class="titulo-clienteInfo">Nome do Cliente</h2>
-        <p class="text-clienteInfo">CPF do Cliente</p>
-        <p class="text-clienteInfo">Email do Cliente</p>
-        <p class="text-clienteInfo">Telefone do Cliente</p>
-
-        <div class="bloco-btnCliente">
-            <button class="btn-cliente">
-                <a href="<!--link para cliente_atualizar-->">EDITAR</a>
-            </button>
-        </div><!--Fecha bloco-btnCliente-->
-
+        <p class="text-clienteInfo"><strong>CPF: </strong><!--PHP puxando Dados do Banco--></p>
+        <p class="text-clienteInfo"><strong>Email: </strong><!--PHP puxando Dados do Banco--></p>
+        <p class="text-clienteInfo"><strong>Telefone: </strong><!--PHP puxando Dados do Banco--></p>
     </div><!--Fecha bloco-clienteInfo-->
 
-    <!--ENDEREÇO-->
-    <div class="bloco-clienteInfo">
-        <h2 class="titulo-clienteInfo">ENDEREÇO</h2>
-        <p class="text-clienteInfo">CEP</p>
-        <p class="text-clienteInfo">Logradouro</p>
-        <p class="text-clienteInfo">Número</p>
-        <p class="text-clienteInfo">Bairro</p>
-        <p class="text-clienteInfo">Cidade</p>
-        <p class="text-clienteInfo">Complemento</p>
-        <p class="text-clienteInfo">UF</p>
-        <p class="text-clienteInfo">Tipo</p>
-
-        <div class="bloco-btnCliente">
-            <button class="btn-cliente">
-                <a href="<!--link para cliente_atualizar-->">EDITAR</a>
-            </button>
-            <button class="btn-cliente">
-                <a href="<!--link para cliente_atualizar-->">EXCLUIR</a>
-            </button>
-            <button class="btn-cliente">
-                <a href="<!--link para cliente_atualizar-->">NOVO</a>
-            </button>
-        </div><!--Fecha bloco-btnCliente-->
-
-    </div><!--Fecha bloco-clienteInfo-->
-
+    <div class="bloco-btnCliente">
+        <button class="btn-cliente">
+            <a href="../controller/controllerCliente/cliente_atualizar.php" target="_blank">EDITAR</a>
+        </button>
+    </div><!--Fecha bloco-btnCliente-->
 
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>
 
+    <!--ENDEREÇO-->
+    <div class="bloco-clienteInfo">
+        <h2 class="titulo-clienteInfo">ENDEREÇO</h2>
+        <p class="text-clienteInfo"><strong>CEP: </strong><!--PHP puxando Dados do Banco--></p>
+        <p class="text-clienteInfo"><strong>Logradouro: </strong><!--PHP puxando Dados do Banco--></p>
+        <p class="text-clienteInfo"><strong>Número: </strong><!--PHP puxando Dados do Banco--></p>
+        <p class="text-clienteInfo"><strong>Bairro: </strong><!--PHP puxando Dados do Banco--></p>
+        <p class="text-clienteInfo"><strong>Cidade: </strong><!--PHP puxando Dados do Banco--></p>
+        <p class="text-clienteInfo"><strong>Complemento: </strong><!--PHP puxando Dados do Banco--></p>
+        <p class="text-clienteInfo"><strong>UF: </strong><!--PHP puxando Dados do Banco--></p>
+        <p class="text-clienteInfo"><strong>Tipo: </strong><!--PHP puxando Dados do Banco--></p>
+    </div><!--Fecha bloco-clienteInfo-->
+
+    <div class="bloco-btnCliente">
+        <button class="btn-cliente">
+            <a href="../controller/controllerCliente/cliente_endereco_atualizar.php" target="_blank">EDITAR</a>
+        </button>
+        <button class="btn-cliente">
+            <a href="../controller/controllerCliente/cliente_endereco_deletar.php" target="_blank">EXCLUIR</a>
+        </button>
+        <button class="btn-cliente">
+            <a href="../controller/controllerCliente/cliente_endereco_novo.php" target="_blank">NOVO</a>
+        </button>
+    </div><!--Fecha bloco-btnCliente-->
+    
+    <!--Separar Destaques-->
+    <div class="bloco-separar"></div>
 
     <!--PETS-->
     <div class="bloco-titulo">
@@ -90,19 +89,19 @@
         <p class="text-clienteInfo">Idade</p>
         <p class="text-clienteInfo">Peso</p>
 
-        <div class="bloco-btnCliente">
-            <button class="btn-cliente">
-                <a href="<!--link para cliente_atualizar-->">EDITAR</a>
-            </button>
-            <button class="btn-cliente">
-                <a href="<!--link para cliente_atualizar-->">EXCLUIR</a>
-            </button>
-            <button class="btn-cliente">
-                <a href="<!--link para cliente_atualizar-->">NOVO</a>
-            </button>
-        </div><!--Fecha bloco-btnCliente-->
-
     </div><!--Fecha bloco-clienteInfo-->
+
+    <div class="bloco-btnCliente">
+        <button class="btn-cliente">
+            <a href="../controller/controllerCliente/cliente_pet_atualizar.php" target="_blank">EDITAR</a>
+        </button>
+        <button class="btn-cliente">
+            <a href="../controller/controllerCliente/cliente_pet_deletar.php" target="_blank">EXCLUIR</a>
+        </button>
+        <button class="btn-cliente">
+            <a href="../controller/controllerCliente/cliente_pet_novo.php" target="_blank">NOVO</a>
+        </button>    
+    </div><!--Fecha bloco-btnCliente-->
 
 
 
