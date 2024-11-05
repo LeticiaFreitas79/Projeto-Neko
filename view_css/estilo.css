@@ -596,10 +596,52 @@ label {
     color: white;
     font-weight: bold;
     border-radius: 20px;  
-    background-color: rgba(112, 148, 119);
+    background-color: rgba(68, 113, 102);
 }
 
 .btn-cadastro:hover
 { 
-    background-color: rgba(125, 161, 130);
+    background-color: rgba(34, 85, 96);
+}
+
+
+/* ----------------- PÁGINA DE CLIENTE----------------- */
+.bloco-clienteInfo
+{
+    margin: 30px;
+    border: none;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: rgba(187, 217, 182);
+}
+
+.titulo-clienteInfo
+{
+    font-weight: bold;
+}
+
+.text-clienteInfo
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bloco-btnCliente
+{
+    padding: 5px;
+}
+
+.btn-cliente
+{
+    width: 20%;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(102,141,108);
+}
+
+.btn-cliente:hover
+{
+    background-color: rgba(68,113,102);
 }
