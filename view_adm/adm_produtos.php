@@ -74,7 +74,7 @@
 
            <!--Botão para inserir novo produto // inserir dentro da div 'bloco-tabela' posteriormente-->
            <button class="btn-adm2">
-            <a href="adm_produtoscad.php">Inserir Novo Produto</a>
+            <a href="../view_produtos/produtos_cadastro.php">Inserir Novo Produto</a>
         </button>
 
     <?php
