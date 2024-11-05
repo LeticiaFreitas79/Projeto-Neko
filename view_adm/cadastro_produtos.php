@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../view_css/estilo.css">
     <link rel="shortcut icon" href="../view_img/logo_circulo2.png" type="image/png">
     
-    <title>Produtos - Inserir | Clínica Neko</title>
+    <title>Inserir Produtos | Clínica Neko</title>
 </head>
 <body>
 
