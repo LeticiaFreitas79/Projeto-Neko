@@ -246,13 +246,12 @@ a
 {
     padding: 10px;
     border-radius: 30px;
-    transition: opacity 0.3s;
-    opacity: 0.7;
 }
 
 .card-imgSobre:hover /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
 {
-
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
     cursor: pointer;
 }
 
