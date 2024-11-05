@@ -1,4 +1,4 @@
-<!--Objetivo do Código: Página mostrando os campos para o cliente realizar seu cadastro no site-->
+<!--Objetivo do Código: Página admisnitrativa para o usuário inserir um novo produto no site-->
 <!--Status do Código: Em correção; adicionar direcionamento e centralizar div-->
 
 <!DOCTYPE html>
@@ -15,6 +15,9 @@
     <title>Novo Produto | Neko Administração</title>
 </head>
 <body>
+    <?php
+        include_once ("adm_menu.php");
+    ?>
 
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>
@@ -101,20 +104,15 @@
 
             </div><!--Fecha bloco campos-->
         </div>
-    </div><!--Fecha bloco-cadastro-->
+    </div><!--Fecha bloco-cadastro-->  
 
-    <!--Separar Destaques-->
+    <?php
+        include_once ("adm_rodape.php");
+    ?>
 
     <!--JavaScript-->
     <script src="../view_js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 

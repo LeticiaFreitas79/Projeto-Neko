@@ -63,6 +63,5 @@
 
     <!--JavaScript-->
     <script src="../view_js/bootstrap.bundle.min.js"></script>
-  </body>
 </body>
 </html>

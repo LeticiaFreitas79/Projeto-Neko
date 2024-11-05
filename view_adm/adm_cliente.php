@@ -70,6 +70,13 @@
         </tbody>
         </table>
     </div>
+    
     <?php
         include_once ("adm_rodape.php");
     ?>
+
+    <!--JavaScript-->
+    <script src="../view_js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

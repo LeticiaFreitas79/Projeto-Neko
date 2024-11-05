@@ -76,7 +76,12 @@
            <button class="btn-adm2">
             <a href="../view_produtos/produtos_cadastro.php">Inserir Novo Produto</a>
         </button>
-
-    <?php
+        <?php
         include_once ("adm_rodape.php");
     ?>
+
+    <!--JavaScript-->
+    <script src="../view_js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
