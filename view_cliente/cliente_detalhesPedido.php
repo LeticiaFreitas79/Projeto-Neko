@@ -1,4 +1,4 @@
-<!--Objetivo do Código: Página inicial do site onde deve ser exibido os destaques da Clínica Neko-->
+<!--Objetivo do Código: Página mostrando os detalhes de uma compra especifica-->
 <!--Status do Código: Concluído e Comentado-->
 
 <!DOCTYPE html>
@@ -18,6 +18,41 @@
     <?php
         include_once ("cliente_menu.php");
     ?>
+
+    <!--ITESS DO PEDIDO-->
+    <div class="bloco-titulo">
+        <h2 class="titulo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
+            </svg>
+            ITENS DO PEDIDO N°<!--PHP puxando Dados do Banco-->
+        </h2>
+    </div> <!--Fecha 'bloco-titulo'-->
+
+    <div class="bloco-tabela">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Produto</th>
+                    <th scope="col">Valor Unit</th>
+                    <th scope="col">Quantidade</th>
+                    <th scope="col">Desconto</th>
+                </tr>
+            </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Pato de Pelúcia</th>
+                <td>R$ 29,99</td>
+                <td>4</td>
+                <td>20%</td>
+            </tr>
+        </tbody>
+        </table>
+    </div><!--Fecha bloco tabela-->
+
+
+
+
 
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>

@@ -650,3 +650,19 @@ label {
 {
     background-color: rgba(68,113,102);
 }
+
+.btn-clienteTable
+{
+    width: 90%;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(102,141,108);
+}
+
+.btn-clienteTable:hover
+{
+    background-color: rgba(68,113,102);
+}
