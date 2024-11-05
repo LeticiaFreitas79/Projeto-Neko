@@ -2,7 +2,7 @@
 
 <?php
 
-//chegar conexao
+//Para chegar conexao
 $conexao = mysqli_connect("localhost","root","","clinicanekodb","3306","utf8");
 
 //verificar se ja existe cpf cadastrado
