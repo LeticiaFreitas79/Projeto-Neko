@@ -237,6 +237,7 @@ a
 
 .card /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
 {
+    border: none;
     border-radius: 30px;
     background-color: rgba(230, 241, 228);
 }
@@ -245,13 +246,19 @@ a
 {
     padding: 10px;
     border-radius: 30px;
+    transition: opacity 0.3s;
+    opacity: 0.7;
 }
 
 .card-imgSobre:hover /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
 {
-    transition: opacity 0.3s;
-    opacity: 0.7;
+
     cursor: pointer;
+}
+
+.card-title
+{
+    font-weight: bolder;
 }
 
 .card-body
@@ -393,6 +400,15 @@ a
     align-items: center; 
 }
 
+.bloco-adm-clientes
+{
+    padding: 25px;
+    border-radius: 50px;
+    background-color: rgba(159, 180, 171); 
+    justify-content: center; 
+    align-items: center; 
+}
+
 .bloco-btn
 {
     display: flex;
@@ -443,7 +459,7 @@ a
 }
 
 
-/* ----------------- USUARIOS e PRODUTOS ADM ----------------- */
+/* ----------------- USUARIOS, PRODUTOS e CLIENTES ADM ----------------- */
 .bloco-tabela
 {
     margin: 30px;
@@ -451,8 +467,24 @@ a
     display: flex;
     border-radius: 30px;
     background-color: rgba(180, 213, 174); 
-    justify-content: center; 
+    justify-content: flex-end; 
     align-items: center; 
+    
+}
+
+.btn-verEndereco
+{
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;  
+    background-color: rgba(34, 85, 96);
+}
+
+.btn-verEndereco:hover
+{
+    background-color: rgba(125, 161, 130);
 }
 
 .btn-atualizar
@@ -483,6 +515,25 @@ a
 .btn-deletar:hover
 {
     background-color: rgba(99, 24, 24);
+}
+
+.btn-adm2
+{
+    width: 20%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;  
+    background-color: rgba(34, 85, 96);
+
+    margin: 30px;
+}
+
+.btn-adm2:hover
+{
+    background-color: rgba(125, 161, 130);
 }
 
 

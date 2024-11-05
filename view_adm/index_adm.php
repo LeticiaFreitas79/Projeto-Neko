@@ -20,37 +20,40 @@
     ?>
 
     <div class="bloco-adm">
-        <div class="bloco-adm-user">
-            <div class="bloquinho-titulo">
-                <h1 class="titulo-claro">USUÁRIOS</h1>
-            </div>
-            <div class="bloco-separar"></div>
-            <div class="bloco-btn">
-                <button class="btn-adm">
-                    <a href="../controller/controllerUsuario/usuario_novo.php">Inserir</a>
-                </button>
+
+        <div class="card" style="width: 18rem;">
+            <img src="../view_img/destaque_adm_usuario.png" class="card-imgSobre" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">USUÁRIOS</h5>
                 <button class="btn-adm">
                     <a href="adm_usuarios.php">Listar</a>
                 </button>
-            </div>
-        </div><!--Fecha bloco adm user-->   
+        </div><!--Fecha 'card'-->
+        </div><!--Fecha 'card-body'-->
 
-        <div class="bloco-adm-produtos">
-            <div class="bloquinho-titulo">
-                <h1 class="titulo-claro">PRODUTOS</h1>
-            </div>
-            <div class="bloco-separar"></div>
-            <div class="bloco-btn">
-                <button class="btn-adm">
-                    <a href="../controller/controllerProdutos/produto_novo.php">Inserir</a>
-                </button>
+        <div class="card" style="width: 18rem;">
+            <img src="../view_img/destaque_adm_produtos.png" class="card-imgSobre" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">PRODUTOS</h5>
                 <button class="btn-adm">
                     <a href="adm_produtos.php">Listar</a>
                 </button>
-            </div>
-        </div><!--Fecha bloco adm produtos-->   
+        </div><!--Fecha 'card'-->
+        </div><!--Fecha 'card-body'-->
 
-    </div>
+        <div class="card" style="width: 18rem;">
+            <img src="../view_img/destaque_adm_cliente.png" class="card-imgSobre" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">CLIENTES</h5>
+                <button class="btn-adm">
+                    <a href="adm_cliente.php">Listar</a>
+                </button>
+        </div><!--Fecha 'card'-->
+        </div><!--Fecha 'card-body'-->
+
+        
+
+    </div><!--Fecha bloco adm-->
 
     <?php
         include_once ("adm_rodape.php");

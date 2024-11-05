@@ -43,6 +43,14 @@
                     <a href="adm_produtos.php">PRODUTOS</a>
                 </button>
             </li>
+
+            <!--página CLIENTES-->
+            <li class="nav-item">
+                <button type="button" id="btnNav" class="btn">
+                    <a href="adm_cliente.php">CLIENTES</a>
+                </button>
+            </li>
+
         </ul> <!--Fecha o bloco das páginas de navegação-->
 
         <!--Botão da BUSCA-->
