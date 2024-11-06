@@ -54,25 +54,31 @@
           VETERINÁRIO
       </h2>
       <p class="subtitulo">Serviços veterinários mais procurados</p>
+    </div> <!--Fecha 'bloco-titulo'-->
 
-      <!--Bloco dos Cards-->
-      <div class="bloco-destaqueVet">
-        <!--Primeiro Card - Pronto Socorro-->
-        <div class="card-destaque">
-          <a href="principal_veterinario.php">
-            <img src="../view_img/destaque_socorro.png" class="card-img" alt="...">
-          </div>
-        <!--Segundo Card - Consultas-->
-        <div class="card-destaque">
+    <!--Bloco dos Cards-->
+    <div class="bloco-destaqueVet">
+
+      <!--Primeiro Card - Pronto Socorro-->
+      <div class="card-destaque">
         <a href="principal_veterinario.php">
-          <img src="../view_img/destaque_consulta.png" class="card-img" alt="...">
-        </div>
-        <!--Terceiro Card - Exames-->
-        <div class="card-destaque">
+          <img src="../view_img/destaque_socorro.png" class="card-img">
+      </div>
+
+      <!--Segundo Card - Consultas-->
+      <div class="card-destaque">
+      <a href="principal_veterinario.php">
+        <img src="../view_img/destaque_consulta.png" class="card-img">
+      </div>
+      
+      <!--Terceiro Card - Exames-->
+      <div class="card-destaque">
         <a href="principal_veterinario.php">
-          <img src="../view_img/destaque_exames.png" class="card-img" alt="...">
+          <img src="../view_img/destaque_exames.png" class="card-img">
         </div>
-      </div> <!-- Fecha a 'bloco-destaqueVet'-->
+
+    </div> <!-- Fecha a 'bloco-destaqueVet'-->
+
       <!--Botão Ver Mais-->
       <button type="button" class="btn-verMais">
       <a href="principal_veterinario.php">Clique aqui para ver mais  
@@ -81,7 +87,6 @@
         </svg>
       </a>
     </button>
-    </div> <!--Fecha 'bloco-titulo'-->
 
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>
@@ -95,34 +100,40 @@
           LOJA
       </h2>
       <p class="subtitulo">Categorias mais procuradas</p>
+    </div> <!--Fecha 'bloco-titulo'-->
 
       <!--Container dos Cards-->
       <div class="bloco-destaqueVet">
+
         <!--Primeiro Card - Ração-->
         <div class="card-destaque">
         <a href="principal_loja.php">
           <img src="../view_img/destaque_racao.png" class="card-img" alt="...">
         </div>
+
         <!--Segundo Card - Farmácia-->
         <div class="card-destaque">
         <a href="principal_loja.php">
           <img src="../view_img/destaque_farmacia.png" class="card-img" alt="...">
         </div>
+
         <!--Terceiro Card - Higiene-->
         <div class="card-destaque">
         <a href="principal_loja.php">
           <img src="../view_img/destaque_higiene.png" class="card-img" alt="...">
         </div>
+
       </div> <!-- Fecha a 'container-destaqueVet'-->
+
       <!--Botão Ver Mais-->
       <button type="button" class="btn-verMais">
-      <a href="principal_loja.php">Clique aqui para ver mais  
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-          <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
-        </svg>
-      </a>
-    </button>
-    </div> <!--Fecha 'bloco-titulo'-->
+        <a href="principal_loja.php">Clique aqui para ver mais  
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+          </svg>
+        </a>
+      </button>
+  
 
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>
@@ -136,25 +147,31 @@
           SERVIÇOS
         </h2>
         <p class="subtitulo">Serviços mais procurados</p>
+    </div> <!--Fecha 'bloco-titulo'-->
 
       <!--Container dos Cards-->
       <div class="bloco-destaqueVet">
+
         <!--Primeiro Card - Banho-->
         <div class="card-destaque">
         <a href="principal_servicos.php">
           <img src="../view_img/destaque_banho.png" class="card-img" alt="...">
         </div>
+
         <!--Segundo Card - Adestramento-->
         <div class="card-destaque">
         <a href="principal_servicos.php">
           <img src="../view_img/destaque_adestramento.png" class="card-img" alt="...">
         </div>
+        
         <!--Terciro Card - Vacinação-->
         <div class="card-destaque">
         <a href="principal_servicos.php">
           <img src="../view_img/destaque_vacinacao.png" class="card-img" alt="...">
         </div>
+        
       </div> <!-- Fecha a 'container-destaqueVet'-->
+
       <!--Botão Ver Mais-->
       <button type="button" class="btn-verMais">
       <a href="principal_servicos.php">Clique aqui para ver mais  
@@ -163,7 +180,6 @@
         </svg>
       </a>
     </button>
-    </div> <!--Fecha 'bloco-titulo'-->
     
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>
