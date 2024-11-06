@@ -35,6 +35,7 @@
         <table class="table">
             <thead>
                 <tr>
+                    <th scope="col">Nome</th>
                     <th scope="col">CEP</th>
                     <th scope="col">Logradouro</th>
                     <th scope="col">Número</th>
@@ -47,7 +48,8 @@
             </thead>
         <tbody>
             <tr>
-                <th scope="row">12345.678</th>
+                <th scope="row">Fulano</th>
+                <td>12345.678</td>
                 <td>Rua das Flores</td>
                 <td>22</td>
                 <td>Mooca</td>
