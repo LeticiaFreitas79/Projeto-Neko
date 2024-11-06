@@ -18,7 +18,8 @@
 
     <!--Bloco Menu-->
     <div class="bloco-footer2"></div>
-<div class="bloco-cadastro2">
+
+    <div class="bloco-cadastro2">
     <div class="bloco-cadastro">
 
         <!--Separar Destaques-->
