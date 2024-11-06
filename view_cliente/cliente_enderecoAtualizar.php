@@ -21,7 +21,8 @@
     
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>
-
+    
+    <div class="bloco-cadastro2">
     <div class="bloco-cadastro">
 
         <!--Separar Destaques-->
@@ -90,7 +91,7 @@
                 <br><br>
 
                 <!-- Label para atualizar o Email -->
-                <label class="label-title" for="cpf">tIPO</label>
+                <label class="label-title" for="cpf">Tipo</label>
                     <br>
                 <input class="input-cadastro" type="email">
                         
@@ -110,6 +111,7 @@
 
             </div><!--Fecha bloco campos-->
         </div><!--Fecha bloco-cadastro-->
+        </div><!--Fecha bloco-cadastro2-->
 
 
 
