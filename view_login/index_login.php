@@ -22,6 +22,7 @@
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>
 
+    <div class="bloco-cadastro2">
     <!-- Informação para realizar o Cadastro  -->
     <div class="bloco-cadastro">
         
@@ -77,6 +78,7 @@
 
         </div><!--Fecha bloco cabecalho-->
     </div><!--Fecha bloco-cadastro-->
+    </div><!--Fecha bloco-cadastro2-->
 
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>

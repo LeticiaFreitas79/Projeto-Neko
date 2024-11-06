@@ -1,5 +1,5 @@
-<!--Objetivo do Código: Exibe a lista de clientes logados no site.-->
-<!--Status do Código: Concluído-->
+<!--Objetivo do Código: Exibe a lista de endereços de clientes cadastrados no site.-->
+<!--Status do Código: Em correção; add PHP-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
@@ -18,6 +18,7 @@
     <?php
         include_once ("adm_menu.php");
     ?>
+    
 <!--Separar Destaques-->
 <div class="bloco-separar"></div>
     

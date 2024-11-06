@@ -1,5 +1,5 @@
-<!--Objetivo do Código: Exibe a lista de clientes logados no site.-->
-<!--Status do Código: Concluído-->
+<!--Objetivo do Código: Exibe a lista de clientes cadastrados no site.-->
+<!--Status do Código: Em correção; add PHP-->
 
 <!DOCTYPE html>
 <html lang="pt_br">

@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!--CSS-->
-    <link href="../../view_css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../view_css/estilo.css">
-    <link rel="shortcut icon" href="../../view_img/logo_circulo2.png" type="image/png">
+    <link href="../view_css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../view_css/estilo.css">
+    <link rel="shortcut icon" href="../view_img/logo_circulo2.png" type="image/png">
     
     <title>Atualizar Dados | Cliente Clínica Neko</title>
 </head>
@@ -18,7 +18,7 @@
 
     <!--Bloco Menu-->
     <div class="bloco-footer2"></div>
-
+<div class="bloco-cadastro2">
     <div class="bloco-cadastro">
 
         <!--Separar Destaques-->
@@ -26,7 +26,7 @@
 
         <div class="bloco-cabecalho">
             <!--Icon de Cadastro-->
-            <img src="../../view_img/icon_info.png" alt="Gatinho" width="200" height="200">
+            <img src="../view_img/icon_info.png" alt="Gatinho" width="200" height="200">
 
             <!--Separar Destaques-->
             <div class="bloco-separar"></div>
@@ -84,6 +84,7 @@
 
             </div><!--Fecha bloco campos-->
         </div><!--Fecha bloco-cadastro-->
+        </div><!--Fecha bloco-cadastro2-->
     
     <!--Bloco Rodape-->
     <div class="bloco-footer2"></div>

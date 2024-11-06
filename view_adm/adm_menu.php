@@ -1,4 +1,4 @@
-<!--Objetivo do Código: Barra de Navegação Administrativa. Serve para ser referenciada em outros arquivos-->
+<!--Objetivo do Código: Barra de Navegação Administrativa-->
 <!--Status do Código: Concluído-->
 
 <!--Abre a barra de navegação-->
