@@ -4,7 +4,6 @@ body
     background-color: rgba(212, 218, 210);
 }
 
-
 /* ----------------- GERAIS ----------------- */
 .titulo
 {
@@ -21,7 +20,6 @@ body
 .subtitulo
 {
     font-style: italic;
-    font-size: 25px;
 }
 
 .bloco-separar
@@ -59,68 +57,9 @@ body
     background-color: rgba(35, 46, 37); 
 }
 
-.card-destaque
-{
-    width: 33%;
-    height: 33%;
-    padding: 20px;
-}
-
-.card /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
-{
-    border: none;
-    border-radius: 30px;
-    background-color: rgba(230, 241, 228);
-}
-
-.card-img /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
-{
-    padding: 10px;
-    border-radius: 30px;
-}
-
-.card-img:hover /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
-{
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
-
-.card-title
-{
-    font-weight: bolder;
-}
-
-.card-body
-{
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center;
-    text-align: center;
-}
-
-.card-descricao
-{
-    font-style: italic;
-    padding: 15px;
-}
-
-.card-text
-{
-    text-align: center;
-    font-weight: bold;
-}
-
-.card-valor /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
-{
-    font-weight: bold;
-    font-size: 20px;
-    color: rgba(34, 85, 96);
-}
 
 
-/* ----------------- MENU PUBLICO ----------------- */
+/* ----------------- MENU ----------------- */
 #barra-nav
 {
     background-color: rgba(34, 85, 96) !important;
@@ -149,6 +88,7 @@ a
     background-color: rgba(125, 161, 130);
 }
 
+
 .dropdown-menu
 {
     border: none;
@@ -173,7 +113,6 @@ a
     color: white;
 }
 
-
 /* ----------------- RODAPÉ ----------------- */
 .bloco-footer
 {
@@ -185,6 +124,12 @@ a
     flex-direction: column; 
     justify-content: center; 
     align-items: center;
+}
+
+.subtitulo
+{
+    font-style: italic;
+    font-size: 25px;
 }
 
 .btn-social
@@ -201,27 +146,13 @@ a
     border: none;
     border-radius: 50px;
     background-color: rgba(159, 180, 171);
+
 }
 
 .copyright
 {
     font-style: italic;
     font-size: 15px;
-}
-
-
-/* ----------------- RODAPÉ ADM ----------------- */
-.bloco-footer2
-{
-    padding: 60px;
-    background-color:  rgba(34, 85, 96);
-    color: rgba(222, 244, 222);
-    text-align: center;
-    background-color:  rgba(34, 85, 96);
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center;
 }
 
 
@@ -248,6 +179,31 @@ a
     margin: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.card-destaque
+{
+    width: 33%;
+    height: 33%;
+    padding: 20px;
+}
+
+.card-img
+{
+    border-radius: 40px;
+}
+
+.card-img:hover
+{
+    transition: opacity 0.3s;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.card-text
+{
+    text-align: center;
+    font-weight: bold;
 }
 
 
@@ -277,6 +233,45 @@ a
     gap: 10px; 
     border-radius: 50px;
     background-color: rgba(180, 213, 174) ;
+}
+
+.card /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
+{
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(230, 241, 228);
+}
+
+.card-imgSobre /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
+{
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.card-imgSobre:hover /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
+{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card-title
+{
+    font-weight: bolder;
+}
+
+.card-body
+{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+
+.card-descricao
+{
+    font-style: italic;
 }
 
 
@@ -328,6 +323,18 @@ a
     background-color: rgba(180, 213, 174);
 }
 
+.card-descricao /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
+{
+    padding: 15px;
+}
+
+.card-valor /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(34, 85, 96);
+}
+
 
 /* ----------------- CONTATO ----------------- */
 .bloco-mapa
@@ -345,6 +352,21 @@ a
     justify-content: center; 
     align-items: center; 
     gap: 50px;
+}
+
+
+/* ----------------- RODAPÉ ADM ----------------- */
+.bloco-footer2
+{
+    padding: 60px;
+    background-color:  rgba(34, 85, 96);
+    color: rgba(222, 244, 222);
+    text-align: center;
+    background-color:  rgba(34, 85, 96);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
 }
 
 
@@ -504,6 +526,7 @@ a
     border: none;
     border-radius: 30px;  
     background-color: rgba(34, 85, 96);
+
     margin: 30px;
 }
 
@@ -513,9 +536,9 @@ a
 }
 
 
-/* ----------------- FORMULÁRIOS ----------------- */
+/* ----------------- CADASTRO e LOGIN----------------- */
 
-.bloco-formulario1
+.bloco-cadastro2
 {
     width: 100%;
     height: 100%;
@@ -525,7 +548,7 @@ a
 
 }
 
-.bloco-formulario2
+.bloco-cadastro
 {
     width: 40%;
     margin: 20px;
@@ -542,7 +565,7 @@ a
     text-align: center;
 }
 
-.subtitulo-formulario
+.subtitulo-cadastro
 {
     font-size: large;
     text-align: center;
@@ -559,7 +582,7 @@ label
     margin-right:5px;
 }
 
-.input-formulario
+.input-cadastro
 {
     width: 98%;
     border: none;
@@ -577,7 +600,7 @@ label
     align-items: center;
 }
 
-.btn-formulario
+.btn-cadastro
 {
     width: 40%;
     padding: 10px;
@@ -588,13 +611,13 @@ label
     background-color: rgba(68, 113, 102);
 }
 
-.btn-formulario:hover
+.btn-cadastro:hover
 { 
     background-color: rgba(34, 85, 96);
 }
 
 
-/* ----------------- PÁGINAS DE CLIENTE----------------- */
+/* ----------------- PÁGINA DE CLIENTE----------------- */
 .bloco-clienteInfo
 {
     margin: 30px;
