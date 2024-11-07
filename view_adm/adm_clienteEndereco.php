@@ -60,6 +60,7 @@
                 <td><!--PHP: puxar o UF de Endereço do Cliente--></td>
                 <td><!--PHP: puxar o Tipo de Endereço do Cliente--></td>
             </tr>
+                <!--PHP: laço de repetição para mostrar todos os Endereços vinculados a um cliente em especifico -->
         </tbody>
         </table>
     </div>

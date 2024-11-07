@@ -105,44 +105,14 @@
     <div class="equipe">
   
       <div class="card" style="width: 18rem;">
-        <img src="../view_img/equipe-gregoriaCasa.png" class="card-imgSobre" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Gregório Casa</h5>
-          <p class="card-text">
-            Veterinário Diagnóstico
-          </p>
+        <img src="<!--PHP: puxa a Imagem do Funcionário-->" class="card-imgSobre" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><!--PHP: puxa o Nome do Funcionário--></h5>
+              <p class="card-text"><!--PHP: puxa o Cargo do Funcionário--></p>
+          </div><!--Fecha 'card-body'-->
       </div><!--Fecha 'card'-->
-    </div><!--Fecha 'card-body'-->
 
-    <div class="card" style="width: 18rem;">
-        <img src="../view_img/equipe-luisaKimura.png" class="card-imgSobre" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Luísa Kimura</h5>
-          <p class="card-text">
-            Veterinária Geral
-          </p>
-      </div><!--Fecha 'card'-->
-    </div><!--Fecha 'card-body'-->
-
-    <div class="card" style="width: 18rem;">
-        <img src="../view_img/equipe-emilyGonzaga.png" class="card-imgSobre" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Emily Gonzaga</h5>
-          <p class="card-text">
-            Veterinária Cardiologista
-          </p>
-      </div><!--Fecha 'card'-->
-    </div><!--Fecha 'card-body'-->
-
-    <div class="card" style="width: 18rem;">
-        <img src="../view_img/equipe-pedroOliveira.png" class="card-imgSobre" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Pedro Oliveira</h5>
-          <p class="card-text">
-            Auxiliar Veterinário
-          </p>
-      </div><!--Fecha 'card'-->
-    </div><!--Fecha 'card-body'-->
+      <!--PHP: laço de repetição para mostrar todos os produtos referentes a categoria especifica existentes no Banco de Dados-->
 
     </div> <!--Fecha 'equipe'-->
 
@@ -165,26 +135,16 @@
     <div class="equipe">
   
       <div class="card" style="width: 18rem;">
-        <img src="../view_img/equipe_lauraFernandes.png" class="card-imgSobre" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Laura Fernandes</h5>
-          <p class="card-text">
-            Adestradora
-          </p>
+        <img src="<!--PHP: puxa o Imagem do Funcionário-->" class="card-imgSobre" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><!--PHP: puxa o Nome do Funcionário--></h5>
+            <p class="card-text"><!--PHP: puxa o Cargo do Funcionário--></p>
+          </div><!--Fecha 'card-body'-->
       </div><!--Fecha 'card'-->
-    </div><!--Fecha 'card-body'-->
 
-    <div class="card" style="width: 18rem;">
-        <img src="../view_img/equipe_marianaCarvalho.png" class="card-imgSobre" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Mariana Carvalho</h5>
-          <p class="card-text">
-            Banho e Tosa
-          </p>
-      </div><!--Fecha 'card'-->
-    </div><!--Fecha 'card-body'-->
+    <!--PHP: laço de repetição para mostrar todos os produtos referentes a categoria especifica existentes no Banco de Dados-->
 
-    </div> <!--Fecha 'equipe'-->
+  </div> <!--Fecha 'equipe'-->
 
   <!--Separar Destaques-->
   <div class="bloco-separar"></div>

@@ -60,7 +60,7 @@
                     </button>
                 </td>
             </tr>
-                <!--PHP: laço de repetição para mostrar todos os usuários existentes no Banco de Dados-->
+                <!--PHP: laço de repetição para mostrar todos os clientes existentes no Banco de Dados-->
         </tbody>
         </table>
     </div>

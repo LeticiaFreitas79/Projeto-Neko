@@ -40,13 +40,15 @@
     
     <div class="bloco-loja">
       <div class="card" style="width: 18rem;">
-          <img src="../view_img/produto_pato.png" class="card-imgSobre" alt="...">
+          <img src="<!--PHP: puxa a Imagem do Produto-->" class="card-imgSobre" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Pato de Pelúcia</h5>
-            <p class="card-descricao">Brinquedo de pelúcia em formato de pato</p>
-            <p class="card-valor">R$29,99</p>
-        </div><!--Fecha 'card'-->
-    </div><!--Fecha 'card-body'-->
+          <h5 class="card-title"><!--PHP: puxa o Nome do Produto--></h5>
+            <p class="card-descricao"><!--PHP: puxa a Descrição do Produto--></p>
+            <p class="card-valor">R$<!--PHP: puxa o Valor do Produto--></p>
+        </div><!--Fecha 'card-body'-->
+      </div><!--Fecha 'card'-->
+
+    <!--PHP: laço de repetição para mostrar todos os produtos referentes a categoria especifica existentes no Banco de Dados-->
 
     </div><!--Fecha bloco Loja-->
   

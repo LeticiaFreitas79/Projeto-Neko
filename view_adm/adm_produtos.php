@@ -67,6 +67,7 @@
                         <a href="../controller/controllerProdutos/produto_deletar.php">Deletar</a>
                     </button>
                 </td>
+                    <!--PHP: laço de repetição para mostrar todos os Produtos existentes no Banco de Dados-->
             </tr>
         </tbody>
         </table>
