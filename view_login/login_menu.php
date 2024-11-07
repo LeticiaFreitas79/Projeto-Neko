@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Barra de Navegação de todas as páginas principais do site-->
-<!--Status do Código: Em correção; os botões 'busca' e 'conta' ainda não levam ás páginas indicadas -->
+<!--Status do Código: Concluído e Comentado -->
 
 <!--Abre a barra de navegação-->
 <nav id="barra-nav" class="navbar navbar-expand-lg">
