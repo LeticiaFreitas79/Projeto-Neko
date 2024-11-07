@@ -21,8 +21,7 @@
 
     <!--Banner-->
     <a class="navbar-brand" href="#">
-      <img src="../view_img/banner_casinhas.png">
-      .png" alt="Bootstrap" width="100%" height="100%">
+      <img src="../view_img/banner_casinhas.png" alt="Bootstrap" width="100%" height="100%">
     </a>
 
     <!--Separar Destaques-->
