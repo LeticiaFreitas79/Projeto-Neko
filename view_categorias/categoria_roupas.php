@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Mostrar a categoria 'roupas e camas' da Clínica Neko-->
-<!--Status do Código: Em correção; os dados de produtos ainda não são puxadosdo Banco-->
+<!--Status do Código: Em correção; os dados de produtos ainda não são puxados do Banco-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
