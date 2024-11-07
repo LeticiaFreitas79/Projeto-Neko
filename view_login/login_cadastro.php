@@ -65,6 +65,13 @@
                     
                     <br><br>
 
+                    <!-- Label para inserir o Telefone -->
+                    <label class="label-title" for="telefone">TELEFONE</label>
+                        <br>
+                    <input class="input-cadastro" type="tel" name="telefone" required>
+                    
+                    <br><br>
+
                     <!-- Label para inserir o Email -->
                     <label class="label-title" for="email">EMAIL</label>
                         <br>
@@ -75,7 +82,7 @@
                     <!-- Label para inserir a Senha -->
                     <label class="label-title" for="senha">SENHA</label>
                         <br>
-                    <input class="input-cadastro" type="text" name="senha" required>
+                    <input class="input-cadastro" type="password" name="senha" required>
                     
                     <br><br><br>
 
@@ -98,11 +105,10 @@
     <div class="bloco-separar"></div>
 
     <?php
-        include_once ("../../login_rodape.php");
+        include_once ("login_rodape.php");
     ?>
     
     <!--JavaScript-->
     <script src="../view_js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-

@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Página onde devem ser exibidas as informações da Clínica Neko-->
-<!--Status do Código: Em correção; corrigir redirecionamento-->
+<!--Status do Código: Em correção; corrigir redirecionamento que está falhando-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
@@ -31,7 +31,7 @@
 
     <div class="bloco-clienteInfo">
         <h2 class="titulo-clienteInfo">CLIENTE<!--PHP puxando Dados do Banco--></h2>
-        <br>
+            <br>
         <p class="text-clienteInfo"><strong>CPF: </strong><!--PHP puxando Dados do Banco--></p>
         <p class="text-clienteInfo"><strong>Email: </strong><!--PHP puxando Dados do Banco--></p>
         <p class="text-clienteInfo"><strong>Telefone: </strong><!--PHP puxando Dados do Banco--></p>
@@ -49,7 +49,7 @@
     <!--ENDEREÇO-->
     <div class="bloco-clienteInfo">
         <h2 class="titulo-clienteInfo">ENDEREÇO</h2>
-        <br>
+            <br>
         <p class="text-clienteInfo"><strong>CEP: </strong><!--PHP puxando Dados do Banco--></p>
         <p class="text-clienteInfo"><strong>Logradouro: </strong><!--PHP puxando Dados do Banco--></p>
         <p class="text-clienteInfo"><strong>Número: </strong><!--PHP puxando Dados do Banco--></p>
@@ -62,13 +62,13 @@
 
     <div class="bloco-btnCliente">
         <button class="btn-cliente">
-            <a href="../controller/controllerCliente/cliente_endereco_atualizar.php" target="_blank">EDITAR</a>
+            <a href="cliente_enderecoAtualizar.php" target="_blank">EDITAR</a>
         </button>
         <button class="btn-cliente">
             <a href="../controller/controllerCliente/cliente_endereco_deletar.php" target="_blank">EXCLUIR</a>
         </button>
         <button class="btn-cliente">
-            <a href="../controller/controllerCliente/cliente_endereco_novo.php" target="_blank">NOVO</a>
+            <a href="cliente_enderecoNovo.php" target="_blank">NOVO</a>
         </button>
     </div><!--Fecha bloco-btnCliente-->
     
@@ -95,13 +95,13 @@
 
     <div class="bloco-btnCliente">
         <button class="btn-cliente">
-            <a href="../controller/controllerCliente/cliente_pet_atualizar.php" target="_blank">EDITAR</a>
+            <a href="cliente_petAtualizar.php" target="_blank">EDITAR</a>
         </button>
         <button class="btn-cliente">
             <a href="../controller/controllerCliente/cliente_pet_deletar.php" target="_blank">EXCLUIR</a>
         </button>
         <button class="btn-cliente">
-            <a href="../controller/controllerCliente/cliente_pet_novo.php" target="_blank">NOVO</a>
+            <a href="cliente_petNovo.php" target="_blank">NOVO</a>
         </button>    
     </div><!--Fecha bloco-btnCliente-->
 

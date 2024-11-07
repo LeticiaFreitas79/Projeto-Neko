@@ -55,7 +55,7 @@
                     <!-- Label para inserir a Senha -->
                     <label class="label-title" for="senha">SENHA</label>
                         <br>
-                    <input class="input-cadastro" type="text" name="senha" required>
+                    <input class="input-cadastro" type="password" name="senha" required>
                     
                     <br><br><br>
 
