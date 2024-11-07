@@ -1,6 +1,10 @@
 <!--Objetivo do Código: Página admisnitrativa para o usuário inserir um novo produto no site-->
 <!--Status do Código: Em correção; adicionar direcionamento e centralizar div-->
 
+<?php
+$conexao = mysqli_connect("localhost","root","","clinicanekodb","3306","utf8");
+?>
+
 <!DOCTYPE html>
 <html lang="pt_br">
 <head>
@@ -39,13 +43,25 @@
             </div><!--Fecha bloco cabecalho-->
 
                 <div class="bloco-campos">
-                    <form action="../controller/controllerProduto/produto_novo.php" method="POST">
+                    <form action="../controller/controllerProdutos/produto_novo.php" method="POST">
 
                         <!-- Label para inserir o Categoria -->
                         <label  class="label-title" for="id_categoria">Categoria</label>
                             <br>
-                        <select class="input-cadastro" name="categoria">
-                            <option value="" selected disabled hidden>Selecione</option>
+                        <select class="input-cadastro" name="id_categoria">
+                            <option value="" selected disabled hidden>Selecione
+
+                            <?php
+                            $sql="SELECT nome FROM categoria";
+                            $resultado=$conexao->query($sql);
+
+                            while($dados = $resultado->fetch_assoc()){
+                            echo "<option value=".$dados['nome'].">".$dados['nome']."</option>";
+                            }
+
+                            ?>
+                                
+                            </option>
                             <option value="Categoria do Produto"><!--PHP: puxar opção de categoria--></option>
                             <!--PHP: Laço de Repetição para puxar todas as Categorias de Produtos existentes no Banco de Dados-->
                         </select>
@@ -55,8 +71,19 @@
                         <!-- Label para inserir o Marca -->
                         <label  class="label-title" for="id_marca">Marca</label>
                             <br>
-                            <select class="input-cadastro" name="marca">
-                            <option value="" selected disabled hidden>Selecione</option>
+                        <select class="input-cadastro" name="id_marca">
+                            <option value="" selected disabled hidden>Selecione                                
+                            
+                            <?php
+                            $sql="SELECT nome FROM marca";
+                            $resultado=$conexao->query($sql);
+
+                            while($dados = $resultado->fetch_assoc()){
+                            echo "<option value=".$dados['nome'].">".$dados['nome']."</option>";
+                            }
+                            ?>
+
+                            </option>
                             <option value="Marca do Produto"><!--PHP: puxar opção de Marca--></option>
                             <!--PHP: Laço de Repetição para puxar todas as Marcas de Produtos existentes no Banco de Dados-->
                         </select>
