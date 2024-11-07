@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Página mostrando os detalhes de uma compra especifica-->
-<!--Status do Código: Concluído e Comentado-->
+<!--Status do Código: Em desenvolvimento; add PHP-->
 
 <!DOCTYPE html>
 <html lang="pt_br">

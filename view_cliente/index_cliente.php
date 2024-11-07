@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Página onde devem ser exibidas as informações da Clínica Neko-->
-<!--Status do Código: Em correção; corrigir redirecionamento que está falhando-->
+<!--Status do Código: Em desenvolvimento; add PHP-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
