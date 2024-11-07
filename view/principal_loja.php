@@ -40,7 +40,7 @@
     
     <div class="bloco-loja">
       <div class="card" style="width: 18rem;">
-          <img src="../view_img/produto_brinquedo_pato.png" class="card-imgSobre" alt="...">
+          <img src="../view_img/produto_pato.png" class="card-imgSobre" alt="...">
         <div class="card-body">
           <h5 class="card-title">Pato de Pelúcia</h5>
             <p class="card-descricao">Brinquedo de pelúcia em formato de pato</p>
