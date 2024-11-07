@@ -47,18 +47,20 @@
             </thead>
         <tbody>
             <tr>
-                <th scope="row">2</th>
-                <td>Fulano de Tal</td>
-                <td>123.456.789.10</td>
-                <td>08/10/1998</td>
-                <td>fulano@gmail.com</td>
-                <td>11 94002-8922</td>
+                <!--Campos contendo os dados dos clientes; Informações puxadas da tabela 'cliente' no Banco de Dados-->
+                <th scope="row"><!--PHP: puxar o ID do Cliente--></th>
+                <td><!--PHP: puxar o Nome do Cliente--></td>
+                <td><!--PHP: puxar o CPF do Cliente--></td>
+                <td><!--PHP: puxar o Data de Nascimento do Cliente--></td>
+                <td><!--PHP: puxar o Email do Cliente--></td>
+                <td><!--PHP: puxar o Telefone do Cliente--></td>
                 <td>
                 <button class="btn-verEndereco">
                         <a href="adm_clienteEndereco.php">Exibir</a>
                     </button>
                 </td>
             </tr>
+                <!--PHP: laço de repetição para mostrar todos os usuários existentes no Banco de Dados-->
         </tbody>
         </table>
     </div>

@@ -49,18 +49,19 @@
             </thead>
         <tbody>
             <tr>
-                <th scope="row">1</th>
-                <td>5 - Brinquedos</td>
-                <td>10 - FourLegged Friends</td>
-                <td>Pato de Pelúcia</td>
-                <td>Brinquedo de pelúcia em formato de pato</td>
-                <td>2025-12-31</td>
-                <td>29.99</td>
-                <td>0.35</td>
-                <td>150</td>
+                <!--Campos contendo os dados de um produto especifico; Informações puxadas da tabela 'produtos' no Banco de Dados-->
+                <th scope="row"><!--PHP: puxar o ID do Produto--></th>
+                <td><!--PHP: puxar a Categoria do Produto--></td>
+                <td><!--PHP: puxar a Marca do Produto--></td>
+                <td><!--PHP: puxar o Nome do Produto--></td>
+                <td><!--PHP: puxar o Descrição do Produto--></td>
+                <td><!--PHP: puxar o Data de Validade do Produto--></td>
+                <td><!--PHP: puxar o Valor do Produto--></td>
+                <td><!--PHP: puxar o Peso do Produto--></td>
+                <td><!--PHP: puxar a Quantidade em Estoque do Produto--></td>
                 <td>
                     <button class="btn-atualizar">
-                        <a href="../controller/controllerProdutos/produto_atualizar.php">Atualizar</a>
+                        <a href="adm_produtoAtualizar.php">Atualizar</a>
                     </button>
                     <button class="btn-deletar">
                         <a href="../controller/controllerProdutos/produto_deletar.php">Deletar</a>
@@ -69,12 +70,11 @@
             </tr>
         </tbody>
         </table>
-
     </div><!--Fecha bloco tabela-->
 
-           <!--Botão para inserir novo produto // inserir dentro da div 'bloco-tabela' posteriormente-->
-           <button class="btn-adm2">
-            <a href="../view_produtos/produtos_cadastro.php">Inserir Novo Produto</a>
+        <!--Botão para inserir novo produto // inserir dentro da div 'bloco-tabela' posteriormente-->
+        <button class="btn-adm2">
+            <a href="adm_produtoNovo.php">NOVO PRODUTO</a>
         </button>
         <?php
         include_once ("adm_rodape.php");
