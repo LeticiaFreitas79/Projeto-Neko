@@ -6,10 +6,10 @@
 $conexao = mysqli_connect("localhost","root","","clinicanekodb","3306","utf8");
 
 //verificar se ja existe cpf cadastrado
-$nome = $_POST['cpf'];
+$nome = $_POST['nome'];
 $nome = mysqli_real_escape_string($conexao, $nome);
 $sql = "SELECT nome FROM clinicanekodb.produto WHERE nome='$nome'";
-$retorno = mysqli_query($conexao,$sql);
+$retorno = mysqli_query($conexao, $sql);
 
 //busca quantidade de consulta no registro
 if(mysqli_num_rows($retorno)>0){
@@ -33,7 +33,10 @@ $resultado = $conexao->query($sql);
 
 echo"<a href='produto_listar.php'></a>";
 }
+
 ?>
+
+
 
 
 
