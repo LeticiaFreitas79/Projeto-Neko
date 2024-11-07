@@ -49,15 +49,16 @@
             </thead>
         <tbody>
             <tr>
-                <th scope="row">Fulano</th>
-                <td>12345.678</td>
-                <td>Rua das Flores</td>
-                <td>22</td>
-                <td>Mooca</td>
-                <td>São Paulo</td>
-                <td>Casinha</td>
-                <td>SP</td>
-                <td>Residencial</td>
+                <!--Campos contendo os dados de endereços de um cliente especifico; Informações puxadas da tabela 'cliente' e 'endereco_cliente' no Banco de Dados-->
+                <th scope="row"><!--PHP: puxar o Nome do Cliente--></th>
+                <td><!--PHP: puxar o CEP de Endereço do Cliente--></td>
+                <td><!--PHP: puxar o Logradouro de Endereço do Cliente--></td>
+                <td><!--PHP: puxar o Número de Endereço do Cliente--></td>
+                <td><!--PHP: puxar o Bairro de Endereço do Cliente--></td>
+                <td><!--PHP: puxar o Cidade de Endereço do Cliente--></td>
+                <td><!--PHP: puxar o Complemento de Endereço do Cliente--></td>
+                <td><!--PHP: puxar o UF de Endereço do Cliente--></td>
+                <td><!--PHP: puxar o Tipo de Endereço do Cliente--></td>
             </tr>
         </tbody>
         </table>

@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Exibe a administração de usuarios do site.-->
-<!--Status do Código: Concluído-->
+<!--Status do Código: Em desenvolvimento; add PHP-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
@@ -36,36 +36,30 @@
         <table class="table">
             <thead>
                 <tr>
+                    <!--Cabeçalho da tabela-->
                     <th scope="col">ID</th>
                     <th scope="col">Nome</th>
                     <th scope="col">CPF</th>
-                    <th scope="col">Data de Nasc.</th>
+                    <th scope="col">Data de Nascimento</th>
                     <th scope="col">Setor</th>
                     <th scope="col">Cargo</th>
                     <th scope="col">Email</th>
                     <th scope="col">Ativo</th>
-                    <th scope="col">Ações</th>
                 </tr>
             </thead>
         <tbody>
             <tr>
-                <th scope="row">1</th>
-                <td>Luisa Kimura</td>
-                <td>534.543.098.21</td>
-                <td>21/12/1988</td>
-                <td>Veterinário</td>
-                <td>Veterinário Geral</td>
-                <td>kimuraluisa@gmail.com</td>
-                <td>Sim</td>
-                <td>
-                    <button class="btn-atualizar">
-                        <a href="../controller/controllerUsuario/usuario_atualizar.php">Atualizar</a>
-                    </button>
-                    <button class="btn-deletar">
-                        <a href="../controller/controllerUsuario/usuario_deletar.php">Deletar</a>
-                    </button>
-                </td>
+                <!--Campos contendo os dados dos usuários; Informações puxadas da tabela 'usuario' no Banco de Dados-->
+                <th scope="row"><!--PHP: puxar ID do Usuário--></th>
+                <td><!--PHP: puxar Nome de Usuário--></td>
+                <td><!--PHP: puxar CPF do Usuário--></td>
+                <td><!--PHP: puxar Data de Nascimento do Usuário--></td>
+                <td><!--PHP: puxar Setor do Usuário--></td>
+                <td><!--PHP: puxar Cargo do Usuário--></td>
+                <td><!--PHP: puxar Email do Usuário--></td>
+                <td><!--PHP: puxar 'Ativo' do Usuário--></td>
             </tr>
+                <!--PHP: laço de repetição para mostrar todos os usuários existentes no Banco de Dados-->
         </tbody>
         </table>
     </div>

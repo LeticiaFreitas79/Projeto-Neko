@@ -41,7 +41,7 @@
       <div class="card" style="width: 18rem;">
         <img src="../view_img/destaque_contato_telefone.png" class="card-imgSobre" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Telefones</h5>
+          <h5 class="card-title">TELEFONES</h5>
             <p class="card-text">(11) 98765-4321</p>
             <p class="card-text">(11) 99876-5432</p>
         </div><!--Fecha 'card'-->
@@ -50,7 +50,7 @@
       <div class="card" style="width: 18rem;">
         <img src="../view_img/destaque_contato_email.png" class="card-imgSobre" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Email</h5>
+          <h5 class="card-title">EMAIL</h5>
             <p class="card-text">contato@nekoclinica.com</p>
             <p class="card-text">atendimento@nekoclinica.com</p>
         </div><!--Fecha 'card'-->
@@ -59,7 +59,7 @@
     <div class="card" style="width: 18rem;">
         <img src="../view_img/destaque_contato_social.png" class="card-imgSobre" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Redes Sociais</h5>
+          <h5 class="card-title">REDES SOCIAIS</h5>
             <p class="card-text">@clinica_neko no Instagram</p>
             <p class="card-text">(11) 91234-5678 no Whatsapp</p>
         </div><!--Fecha 'card'-->
