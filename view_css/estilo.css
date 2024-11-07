@@ -6,41 +6,41 @@ body
 
 
 /* ----------------- GERAIS ----------------- */
-.bloco-titulo /* Guarda o titulo, subtitulo e icon. */
+.titulo
+{
+    font-weight: bold;
+}
+
+.bloco-titulo
 {
     border-radius: 20px;
     margin: 20px;
     padding: 5px;
 }
 
-.titulo /* Titulo localizados acima dos blocos. */
-{
-    font-weight: bold;
-}
-
-.subtitulo /* Subtitulo dos blocos; guarda informações para o usuário/cliente. */
+.subtitulo
 {
     font-style: italic;
     font-size: 25px;
 }
 
-.bloco-separar /* Bloco vazio para dar espaçamento entre as divs. */
+.bloco-separar
 {
     padding: 30px;
 }
 
-.titulo-claro /* Titulo claro localizado dentro dos blocos informativos. */
+.titulo-claro
 {
     font-weight: bold;
     color: rgba(223, 228, 222);
 }
 
-.text-claro /* Texto claro locatizado dentro dos blocos informativos. */
+.text-claro
 {
     color: rgba(223, 228, 222);
 }
 
-.btn-verMais /* Botão para ver mais informações sobre determinada seção do site. */
+.btn-verMais
 {
     border: none;
     border-radius: 20px;
@@ -59,54 +59,39 @@ body
     background-color: rgba(35, 46, 37); 
 }
 
-.bloco-destaque /* Guarda os cards. */
+.card-destaque
 {
-    margin: 30px;
-    padding: 25px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-    gap: 10px; 
-    border-radius: 50px;
-    background-color: rgba(180, 213, 200) ;
+    width: 33%;
+    height: 33%;
+    padding: 20px;
 }
 
-.card-destaque /* Guarda cada card. */
-{
-    margin: 30px;
-    padding: 25px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-    gap: 10px; 
-    border-radius: 50px;
-    background-color: rgba(180, 213, 174) ;
-}
-
-.card /* Guarda as informações dentro dos cards. */
+.card /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
 {
     border: none;
     border-radius: 30px;
     background-color: rgba(230, 241, 228);
 }
 
-.card-img /* Guarda a imagem do card. */
+.card-img /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
 {
     padding: 10px;
     border-radius: 30px;
 }
 
-.card-img:hover
+.card-img:hover /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
 {
     transform: scale(1.1);
     transition: transform 0.3s ease;
     cursor: pointer;
 }
 
-.card-title /* Titulo do card. */
+.card-title
 {
     font-weight: bolder;
 }
 
-.card-body /* Guarda textos e botões dentro do card. */
+.card-body
 {
     display: flex; 
     flex-direction: column; 
@@ -115,10 +100,23 @@ body
     text-align: center;
 }
 
-.card-text /* Texto do card. */
+.card-descricao
+{
+    font-style: italic;
+    padding: 15px;
+}
+
+.card-text
 {
     text-align: center;
     font-weight: bold;
+}
+
+.card-valor /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(34, 85, 96);
 }
 
 
@@ -270,6 +268,17 @@ a
     background-size: cover;
 }
 
+.equipe
+{
+    margin: 30px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: 10px; 
+    border-radius: 50px;
+    background-color: rgba(180, 213, 174) ;
+}
+
 
 /* ----------------- VETERINARIO ----------------- */
 .bloco-vet
@@ -308,7 +317,7 @@ a
 
 
 /* ----------------- LOJA ----------------- */
-.bloco-loja /* Guarda as informações dos produtos da loja. */
+.bloco-loja /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
 {
     margin: 30px;
     padding: 25px;
@@ -317,13 +326,6 @@ a
     gap: 10px; 
     border-radius: 50px;
     background-color: rgba(180, 213, 174);
-}
-
-.card-valor /* Valor dos produtos */
-{
-    font-weight: bold;
-    font-size: 20px;
-    color: rgba(34, 85, 96);
 }
 
 

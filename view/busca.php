@@ -19,7 +19,6 @@
         include_once ("publico_menu.php");
     ?>
 
-
     <?php
         include_once ("publico_rodape.php");
     ?>
