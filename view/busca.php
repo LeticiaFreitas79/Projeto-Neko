@@ -31,8 +31,6 @@
             RESULTADOS DA SUA BUSCA "<!-- Puxar texto digitado na barra de pesquisa -->"
         </h2>
     </div> <!--Fecha 'bloco-titulo'-->
-    
-    deus me ajude
 
     <div class="bloco-loja">
       <div class="card" style="width: 18rem;">
