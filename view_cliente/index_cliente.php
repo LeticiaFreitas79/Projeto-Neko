@@ -1,6 +1,8 @@
 <!--Objetivo do Código: Página onde devem ser exibidas as informações da Clínica Neko-->
 <!--Status do Código: Em desenvolvimento; add PHP-->
 
+<!--NOTA: Transformar as informações do cliente em tabelas-->
+
 <!DOCTYPE html>
 <html lang="pt_br">
 <head>

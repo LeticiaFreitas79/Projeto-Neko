@@ -38,23 +38,26 @@
     </div> <!--Fecha 'bloco-titulo'-->
 
     <div class="bloco-loja">
-      <div class="card" style="width: 18rem;">
-          <img src="<!--PHP: puxa a Imagem do Produto-->" class="card-imgSobre" alt="...">
-        <div class="card-body">
-          <h5 class="card-title"><!--PHP: puxa o Nome do Produto--></h5>
-            <p class="card-descricao"><!--PHP: puxa o Descrição do Produto--></p>
-            <p class="card-valor">R$<!--PHP: puxa o Valor do Produto--></p>
-        </div><!--Fecha 'card-body'-->
-      </div><!--Fecha 'card'-->
 
-    <!--PHP: laço de repetição para mostrar todos os produtos referentes a categoria especifica existentes no Banco de Dados-->
+      <!--PHP: laço de repetição para mostrar todos os produtos referentes a categoria especifica existentes no Banco de Dados-->
+      
+        <div class="card" style="width: 18rem;">
+            <img src="<!--PHP: puxa a Imagem do Produto-->" class="card-imgSobre" alt="imagem produto">
+          <div class="card-body">
+            <h5 class="card-title"><!--PHP: puxa o Nome do Produto--></h5>
+              <p class="card-descricao"><!--PHP: puxa a Descrição do Produto--></p>
+              <p class="card-valor">R$<!--PHP: puxa o Valor do Produto--></p>
+          </div><!--Fecha 'card-body'-->
+        </div><!--Fecha 'card'-->
+
+      <!--PHP: Fecha laço de repetição-->
 
     </div><!--Fecha bloco Loja-->
 
     <!--Botão Ver Mais para a página Loja-->
     <div class="bloco-titulo">
       <button type="button" class="btn-verMais">
-          <a href="../view/principal_loja.php">Clique aqui para ver todos os produtos   
+          <a href="../view/principal_loja.php">CLIQUE AQUI PARA VER TODOS OS PRODUTOS  
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
               <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
             </svg>
