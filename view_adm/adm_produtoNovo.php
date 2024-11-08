@@ -54,7 +54,8 @@ $conexao = mysqli_connect("localhost","root","","clinicanekodb","3306","utf8");
                             <?php
                             $sql="SELECT nome FROM categoria";
                             $resultado=$conexao->query($sql);
-
+                            $id = $db->lastInsertId();
+                            
                             while($dados = $resultado->fetch_assoc()){
                             echo "<option value=".$dados['nome'].">".$dados['nome']."</option>";
                             }
@@ -77,6 +78,7 @@ $conexao = mysqli_connect("localhost","root","","clinicanekodb","3306","utf8");
                             <?php
                             $sql="SELECT nome FROM marca";
                             $resultado=$conexao->query($sql);
+                            $id = $db->lastInsertId();
 
                             while($dados = $resultado->fetch_assoc()){
                             echo "<option value=".$dados['nome'].">".$dados['nome']."</option>";
