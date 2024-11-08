@@ -1,5 +1,5 @@
-<!--Objetivo do Código: Esta página mostra os resultados da busca feita pelo usuário-->
-<!--Status do Código: Em desenvolvimento-->
+<!--Objetivo do Código: Esta página mostra os resultados da busca feita pelo cliente-->
+<!--Status do Código: Em desenvolvimento; add PHP-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
@@ -33,6 +33,7 @@
     </div> <!--Fecha 'bloco-titulo'-->
 
     <div class="bloco-loja">
+
       <div class="card" style="width: 18rem;">
           <img src="<!--PHP: puxa a imagem do Produto-->" class="card-imgSobre" alt="imagem do produto">
         <div class="card-body">
@@ -46,8 +47,6 @@
 
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>
-
-
 
     <?php
         include_once ("publico_rodape.php");

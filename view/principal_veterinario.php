@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Mostrar todos as consultas, exames e especialidade da Clínica Neko-->
-<!--Status do Código: Conclúido-->
+<!--Status do Código: Conclúido e Comentado-->
 
 <!DOCTYPE html>
 <html lang="pt_br">

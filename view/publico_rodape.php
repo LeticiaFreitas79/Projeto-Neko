@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Rodapé de todas as páginas principais do site-->
-<!--Status do Código: Em correção; Analisar redirecionamento-->
+<!--Status do Código: Concluído e Comentado-->
 
 <div class="bloco-footer">
     <h1 class="titulo">CLÍNICA NEKO</h1>

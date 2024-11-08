@@ -31,11 +31,13 @@ body
 {
     font-weight: bold;
     color: rgba(223, 228, 222);
+    font-size: 60px;
 }
 
 .text-claro
 {
     color: rgba(223, 228, 222);
+    font-size: 25px;
 }
 
 .btn-verMais

@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Mostrar as categorias de produtos da Clínica Neko-->
-<!--Status do Código: Em correção; os dados dos produtos ainda não são puxados do Banco-->
+<!--Status do Código: Em desenvolvimento; add PHP-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
@@ -24,8 +24,10 @@
       <img src="../view_img/banner_loja.png" alt="Bootstrap" width="100%" height="100%">
     </a>
 
+
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>
+
 
     <!--Todos os Produtos-->
     <div class="bloco-titulo">
@@ -37,24 +39,28 @@
         </h2>
     </div> <!--Fecha 'bloco-titulo'-->
     
-    
     <div class="bloco-loja">
-      <div class="card" style="width: 18rem;">
-          <img src="<!--PHP: puxa a Imagem do Produto-->" class="card-imgSobre" alt="...">
-        <div class="card-body">
-          <h5 class="card-title"><!--PHP: puxa o Nome do Produto--></h5>
-            <p class="card-descricao"><!--PHP: puxa a Descrição do Produto--></p>
-            <p class="card-valor">R$<!--PHP: puxa o Valor do Produto--></p>
-        </div><!--Fecha 'card-body'-->
-      </div><!--Fecha 'card'-->
 
-    <!--PHP: laço de repetição para mostrar todos os produtos referentes a categoria especifica existentes no Banco de Dados-->
+      <!--PHP: laço de repetição para mostrar todos os produtos referentes a categoria especifica existente no Banco de Dados-->
+
+        <div class="card" style="width: 18rem;">
+            <img src="<!--PHP: puxa a Imagem do Produto-->" class="card-imgSobre" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><!--PHP: puxa o Nome do Produto--></h5>
+              <p class="card-descricao"><!--PHP: puxa a Descrição do Produto--></p>
+              <p class="card-valor">R$<!--PHP: puxa o Valor do Produto--></p>
+          </div><!--Fecha 'card-body'-->
+        </div><!--Fecha 'card'-->
+
+      <!--PHP: Fecha laço de repetição-->
 
     </div><!--Fecha bloco Loja-->
   
+
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>
 
+    
     <?php
         include_once ("publico_rodape.php");
     ?>

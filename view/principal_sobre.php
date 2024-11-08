@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Informa sobre a Clínica Neko; sua história, missão, visão e valores-->
-<!--Status do Código: Em correção; os cards da equipe ainda não puxam os dados do Banco-->
+<!--Status do Código: Em desenvolvimento; add PHP-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
@@ -87,8 +87,10 @@
         </p>
     </div><!--Fecha 'bloco valores'-->
 
+
      <!--Separar Destaques-->
      <div class="bloco-separar"></div>
+
 
     <!--Equipe Veterinária-->
 
@@ -104,15 +106,17 @@
     
     <div class="equipe">
   
-      <div class="card" style="width: 18rem;">
-        <img src="<!--PHP: puxa a Imagem do Funcionário-->" class="card-imgSobre" alt="...">
-          <div class="card-body">
-            <h5 class="card-title"><!--PHP: puxa o Nome do Funcionário--></h5>
-              <p class="card-text"><!--PHP: puxa o Cargo do Funcionário--></p>
-          </div><!--Fecha 'card-body'-->
-      </div><!--Fecha 'card'-->
+      <!--PHP: Abre laço de repetição para mostrar todos os funcinários referentes de um setor especifico existente no Banco de Dados-->
 
-      <!--PHP: laço de repetição para mostrar todos os produtos referentes a categoria especifica existentes no Banco de Dados-->
+        <div class="card" style="width: 18rem;">
+          <img src="<!--PHP: puxa a Imagem do Funcionário-->" class="card-imgSobre" alt="imagem do funcionário">
+            <div class="card-body">
+              <h5 class="card-title"><!--PHP: puxa o Nome do Funcionário--></h5>
+                <p class="card-text"><!--PHP: puxa o Cargo do Funcionário--></p>
+            </div><!--Fecha 'card-body'-->
+        </div><!--Fecha 'card'-->
+
+      <!--PHP: Fecha laço de repetição-->
 
     </div> <!--Fecha 'equipe'-->
 
@@ -133,21 +137,25 @@
     </div> <!--Fecha 'div-titulo'-->
     
     <div class="equipe">
-  
-      <div class="card" style="width: 18rem;">
-        <img src="<!--PHP: puxa o Imagem do Funcionário-->" class="card-imgSobre" alt="...">
-        <div class="card-body">
-          <h5 class="card-title"><!--PHP: puxa o Nome do Funcionário--></h5>
-            <p class="card-text"><!--PHP: puxa o Cargo do Funcionário--></p>
-          </div><!--Fecha 'card-body'-->
-      </div><!--Fecha 'card'-->
 
-    <!--PHP: laço de repetição para mostrar todos os produtos referentes a categoria especifica existentes no Banco de Dados-->
+      <!--PHP: Abre laço de repetição para mostrar todos os funcionários de um setor especifico existente no Banco de Dados-->
+
+        <div class="card" style="width: 18rem;">
+          <img src="<!--PHP: puxa o Imagem do Funcionário-->" class="card-imgSobre" alt="imagem do funcionário">
+          <div class="card-body">
+            <h5 class="card-title"><!--PHP: puxa o Nome do Funcionário--></h5>
+              <p class="card-text"><!--PHP: puxa o Cargo do Funcionário--></p>
+            </div><!--Fecha 'card-body'-->
+        </div><!--Fecha 'card'-->
+
+      <!--PHP: Fecha o laço de repetição-->
 
   </div> <!--Fecha 'equipe'-->
 
+
   <!--Separar Destaques-->
   <div class="bloco-separar"></div>
+
 
     <?php
         include_once ("publico_rodape.php");
