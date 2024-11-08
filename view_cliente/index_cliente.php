@@ -1,7 +1,7 @@
 <!--Objetivo do Código: Página onde devem ser exibidas as informações da Clínica Neko-->
 <!--Status do Código: Em desenvolvimento; add PHP-->
 
-<!--NOTA: Transformar as informações do cliente em tabelas-->
+<!--NOTA: Transformar as informações do cliente em-->
 
 <!DOCTYPE html>
 <html lang="pt_br">
@@ -45,30 +45,61 @@
         </button>
     </div><!--Fecha bloco-btnCliente-->
 
+
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>
 
+
     <!--ENDEREÇO-->
-    <div class="bloco-clienteInfo">
-        <h2 class="titulo-clienteInfo">ENDEREÇO</h2>
-            <br>
-        <p class="text-clienteInfo"><strong>CEP: </strong><!--PHP puxando Dados do Banco--></p>
-        <p class="text-clienteInfo"><strong>Logradouro: </strong><!--PHP puxando Dados do Banco--></p>
-        <p class="text-clienteInfo"><strong>Número: </strong><!--PHP puxando Dados do Banco--></p>
-        <p class="text-clienteInfo"><strong>Bairro: </strong><!--PHP puxando Dados do Banco--></p>
-        <p class="text-clienteInfo"><strong>Cidade: </strong><!--PHP puxando Dados do Banco--></p>
-        <p class="text-clienteInfo"><strong>Complemento: </strong><!--PHP puxando Dados do Banco--></p>
-        <p class="text-clienteInfo"><strong>UF: </strong><!--PHP puxando Dados do Banco--></p>
-        <p class="text-clienteInfo"><strong>Tipo: </strong><!--PHP puxando Dados do Banco--></p>
-    </div><!--Fecha bloco-clienteInfo-->
+    <div class="bloco-titulo">
+        <h2 class="titulo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
+            </svg>
+            ENDEREÇO(s)
+        </h2>
+    </div> <!--Fecha 'bloco-titulo'-->
+
+    <div class="bloco-tabela">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">CEP</th>
+                    <th scope="col">Logradouro</th>
+                    <th scope="col">Número</th>
+                    <th scope="col">Bairro</th>
+                    <th scope="col">Cidade</th>
+                    <th scope="col">Complemento</th>
+                    <th scope="col">UF</th>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">Ações</th>
+                </tr>
+            </thead>
+        <tbody>
+            <tr>
+                <th scope="row"><!--PHP puxando o CEP do Cliente--></th>
+                <td><!--PHP puxando o Logradouro do Cliente--></td>
+                <td><!--PHP puxando o Número do Cliente--></td>
+                <td><!--PHP puxando o Bairro do Cliente--></td>
+                <td><!--PHP puxando a Cidade do Cliente--></td>
+                <td><!--PHP puxando o Complemento do Cliente--></td>
+                <td><!--PHP puxando o UF do Cliente--></td>
+                <td><!--PHP puxando O Tipo do Cliente--></td>
+
+                <td>
+                    <button class="btn-atualizar">
+                        <a href="cliente_enderecoAtualizar.php">Editar</a>
+                    </button>
+                    <button class="btn-deletar">
+                        <a href="../controller/controllerCliente/cliente_endereco_deletar.php">Deletar</a>
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+        </table>
+    </div><!--Fecha bloco tabela-->
 
     <div class="bloco-btnCliente">
-        <button class="btn-cliente">
-            <a href="cliente_enderecoAtualizar.php" target="_blank">EDITAR</a>
-        </button>
-        <button class="btn-cliente">
-            <a href="../controller/controllerCliente/cliente_endereco_deletar.php" target="_blank">EXCLUIR</a>
-        </button>
         <button class="btn-cliente">
             <a href="cliente_enderecoNovo.php" target="_blank">NOVO</a>
         </button>
@@ -83,30 +114,47 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
                 <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
             </svg>
-            INFORMAÇÕES DO(s) PET(s)
+            PET(s)
         </h2>
     </div> <!--Fecha 'bloco-titulo'-->
 
-    <div class="bloco-clienteInfo">
-        <h2 class="titulo-clienteInfo">PET<!--PHP puxando Dados do Banco--></h2>
-        <br>
-        <p class="text-clienteInfo"><strong>Raça: </strong><!--PHP puxando Dados do Banco--></p>
-        <p class="text-clienteInfo"><strong>Idade: </strong><!--PHP puxando Dados do Banco--></p>
-        <p class="text-clienteInfo"><strong>Peso: </strong><!--PHP puxando Dados do Banco--></p>
-    </div><!--Fecha bloco-clienteInfo-->
+    <div class="bloco-tabela">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Espécie</th>
+                    <th scope="col">Raça</th>
+                    <th scope="col">Idade</th>
+                    <th scope="col">Peso</th>
+                    <th scope="col">Ações</th>
+                </tr>
+            </thead>
+        <tbody>
+            <tr>
+                <th scope="row"><!--PHP puxando o Nome do Pet--></th>
+                <td><!--PHP puxando a Espécie do Pet--></td>
+                <td><!--PHP puxando a Raça do Pet--></td>
+                <td><!--PHP puxando a Idade do Pet--></td>
+                <td><!--PHP puxando o Peso do Pet--></td>
+                <td>
+                    <button class="btn-atualizar">
+                        <a href="cliente_petAtualizar.php">Editar</a>
+                    </button>
+                    <button class="btn-deletar">
+                        <a href="../controller/controllerCliente/cliente_pet_deletar.php">Deletar</a>
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+        </table>
+    </div><!--Fecha bloco tabela-->
 
     <div class="bloco-btnCliente">
         <button class="btn-cliente">
-            <a href="cliente_petAtualizar.php" target="_blank">EDITAR</a>
+            <a href="cliente_enderecoNovo.php" target="_blank">NOVO</a>
         </button>
-        <button class="btn-cliente">
-            <a href="../controller/controllerCliente/cliente_pet_deletar.php" target="_blank">EXCLUIR</a>
-        </button>
-        <button class="btn-cliente">
-            <a href="cliente_petNovo.php" target="_blank">NOVO</a>
-        </button>    
     </div><!--Fecha bloco-btnCliente-->
-
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>
 
