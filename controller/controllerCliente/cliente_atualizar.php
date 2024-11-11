@@ -1,0 +1,2 @@
+<!--Objetivo do Código: Puxa as informações inseridas na página index_login.php, verifica se o usuário existe e abre a página correspondente ao tipo de usuário-->
+<!--Status do Código: Em desenvolvimento-->
