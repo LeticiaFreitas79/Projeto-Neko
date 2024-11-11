@@ -46,17 +46,12 @@ body
     border-radius: 20px;
     padding: 10px;
     text-decoration: none;
-    background-color: rgba(80, 104, 85);
+    background-color: rgba(102,141,108);
 }
 
 .btn-verMais:hover
 {
-    border: none;
-    border-radius: 20px;
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-    background-color: rgba(35, 46, 37); 
+    background-color: rgba(68,113,102); 
 }
 
 
@@ -87,7 +82,7 @@ a
     border: none;
     color: white;
     border-radius: 20px;  
-    background-color: rgba(125, 161, 130);
+    background-color: rgba(102, 141, 108);
 }
 
 
@@ -95,14 +90,14 @@ a
 {
     border: none;
     border-radius: 20px;
-    background-color: rgba(102, 141, 108);
+    background-color: rgba(68, 113, 102);
 }
 
 .dropdown-item:hover
 {
     border: none;
     border-radius: 10px;
-    background-color: rgba(125, 161, 130);
+    background-color: rgba(102,141,108);
 }
 
 #barraPesquisa
@@ -139,15 +134,13 @@ a
     padding: 15px;
     border: none;
     border-radius: 50px;
-    background-color: rgba(21, 53, 60);
+    background-color: rgba(68,113,102);
 }
 
 .btn-social:hover
 {
     color: white;
-    border: none;
-    border-radius: 50px;
-    background-color: rgba(159, 180, 171);
+    background-color: rgba(102,141,108);
 
 }
 
@@ -234,14 +227,14 @@ a
     grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
     gap: 10px; 
     border-radius: 50px;
-    background-color: rgba(180, 213, 174) ;
+    background-color: rgba(187, 217, 182) ;
 }
 
 .card /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
 {
     border: none;
     border-radius: 30px;
-    background-color: rgba(230, 241, 228);
+    background-color: rgba(241, 255, 238);
 }
 
 .card-imgSobre /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
@@ -288,7 +281,7 @@ a
     justify-content: center; 
     align-items: center;
     text-align: center;
-    background-image: url(../view_img/fundo_vet2.png);
+    background-image: url(../view_img/fundo_gatoPomposo.png);
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
@@ -322,7 +315,7 @@ a
     grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
     gap: 10px; 
     border-radius: 50px;
-    background-color: rgba(180, 213, 174);
+    background-color: rgba(187, 217, 184);
 }
 
 .card-descricao /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
@@ -349,7 +342,7 @@ a
     margin: 30px;
     padding: 25px;
     border-radius: 50px;
-    background-color: rgba(180, 213, 174); 
+    background-color: rgba(187, 217, 182); 
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -364,7 +357,6 @@ a
     background-color:  rgba(34, 85, 96);
     color: rgba(222, 244, 222);
     text-align: center;
-    background-color:  rgba(34, 85, 96);
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
@@ -378,7 +370,7 @@ a
     margin: 80px;
     padding: 25px;
     border-radius: 50px;
-    background-color: rgba(223, 228, 222); 
+    background-color: rgba(187,217,182); 
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -389,14 +381,14 @@ a
 {
     padding: 25px;
     border-radius: 50px;
-    background-color: rgba(159, 180, 171); 
+    background-color: rgba(241,255,238); 
 }
 
 .bloco-adm-produtos
 {
     padding: 25px;
     border-radius: 50px;
-    background-color: rgba(159, 180, 171); 
+    background-color: rgba(241,255,238); 
     justify-content: center; 
     align-items: center; 
 }
@@ -405,7 +397,7 @@ a
 {
     padding: 25px;
     border-radius: 50px;
-    background-color: rgba(159, 180, 171); 
+    background-color: rgba(241,255,238); 
     justify-content: center; 
     align-items: center; 
 }
@@ -451,12 +443,12 @@ a
     padding: 10px;
     border: none;
     border-radius: 30px;  
-    background-color: rgba(34, 85, 96);
+    background-color: rgba(68,113,102);
 }
 
 .btn-adm:hover
 {
-    background-color: rgba(125, 161, 130);
+    background-color: rgba(102,141,108);
 }
 
 
@@ -467,7 +459,7 @@ a
     padding: 25px;
     display: flex;
     border-radius: 30px;
-    background-color: rgba(180, 213, 174); 
+    background-color: rgba(187, 217, 182); 
     justify-content: flex-end; 
     align-items: center; 
     
@@ -527,14 +519,14 @@ a
     padding: 10px;
     border: none;
     border-radius: 30px;  
-    background-color: rgba(34, 85, 96);
+    background-color: rgba(68,113,102);
 
     margin: 30px;
 }
 
 .btn-adm2:hover
 {
-    background-color: rgba(125, 161, 130);
+    background-color: rgba(102,141,108);
 }
 
 
@@ -556,7 +548,7 @@ a
     margin: 20px;
     padding: 25px;
     border-radius: 30px;
-    background-color: rgba(159, 180, 171); 
+    background-color: rgba(187,217,182); 
 }
 
 .bloco-cabecalho
@@ -610,12 +602,12 @@ label
     color: white;
     font-weight: bold;
     border-radius: 20px;  
-    background-color: rgba(68, 113, 102);
+    background-color: rgba(68,113,102);
 }
 
 .btn-cadastro:hover
 { 
-    background-color: rgba(34, 85, 96);
+    background-color: rgba(102,141,108);
 }
 
 
