@@ -104,7 +104,7 @@
 
                         <!-- Botão para enviar as informações preenchidas -->
                         <div class="bloco-btn">
-                            <button class="btn-cadastro" type="submit" >ATUALIZAR PRODUTO</button>
+                            <button class="btn-cadastro" type="submit">ATUALIZAR PRODUTO</button>
                         </div>
 
                     </form>

@@ -56,7 +56,7 @@
                 <td><!--PHP: puxar o Telefone do Cliente--></td>
                 <td>
                 <button class="btn-verEndereco">
-                        <a href="adm_clienteEndereco.php">Exibir</a>
+                        <a href="adm_clienteEndereco.php">EXIBIR</a>
                     </button>
                 </td>
             </tr>

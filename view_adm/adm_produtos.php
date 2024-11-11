@@ -61,10 +61,10 @@
                 <td><!--PHP: puxar a Quantidade em Estoque do Produto--></td>
                 <td>
                     <button class="btn-atualizar">
-                        <a href="adm_produtoAtualizar.php">Atualizar</a>
+                        <a href="adm_produtoAtualizar.php" target="_blank">ATUALIZAR</a>
                     </button>
                     <button class="btn-deletar">
-                        <a href="../controller/controllerProdutos/produto_deletar.php">Deletar</a>
+                        <a href="../controller/controllerProdutos/produto_deletar.php">DELETAR</a>
                     </button>
                 </td>
                     <!--PHP: laço de repetição para mostrar todos os Produtos existentes no Banco de Dados-->
@@ -75,9 +75,10 @@
 
         <!--Botão para inserir novo produto // inserir dentro da div 'bloco-tabela' posteriormente-->
         <button class="btn-adm2">
-            <a href="adm_produtoNovo.php">NOVO PRODUTO</a>
+            <a href="adm_produtoNovo.php" target="_blank">NOVO PRODUTO</a>
         </button>
-        <?php
+        
+    <?php
         include_once ("adm_rodape.php");
     ?>
 
