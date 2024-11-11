@@ -128,7 +128,7 @@
 
                     <!-- Botão para enviar as informações preenchidas -->
                     <div class="bloco-btn">
-                        <button class="btn-cadastro" type="submit" >ATUALIZAR DADOS</button>
+                        <button class="btn-cadastro" type="submit"><!--PHP: cliente_endereco_atualizar-->ATUALIZAR DADOS</button>
                     </div>
 
                     </form>

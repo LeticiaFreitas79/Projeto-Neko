@@ -88,10 +88,10 @@
 
                 <td>
                     <button class="btn-atualizar">
-                        <a href="cliente_enderecoAtualizar.php">Editar</a>
+                        <a href="cliente_enderecoAtualizar.php" target="_blank">EDITAR</a>
                     </button>
                     <button class="btn-deletar">
-                        <a href="../controller/controllerCliente/cliente_endereco_deletar.php">Deletar</a>
+                        <a href="../controller/controllerCliente/cliente_endereco_deletar.php">DELETAR</a>
                     </button>
                 </td>
             </tr>
@@ -139,10 +139,10 @@
                 <td><!--PHP puxando o Peso do Pet--></td>
                 <td>
                     <button class="btn-atualizar">
-                        <a href="cliente_petAtualizar.php">Editar</a>
+                        <a href="cliente_petAtualizar.php" target="_blank">EDITAR</a>
                     </button>
                     <button class="btn-deletar">
-                        <a href="../controller/controllerCliente/cliente_pet_deletar.php">Deletar</a>
+                        <a href="../controller/controllerCliente/cliente_pet_deletar.php">DELETAR</a>
                     </button>
                 </td>
             </tr>
@@ -152,7 +152,7 @@
 
     <div class="bloco-btnCliente">
         <button class="btn-cliente">
-            <a href="cliente_enderecoNovo.php" target="_blank">NOVO</a>
+            <a href="cliente_petNovo.php" target="_blank">NOVO</a>
         </button>
     </div><!--Fecha bloco-btnCliente-->
     <!--Separar Destaques-->
@@ -181,11 +181,11 @@
             </thead>
         <tbody>
             <tr>
-                <th scope="row">Consulta</th>
-                <td>Cardiologista</td>
-                <td>Pandora</td>
-                <td>23/10/2024</td>
-                <td>14h00</td>
+                <th scope="row"><!--PHP puxando o Tipo do Serviço Veterinário--></th>
+                <td><!--PHP puxando a Especialidade do Serviço Veterinário--></td>
+                <td><!--PHP puxando o Nome do Pet--></td>
+                <td><!--PHP puxando a Data do Serviço Veterinário--></td>
+                <td><!--PHP puxando o horário do Serviço Veterinário--></td>
             </tr>
         </tbody>
         </table>
@@ -216,10 +216,10 @@
             </thead>
         <tbody>
             <tr>
-                <th scope="row">Adestramento</th>
-                <td>Bolinha</td>
-                <td>12/09/2024</td>
-                <td>15h00</td>
+                <th scope="row"><!--PHP puxando o Tipo de Serviço--></th>
+                <td><!--PHP puxando o Nome do Pet--></td>
+                <td><!--PHP puxando a Data de Serviço--></td>
+                <td><!--PHP puxando o Horário de Serviço--></td>
             </tr>
         </tbody>
         </table>
@@ -250,12 +250,12 @@
             </thead>
         <tbody>
             <tr>
-                <th scope="row">4127</th>
-                <td>R$ 50,00</td>
-                <td>25/08/2024</td>
+                <th scope="row"><!--PHP puxando o Número do Pedido--></th>
+                <td><!--PHP puxando o Valor Total do Pedido--></td>
+                <td><!--PHP puxando a Data do Pedido--></td>
                 <td>
                     <button class="btn-clienteTable">
-                        <a href="cliente_detalhesPedido.php">Ver Itens</a>
+                        <a href="cliente_detalhesPedido.php" target="_blank">VER ITENS</a>
                     </button>
                 </td>
             </tr>

@@ -126,7 +126,7 @@
 
                     <!-- Botão para enviar as informações preenchidas -->
                     <div class="bloco-btn">
-                        <button class="btn-cadastro" type="submit" >INSERIR ENDEREÇO</button>
+                        <button class="btn-cadastro" type="submit"><!--PHP: cliente_endereco_novo-->INSERIR ENDEREÇO</button>
                     </div>
 
                     </form>

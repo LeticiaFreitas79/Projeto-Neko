@@ -88,7 +88,7 @@
 
                     <!-- Botão para enviar as informações preenchidas -->
                     <div class="bloco-btn">
-                        <button class="btn-cadastro" type="submit">ATUALIZAR</button>
+                        <button class="btn-cadastro" type="submit"><!--PHP: cliente_pet_atualizar-->ATUALIZAR</button>
                     </div>
 
                     </form>
