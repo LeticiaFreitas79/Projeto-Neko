@@ -87,7 +87,7 @@
 
                         <!-- Botão para enviar as informações preenchidas -->
                         <div class="bloco-btn">
-                            <button class="btn-cadastro" type="submit" >CRIAR CONTA</button>
+                            <button class="btn-cadastro" type="submit"> <!--PHP: redirecionar para a criação de um novo usuário-->CRIAR CONTA</button>
                         </div>
 
                     </form>

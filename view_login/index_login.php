@@ -61,7 +61,7 @@
 
                         <!-- Botão para enviar as informações preenchidas -->
                         <div class="bloco-btn">
-                             <button class="btn-cadastro" type="submit" > <a href="../controller/controllerLogin/login.php"></a>ACESSAR CONTA </button>
+                             <button class="btn-cadastro" type="submit" ><a href="../controller/controllerLogin/login.php"></a> ACESSAR CONTA </button>
                         </div>
 
                     </form>
