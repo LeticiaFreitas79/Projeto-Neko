@@ -1,7 +1,9 @@
-<<<<<<< HEAD
-<!--Código com objetivo de Deletar produtos-->
+<!--Objetivo do Código: Deletar produto e redirecionar para a página adm_produtos.php-->
+<!--Status do Código: Em desenvolvimento-->
+
 
 <?php
+//PARTE DA ISA; a substituir ou editar.
 require_once("../model/banco.php");
 class deletar {
     private $deletar;
@@ -17,7 +19,3 @@ class deletar {
 }
 new deletar($_GET['id']);
 ?>
-=======
-<!--Objetivo do Código: Deve conter a função de deletar um produto. Esta página não possui nenhum view, apenas contém a função deletar. -->
-<!--Status do Código: Em desenvolvimento-->
->>>>>>> db43eebd03259136a2c4ecf3e6dab0092e207fe0

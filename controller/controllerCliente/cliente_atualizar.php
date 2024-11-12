@@ -1,2 +1,2 @@
-<!--Objetivo do Código: Puxa as informações inseridas na página index_login.php, verifica se o usuário existe e abre a página correspondente ao tipo de usuário-->
+<!--Objetivo do Código: Puxa as informações inseridas na página cliente_atualizar.php e substitui no Banco de Dados. Redirecionar para index_cliente.php-->
 <!--Status do Código: Em desenvolvimento-->

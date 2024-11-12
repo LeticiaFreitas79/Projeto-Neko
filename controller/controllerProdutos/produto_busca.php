@@ -1,2 +1,2 @@
-<!--Objetivo do Código: Está página exibe uma barra de pesquisa e lista os produtos de acordo com o que é digitado na barra; Deve ser possível pesquisar os produtos por nome, categoria e marca-->
+<!--Objetivo do Código: Realiza a busca de um produto por nome, categoria ou marca, mostrando os resultados da pesquisa nas páginas busca.php-->
 <!--Status do Código: Em desenvolvimento-->

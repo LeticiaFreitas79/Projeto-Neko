@@ -1,4 +1,9 @@
+<!--Objetivo do Código: -->
+<!--Status do Código: -->
+
+
 <?php
+//PARTE DA ISA; a substituir ou editar
     session_name('clinicanekodb');
     if (!isset($_SESSION)) {
         session_start();
