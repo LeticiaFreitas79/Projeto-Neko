@@ -1,4 +1,4 @@
-<!--Objetivo do Código: Responsável por realizar os comandos SQL-->
+<!--Objetivo do Código: Conecta e Retorna Dados do Banco de Dados-->
 <!--Status do Código: Em desenvolvimento-->
 
 <?php
