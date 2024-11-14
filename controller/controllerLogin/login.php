@@ -4,10 +4,11 @@
     Se o usuário não existir, redirecionar para a página login_cadastro.php-->
 <!--Status do Código: Em desenvolvimento-->
 
+
 <?php
 
     //ESTABELECER CONEXÃO ENTRE O SITE E O BANCO DE DADOS.
-    include ("../../model/conexao.php"); //Sai da pasta 'controllerLogin', sai da pasta 'controller', entra na pasta 'model'.
+    include ('../../banco/conexao.php'); //Sai da pasta 'controllerLogin', sai da pasta 'controller', entra na pasta 'model'.
 
     //VERIFICAÇÃO DO LOGIN
     if ($_POST)
