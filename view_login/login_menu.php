@@ -9,7 +9,7 @@
 
     <!--Logo da Clínica Neko + Redirecionamento para página 'HOME'-->
     <a class="navbar-brand" href="#">
-        <img src="../view_img/logo_circulo1.png" alt="Bootstrap" width="50" height="50">
+        <img src="../view_img/logo_other.png" alt="Bootstrap" width="50" height="50">
     </a>
 
         <!--Abre o bloco das páginas da navegação-->

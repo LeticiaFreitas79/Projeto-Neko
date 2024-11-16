@@ -2,29 +2,31 @@
 <!--Status do Código: Em análise-->
 
 <?php
+
     //Definindo variáveis para conexão com o Banco de Dados.
     $host = "localhost"; //Endereço do servidor do Banco de Dados.
     $database = "clinicanekodb"; //Nome do Banco de Dados a ser acessado.
     $user = "root"; //Nome do usuário do Banco de Dados.
-    $pass = "1234"; //Senha do Banco de Dados.
+    $pass = ""; //Senha do Banco de Dados.
     $charset = "utf8"; //Define o conjunto de caracteres.
-    $port = "3306"; //Porta onde o MySQL é executado.
+    $port = "3308"; //Porta onde o MySQL é executado.
 
     //Conexão com o Banco de Dados.
-    try
-    {
-        //Cria um novo objeto da classe 'mysqli' para se conectar ao Banco de Dados.
-        $conectar = new mysqli ($host, $user, $pass, $database);
-        echo "Sucesso ao conectar ao Banco de Dados!";
+    $conectar = new mysqli($host, $user, $pass, $database, $port);
 
-        //Após a conexão ser estabelecida, garante que a troca de dados entre PHP e MySQL ocorra de forma correta.
-        mysqli_set_charset ($conectar, $charset);
+    //Verificar se houve um erro na conexão.
+    if ($conectar->connect_error)
+    {
+        die("Erro de Conexão: " . $conectar->connect_error);
     }
 
-    //Tratamento de Erros.
-    catch (Throwable $th) //Se algum erro ocorrer no bloco acima, o bloco 'catch' é executado. O erro é capturado na váriavel '$th'.
+    //Definir conjunto de caracteres.
+    if (!$conectar->set_charset($charset))
     {
-        //Termina a execução do script e exibe uma mensagem de erro.
-        die("Erro de Conexão!" .$th->getMessage());
+        die("Erro ao definir charset: " . $conectar->error);
     }
+
+    //Banco de Dados conectado ao site.
+    echo "Sucesso ao conectar ao Banco de Dados!";
+
 ?>

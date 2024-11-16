@@ -9,7 +9,7 @@
 
     <!--CSS-->
     <link href="../view_css/bootstrap.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="../view_img/logo_circulo2.png" type="image/png">
+    <link rel="shortcut icon" href="../view_img/logo_principal.png" type="image/png">
     <link rel="stylesheet" href="../view_css/estilo.css">
     <title>Contato | Clínica Neko</title>
 </head>

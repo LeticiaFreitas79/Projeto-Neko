@@ -14,7 +14,7 @@ $conexao = mysqli_connect("localhost","root","","clinicanekodb","3306","utf8");
     <!--CSS-->
     <link href="../view_css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../view_css/estilo.css">
-    <link rel="shortcut icon" href="../view_img/logo_circulo2.png" type="image/png">
+    <link rel="shortcut icon" href="../view_img/logo_adm.png" type="image/png">
     
     <title>Novo Produto | Neko Administração</title>
 </head>

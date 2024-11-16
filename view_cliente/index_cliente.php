@@ -3,6 +3,13 @@
 
 <!--NOTA: Transformar as informações do cliente em-->
 
+
+<!--Iniciar sessão para mostrar as informações do cliente-->
+<?php
+    //include('../controller/controllerLogin/acessoCliente.php');
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt_br">
 <head>
@@ -12,7 +19,7 @@
     <!--CSS-->
     <link href="../view_css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../view_css/estilo.css">
-    <link rel="shortcut icon" href="../view_img/logo_circulo2.png" type="image/png">
+    <link rel="shortcut icon" href="../view_img/logo_cliente.png" type="image/png">
     
     <title>Suas Informações | Cliente Clínica Neko</title>
 </head>
@@ -32,7 +39,10 @@
     </div> <!--Fecha 'bloco-titulo'-->
 
     <div class="bloco-clienteInfo">
-        <h2 class="titulo-clienteInfo">CLIENTE<!--PHP puxando Dados do Banco--></h2>
+        <h2 class="titulo-clienteInfo">CLIENTE <?php echo $_SESSION['nome']; ?>
+            
+        
+        <!--PHP puxando Dados do Banco--></h2>
             <br>
         <p class="text-clienteInfo"><strong>CPF: </strong><!--PHP puxando Dados do Banco--></p>
         <p class="text-clienteInfo"><strong>Email: </strong><!--PHP puxando Dados do Banco--></p>
@@ -265,6 +275,12 @@
 
     <!--Separar Destaques-->
     <div class="bloco-separar"></div>
+
+    <div class="bloco-btnCliente">
+        <button class="btn-cliente">
+            <a href="../controller/controllerLogin/logout.php">SAIR</a>
+        </button>
+    </div><!--Fecha bloco-btnCliente-->
     
     <?php
         include_once ("cliente_rodape.php");

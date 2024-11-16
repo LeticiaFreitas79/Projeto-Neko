@@ -1,6 +1,7 @@
 <!--Objetivo do Código: Página mostrando os campos para o cliente/funcionário realizar seu login no site-->
 <!--Status do Código: Em desenvolvimento; add PHP-->
 
+
 <!DOCTYPE html>
 <html lang="pt_br">
 <head>
@@ -10,7 +11,7 @@
     <!--CSS-->
     <link href="../view_css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../view_css/estilo.css">
-    <link rel="shortcut icon" href="../view_img/logo_circulo2.png" type="image/png">
+    <link rel="shortcut icon" href="../view_img/logo_other.png" type="image/png">
     
     <title>Login | Clínica Neko</title>
 </head>

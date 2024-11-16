@@ -10,7 +10,7 @@
     <!--CSS-->
     <link href="../view_css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../view_css/estilo.css">
-    <link rel="shortcut icon" href="../view_img/logo_circulo1.png" type="image/png">
+    <link rel="shortcut icon" href="../view_img/logo_cliente.png" type="image/png">
     
     <title>Atualizar Endereço | Cliente Clínica Neko</title>
 </head>

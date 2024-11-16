@@ -10,7 +10,7 @@
     <!--CSS-->
     <link href="../view_css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../view_css/estilo.css">
-    <link rel="shortcut icon" href="../view_img/logo_circulo2.png" type="image/png">
+    <link rel="shortcut icon" href="../view_img/logo_other.png" type="image/png">
 
     <title>Casinhas e Transporte | Clínica Neko</title>
 </head>
