@@ -1,4 +1,4 @@
-<!--Objetivo do Código: -->
+<!--Objetivo do Código: Deleta as informações de login do usuário-->
 <!--Status do Código: Em desenvolvimento-->
 
 <?php

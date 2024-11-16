@@ -54,6 +54,12 @@
 
     </div><!--Fecha bloco adm-->
 
+    <div class="bloco-btnCliente">
+        <button class="btn-cliente">
+            <a href="../controller/controllerLogin/logout.php">SAIR</a>
+        </button>
+    </div><!--Fecha bloco-btnCliente-->
+
     <?php
         include_once ("adm_rodape.php");
     ?>
