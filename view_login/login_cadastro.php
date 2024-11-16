@@ -41,6 +41,15 @@
                     É rápido e fácil, não se preocupe!</p>
                 </div><!--Fecha bloco cabecalho-->
 
+                <?php
+                    if (count($erro) > 0)
+                    {
+                        echo "<div class='bloco-cadastro'>"
+                            foreach($erro as $valor) echo "$valor <br>";
+                        echo "</div>";
+                    }
+                ?>
+
                 <div class="bloco-campos">
                     <form action="../controller/controllerLogin/envia.php" method="POST">
                         <!-- Label para inserir o Nome -->
@@ -80,6 +89,7 @@
 
                         <!-- Label para inserir a Senha -->
                         <label class="label-title" for="senha">SENHA</label>
+                            <p>A senha precisa ter entre 5 (mínimo) e 16 (máximo) caracteres.</p>
                             <br>
                         <input class="input-cadastro" type="password" name="senha" required title="Digite uam senha">
                         
@@ -87,7 +97,7 @@
 
                         <!-- Botão para enviar as informações preenchidas -->
                         <div class="bloco-btn">
-                            <button class="btn-cadastro" type="submit"> <!--PHP: redirecionar para a criação de um novo usuário-->CRIAR CONTA</button>
+                            <button class="btn-cadastro" type="submit"><a href="../controller/controllerLogin/cadastroCliente.php"></a>CRIAR CONTA</button>
                         </div>
 
                     </form>
