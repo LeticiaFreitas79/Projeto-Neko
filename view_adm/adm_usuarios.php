@@ -1,6 +1,12 @@
 <!--Objetivo do Código: Exibe a administração de usuarios do site.-->
 <!--Status do Código: Em desenvolvimento; add PHP-->
 
+
+<?php
+    include ("../controller/controllerLogin/acessoAdm.php");
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt_br">
 <head>

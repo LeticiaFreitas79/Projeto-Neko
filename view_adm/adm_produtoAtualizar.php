@@ -1,6 +1,12 @@
 <!--Objetivo do Código: Exibe o formulário para editar um produto selecionado; os dados do produto devem apaerecer nos inputs-->
 <!--Status do Código: Em desenvolvimento-->
 
+
+<?php
+    include ("../controller/controllerLogin/acessoAdm.php");
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt_br">
 <head>

@@ -1,6 +1,12 @@
 <!--Objetivo do Código: Exibe as áreas administrativas do site.-->
 <!--Status do Código: Concluído-->
 
+
+<?php
+    include ("../controller/controllerLogin/acessoAdm.php");
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt_br">
 <head>

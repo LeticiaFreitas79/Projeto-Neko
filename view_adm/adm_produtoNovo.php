@@ -1,6 +1,12 @@
 <!--Objetivo do Código: Página admisnitrativa para o usuário inserir um novo produto no site-->
 <!--Status do Código: Em correção; adicionar direcionamento e centralizar div-->
 
+
+<?php
+    include ("../controller/controllerLogin/acessoAdm.php");
+?>
+
+
 <?php
 $conexao = mysqli_connect("localhost","root","","clinicanekodb","3306","utf8");
 ?>

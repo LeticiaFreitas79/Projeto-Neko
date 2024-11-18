@@ -1,6 +1,12 @@
 <!--Objetivo do Código: Formulário para o cliente atualizar seus dados -->
 <!--Status do Código: Em desenvolvimento; add PHP-->
 
+
+<?php
+    include ("../controller/controllerLogin/acessoCliente.php");
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt_br">
 <head>

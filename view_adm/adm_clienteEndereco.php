@@ -1,6 +1,12 @@
 <!--Objetivo do Código: Exibe a lista de endereços de clientes cadastrados no site.-->
 <!--Status do Código: Em correção; add PHP-->
 
+
+<?php
+    include ("../controller/controllerLogin/acessoAdm.php");
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt_br">
 <head>

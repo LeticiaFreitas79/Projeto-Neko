@@ -1,6 +1,12 @@
 <!--Objetivo do Código: Exibe a administração de produtos do site.-->
 <!--Status do Código: Concluído-->
 
+
+<?php
+    include ("../controller/controllerLogin/acessoAdm.php");
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt_br">
 <head>

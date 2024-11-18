@@ -1,12 +1,9 @@
 <!--Objetivo do Código: Página onde devem ser exibidas as informações da Clínica Neko-->
 <!--Status do Código: Em desenvolvimento; add PHP-->
 
-<!--NOTA: Transformar as informações do cliente em-->
 
-
-<!--Iniciar sessão para mostrar as informações do cliente-->
 <?php
-    //include('../controller/controllerLogin/acessoCliente.php');
+    include ("../controller/controllerLogin/acessoCliente.php");
 ?>
 
 
@@ -39,11 +36,11 @@
     </div> <!--Fecha 'bloco-titulo'-->
 
     <div class="bloco-clienteInfo">
-        <h2 class="titulo-clienteInfo">CLIENTE <?php echo $_SESSION['nome']; ?></h2>
+        <h2 class="titulo-clienteInfo"><?php echo $_SESSION['nome']; ?></h2>
             <br>
-        <p class="text-clienteInfo"><strong>CPF: </strong><!--PHP puxando Dados do Banco--></p>
-        <p class="text-clienteInfo"><strong>Email: </strong><!--PHP puxando Dados do Banco--></p>
-        <p class="text-clienteInfo"><strong>Telefone: </strong><!--PHP puxando Dados do Banco--></p>
+        <p class="text-clienteInfo"><strong>CPF: </strong><?php echo $_SESSION['cpf']; ?></p>
+        <p class="text-clienteInfo"><strong>Email: </strong><?php echo $_SESSION['email']; ?></p>
+        <p class="text-clienteInfo"><strong>Telefone: </strong><?php echo $_SESSION['telefone']; ?></p>
     </div><!--Fecha bloco-clienteInfo-->
 
     <div class="bloco-btnCliente">
