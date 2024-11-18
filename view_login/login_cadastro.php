@@ -47,7 +47,7 @@
                         echo "<div class='bloco-cadastro'>"
                             foreach($erro as $valor) echo "$valor <br>";
                         echo "</div>";
-                    }
+                    } 
                 ?>
 
                 <div class="bloco-campos">

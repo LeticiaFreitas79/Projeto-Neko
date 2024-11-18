@@ -44,7 +44,7 @@
                 </div><!--Fecha bloco cabecalho-->
 
                 <div class="bloco-campos">
-                    <form action="" method="POST">
+                    <form action="../controller/controllerLogin/login.php" method="POST">
 
                         <!-- Label para inserir o Email -->
                         <label class="label-title" for="email">EMAIL</label>
@@ -62,7 +62,7 @@
 
                         <!-- Botão para enviar as informações preenchidas -->
                         <div class="bloco-btn">
-                             <button class="btn-cadastro" type="submit" ><a href="../controller/controllerLogin/login.php"></a> ACESSAR CONTA </button>
+                             <button class="btn-cadastro" type="submit" > ACESSAR CONTA </button>
                         </div>
 
                     </form>

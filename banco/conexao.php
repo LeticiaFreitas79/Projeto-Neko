@@ -9,7 +9,7 @@
     $user = "root"; //Nome do usuário do Banco de Dados.
     $pass = ""; //Senha do Banco de Dados.
     $charset = "utf8"; //Define o conjunto de caracteres.
-    $port = "3308"; //Porta onde o MySQL é executado.
+    $port = "3306"; //Porta onde o MySQL é executado.
 
     //Conexão com o Banco de Dados.
     $conectar = new mysqli($host, $user, $pass, $database, $port);

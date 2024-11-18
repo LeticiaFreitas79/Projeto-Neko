@@ -39,10 +39,7 @@
     </div> <!--Fecha 'bloco-titulo'-->
 
     <div class="bloco-clienteInfo">
-        <h2 class="titulo-clienteInfo">CLIENTE <?php echo $_SESSION['nome']; ?>
-            
-        
-        <!--PHP puxando Dados do Banco--></h2>
+        <h2 class="titulo-clienteInfo">CLIENTE <?php echo $_SESSION['nome']; ?></h2>
             <br>
         <p class="text-clienteInfo"><strong>CPF: </strong><!--PHP puxando Dados do Banco--></p>
         <p class="text-clienteInfo"><strong>Email: </strong><!--PHP puxando Dados do Banco--></p>
