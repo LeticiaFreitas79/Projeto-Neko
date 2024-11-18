@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Deleta as informações de login do usuário-->
-<!--Status do Código: Em desenvolvimento-->
+<!--Status do Código: Concluído-->
 
 <?php
     if(!isset($_SESSION))

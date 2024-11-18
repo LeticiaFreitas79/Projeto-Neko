@@ -41,17 +41,10 @@
                     É rápido e fácil, não se preocupe!</p>
                 </div><!--Fecha bloco cabecalho-->
 
-                <?php
-                    if (count($erro) > 0)
-                    {
-                        echo "<div class='bloco-cadastro'>"
-                            foreach($erro as $valor) echo "$valor <br>";
-                        echo "</div>";
-                    } 
-                ?>
+         
 
                 <div class="bloco-campos">
-                    <form action="../controller/controllerLogin/envia.php" method="POST">
+                    <form action="../controller/controllerLogin/cadastroCliente.php" method="POST">
                         <!-- Label para inserir o Nome -->
                         <label  class="label-title" for="nome">NOME</label>
                             <br>
@@ -97,7 +90,7 @@
 
                         <!-- Botão para enviar as informações preenchidas -->
                         <div class="bloco-btn">
-                            <button class="btn-cadastro" type="submit"><a href="../controller/controllerLogin/cadastroCliente.php"></a>CRIAR CONTA</button>
+                            <button class="btn-cadastro" type="submit">CRIAR CONTA</button>
                         </div>
 
                     </form>

@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Controla quem tem acesso ás páginas Administrativas.-->
-<!--Status do Código: Em análise; necessita de teste-->
+<!--Status do Código: Concluído-->
 
 <?php
 
@@ -11,6 +11,6 @@
             Você precisa estar logado como administrador para acessar esta página.
                 <p>
                     <a href=\"../view_login/index_login.php\">Faça seu Login</a>
-                </p>"); //Revisar
+                </p>"); 
     }
 ?>
