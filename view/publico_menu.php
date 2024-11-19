@@ -47,7 +47,7 @@
              <!--página LOJA-->
              <div class="dropdown">
                 <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    LOJA ▼
+                    NEKO SHOP ▼
                 </button>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="../view_categorias/categoria_acessorios.php">Acessórios</a></li>

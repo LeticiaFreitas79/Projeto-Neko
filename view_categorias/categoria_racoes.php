@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../view_css/estilo.css">
     <link rel="shortcut icon" href="../view_img/logo_other.png" type="image/png">
 
-    <title>Rações e Petiscos | Clínica Neko</title>
+    <title>Rações e Petiscos | Neko Shop</title>
 </head>
 <body>
     <?php

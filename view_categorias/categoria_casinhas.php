@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../view_css/estilo.css">
     <link rel="shortcut icon" href="../view_img/logo_other.png" type="image/png">
 
-    <title>Casinhas e Transporte | Clínica Neko</title>
+    <title>Casinhas e Transporte | Neko Shop</title>
 </head>
 <body>
     <?php

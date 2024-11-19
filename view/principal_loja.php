@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../view_css/estilo.css">
     <link rel="shortcut icon" href="../view_img/logo_principal.png" type="image/png">
 
-    <title>Loja | Clínica Neko</title>
+    <title>Neko Shop | Clínica Neko</title>
 </head>
 <body>
     <?php

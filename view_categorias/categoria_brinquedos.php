@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../view_css/estilo.css">
     <link rel="shortcut icon" href="../view_img/logo_other.png" type="image/png">
 
-    <title>Brinquedos | Clínica Neko</title>
+    <title>Brinquedos | Neko Shop</title>
 </head>
 <body>
     <?php
