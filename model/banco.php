@@ -2,5 +2,5 @@
 <!--Status do Código: Em desenvolvimento-->
 
 <?php
-    require_once("../conexao.php"); //Inclui o arquivo de conexão uma única vez.
+    require_once("../banco/conexao.php"); //Inclui o arquivo de conexão uma única vez.
 ?>

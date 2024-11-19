@@ -73,6 +73,17 @@
                         
                         <br><br>
 
+                        <!-- Label para atualizar a Especie -->
+                        <label class="label-title" for="tipo-tel">TIPO (telefone)</label>
+                            <br>
+                            <select class="input-cadastro" name="tipo-tel">
+                                <option value="" selected disabled hidden>Selecione</option>
+                                <option value="AC">Celular</option>
+                                <option value="AL">Fixo</option>
+                            </select>
+
+                        <br><br>
+
                         <!-- Label para inserir o Email -->
                         <label class="label-title" for="email">EMAIL</label>
                             <br>

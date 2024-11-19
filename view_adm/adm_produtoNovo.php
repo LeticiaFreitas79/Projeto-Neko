@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Página admisnitrativa para o usuário inserir um novo produto no site-->
-<!--Status do Código: Em correção; adicionar direcionamento e centralizar div-->
+<!--Status do Código: Em correção; add PHP-->
 
 
 <?php

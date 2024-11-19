@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Mostrar a categoria 'rações e petiscos' da Clínica Neko-->
-<!--Status do Código: Em correção; os dados de produtos ainda não são puxados do Bancoo-->
+<!--Status do Código: Em correção; add PHP-->
 
 <!DOCTYPE html>
 <html lang="pt_br">

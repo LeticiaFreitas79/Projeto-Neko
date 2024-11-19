@@ -38,9 +38,9 @@
     <div class="bloco-clienteInfo">
         <h2 class="titulo-clienteInfo"><?php echo $_SESSION['nome']; ?></h2>
             <br>
-        <p class="text-clienteInfo"><strong>CPF: </strong><?php echo $_SESSION['cpf']; ?></p>
-        <p class="text-clienteInfo"><strong>Email: </strong><?php echo $_SESSION['email']; ?></p>
-        <p class="text-clienteInfo"><strong>Telefone: </strong><?php echo $_SESSION['telefone']; ?></p>
+        <p class="text-clienteInfo"><strong>CPF: </strong> <?php echo $_SESSION['cpf']; ?> </p>
+        <p class="text-clienteInfo"><strong>Email: </strong> <?php echo $_SESSION['email']; ?> </p>
+        <p class="text-clienteInfo"><strong>Telefone: </strong> <?php echo $_SESSION['telefone']; ?> </p>
     </div><!--Fecha bloco-clienteInfo-->
 
     <div class="bloco-btnCliente">

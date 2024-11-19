@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Mostrar a categoria 'remédios' da Clínica Neko-->
-<!--Status do Código: Em correção; os dados de produtos ainda não são puxados do Banco-->
+<!--Status do Código: Em correção; add PHP-->
 
 <!DOCTYPE html>
 <html lang="pt_br">

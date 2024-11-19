@@ -16,7 +16,7 @@
     //VERIFICAÇÃO DO LOGIN.
     if ($_POST)
     {
-        //Limpar os campos 'email' e 'senha 'para evitar conflito na consulta SQL.
+        //
         $email = $_POST['email'];
         $senha = md5($_POST['senha']);
 
@@ -30,10 +30,15 @@
         if($resultadoConsultaCliente->num_rows > 0)
         {
             $usuario = $resultadoConsultaCliente->fetch_assoc();
+            var_dump ($usuario);
 
             //Armazena as informações do usuário nas páginas de Cliente.
             $_SESSION['id'] = $usuario['id'];
             $_SESSION['nome'] = $usuario['nome'];
+            $_SESSION['cpf'] = $usuario['cpf'];
+            $_SESSION['email'] = $usuario['email'];
+            $_SESSION['data_nascimento'] = $usuario['data_nascimento'];
+            $_SESSION['telefone'] = $usuario['telefone'];
 
             //Redirecionar o usuário para a página de Cliente.
             header("Location: ../../view_cliente/index_cliente.php"); 

@@ -1,5 +1,5 @@
 <!--Objetivo do Código: Conecta com o Banco de Dados; Arquivo para ser referenciado em outros arquivos-->
-<!--Status do Código: Em análise; necessita de teste-->
+<!--Status do Código: Concluído-->
 
 <?php
 
