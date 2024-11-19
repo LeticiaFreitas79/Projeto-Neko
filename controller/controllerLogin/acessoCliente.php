@@ -8,7 +8,7 @@
     if (!isset($_SESSION['id']))
     {
         die("Acesso inválido.
-            Você precisa estar logado no site da Clínica Vetrinária Neko para acessar esta página.
+            Você precisa estar logado no site da Clínica Veterinária Neko para acessar esta página.
                 <p>
                     <a href=\"../view_login/index_login.php\">Faça seu Login</a>
                 </p>"); 
