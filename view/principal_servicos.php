@@ -25,7 +25,7 @@
     </a>
 
     <!--Bloco Adestramento-->
-    <div class="bloco-servicos">
+    <div id="bloco-adestramento" class="bloco-servicos">
         <h1 class="titulo-claro">ADESTRAMENTO</h1>
           <p class="text-claro">
             Nosso serviço de adestramento oferece um ambiente positivo e acolhedor, onde cães e gatos aprendem habilidades
@@ -36,7 +36,7 @@
     </div><!--Fecha o bloco Adestramento-->
 
     <!--Bloco Banho e Tosa-->
-    <div class="bloco-servicos">
+    <div id="bloco-banhoTosa"class="bloco-servicos">
       <h1 class="titulo-claro">BANHO E TOSA</h1>
         <p class="text-claro">
           No serviço de banho e tosa da Clínica Veterinária Neko, seu pet é tratado com todo o carinho e cuidado que merece.
@@ -47,7 +47,7 @@
     </div><!--Fecha o bloco Banho e Tosa-->
 
     <!--Bloco Vacinação-->
-    <div class="bloco-servicos">
+    <div id="bloco-vacina" class="bloco-servicos">
       <h1 class="titulo-claro">VACINAÇÃO</h1>
         <p class="text-claro">
         A vacinação é fundamental para proteger a saúde do seu animal. Na Clínica Veterinária Neko, realizamos um calendário

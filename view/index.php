@@ -59,17 +59,17 @@
       <div class="bloco-destaqueVet">
         <!--Primeiro Card - Pronto Socorro-->
         <div class="card-destaque">
-          <a href="principal_veterinario.php">
+          <a href="principal_veterinario.php#bloco-prontoSocorro">
             <img src="../view_img/destaque_socorro.png" class="card-img" alt="...">
           </div>
         <!--Segundo Card - Consultas-->
         <div class="card-destaque">
-        <a href="principal_veterinario.php">
+        <a href="principal_veterinario.php#bloco-consultas">
           <img src="../view_img/destaque_consulta.png" class="card-img" alt="...">
         </div>
         <!--Terceiro Card - Exames-->
         <div class="card-destaque">
-        <a href="principal_veterinario.php">
+        <a href="principal_veterinario.php#bloco-exames">
           <img src="../view_img/destaque_exames.png" class="card-img" alt="...">
         </div>
       </div> <!-- Fecha a 'bloco-destaqueVet'-->
@@ -100,17 +100,17 @@
       <div class="bloco-destaqueVet">
         <!--Primeiro Card - Ração-->
         <div class="card-destaque">
-        <a href="principal_loja.php">
+        <a href="../view_categorias/categoria_racoes.php">
           <img src="../view_img/destaque_racao.png" class="card-img" alt="...">
         </div>
         <!--Segundo Card - Farmácia-->
         <div class="card-destaque">
-        <a href="principal_loja.php">
+        <a href="../view_categorias/categoria_remedios.php">
           <img src="../view_img/destaque_farmacia.png" class="card-img" alt="...">
         </div>
         <!--Terceiro Card - Higiene-->
         <div class="card-destaque">
-        <a href="principal_loja.php">
+        <a href="../view_categorias/categoria_higiene.php">
           <img src="../view_img/destaque_higiene.png" class="card-img" alt="...">
         </div>
       </div> <!-- Fecha a 'container-destaqueVet'-->
@@ -141,17 +141,17 @@
       <div class="bloco-destaqueVet">
         <!--Primeiro Card - Banho-->
         <div class="card-destaque">
-        <a href="principal_servicos.php">
+        <a href="principal_servicos.php#bloco-banhoTosa">
           <img src="../view_img/destaque_banho.png" class="card-img" alt="...">
         </div>
         <!--Segundo Card - Adestramento-->
         <div class="card-destaque">
-        <a href="principal_servicos.php">
+        <a href="principal_servicos.php#bloco-adestramento">
           <img src="../view_img/destaque_adestramento.png" class="card-img" alt="...">
         </div>
         <!--Terciro Card - Vacinação-->
         <div class="card-destaque">
-        <a href="principal_servicos.php">
+        <a href="principal_servicos.php#bloco-vacina">
           <img src="../view_img/destaque_vacinacao.png" class="card-img" alt="...">
         </div>
       </div> <!-- Fecha a 'container-destaqueVet'-->

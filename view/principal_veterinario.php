@@ -25,7 +25,7 @@
     </a>
 
     <!--Bloco Pronto Socorro 24H-->
-    <div class="bloco-vet">
+    <div id="bloco-prontoSocorro" class="bloco-vet">
       <h1 class="titulo-claro">PRONTO SOCORRO 24H</h1>
         <p class="text-claro">
         A Clínica Veterinária Neko oferece um pronto socorro 24 horas, garantindo que seu pet receba atendimento
@@ -36,7 +36,7 @@
     </div><!--Fecha o bloco Pronto Socorro 24H-->
 
     <!--Bloco Consultas-->
-    <div class="bloco-vet">
+    <div id="bloco-consultas" class="bloco-vet">
       <h1 class="titulo-claro">CONSULTAS</h1>
         <p class="text-claro">
         Na Neko, realizamos consultas gerais e especializadas, atendendo às necessidades específicas de cada animal.
@@ -47,7 +47,7 @@
     </div><!--Fecha o bloco Consultas-->
 
     <!--Bloco Exames-->
-    <div class="bloco-vet">
+    <div id="bloco-exames"class="bloco-vet">
       <h1 class="titulo-claro">EXAMES</h1>
         <p class="text-claro">
         Para um diagnóstico preciso e eficaz, a Clínica Veterinária Neko conta com uma variedade de exames laboratoriais

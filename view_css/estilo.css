@@ -3,9 +3,11 @@
 
 
 /* ----------------- CORPO DAS PÁGINAS ----------------- */
+
 body
 {
     background-color: rgba(212, 218, 210);
+    scroll-behavior: smooth;
 }
 
 /* ----------------- GERAIS ----------------- */
@@ -289,6 +291,7 @@ a
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
+    cursor: pointer;
 }
 
 
@@ -307,6 +310,7 @@ a
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
+    cursor: pointer;
 }
 
 
@@ -320,6 +324,7 @@ a
     gap: 10px; 
     border-radius: 50px;
     background-color: rgba(187, 217, 184);
+    cursor: pointer;
 }
 
 .card-descricao /*Essa classe é essencial no estilo de outras páginas, não adulterar*/
