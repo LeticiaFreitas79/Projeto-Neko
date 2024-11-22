@@ -4,7 +4,7 @@
 <?php
 
     //Definindo variáveis para conexão com o Banco de Dados.
-    $host = "localhost"; //Endereço do servidor do Banco de Dados.
+    $host = "10.91.45.136"; //Endereço do servidor do Banco de Dados.
     $database = "clinicanekodb"; //Nome do Banco de Dados a ser acessado.
     $user = "root"; //Nome do usuário do Banco de Dados.
     $pass = ""; //Senha do Banco de Dados.
